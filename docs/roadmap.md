@@ -97,7 +97,7 @@ A multiplatform SwiftUI app that serves as the debug aid for all later work.
   Xcode or generated, e.g. with XcodeGen); app name and bundle identifier;
   signing team.
 
-### 3. `add-exiftool-conformance` — in progress
+### 3. `add-exiftool-conformance` — done
 
 Measure parity with exiftool before adding formats. The output is a
 development instrument, not a library feature: the library's public API
