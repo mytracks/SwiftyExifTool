@@ -87,15 +87,9 @@ public enum TagValue: Sendable, Hashable, CustomStringConvertible {
     /// Binary data of the given length, not represented as text.
     case binary(length: Int)
 
-    /// The value as text.
-    public var description: String {
-        switch self {
-        case .integer(let v): String(v)
-        case .double(let v): String(v)
-        case .string(let v): v
-        case .binary(let length): "(Binary data \(length) bytes)"
-        }
-    }
+    /// The value as text, formatted as `exiftool -n` prints it
+    /// (decimals with up to 10 significant digits).
+    public var description: String { exiftoolText }
 }
 
 /// Where a tag's entry and value are stored.

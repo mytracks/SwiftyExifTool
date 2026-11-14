@@ -58,5 +58,13 @@ Read `docs/clean-room.md` before working on tags or formats. In particular:
 - Re-record the exiftool snapshots (needs exiftool on `PATH`):
   `swift run fixtures snapshot`. Review the diff: it is the provenance of
   names and conversions.
-- The app build commands are added by the change that creates the app
-  (roadmap entry 2).
+- SwiftyExif app (needs XcodeGen, `brew install xcodegen`):
+  - Generate the project: `xcodegen generate --spec App/project.yml`
+    (rerun after adding or removing files under `App/`)
+  - Build and test on macOS:
+    `xcodebuild -project App/SwiftyExif.xcodeproj -scheme SwiftyExif -destination 'platform=macOS' CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM= test`
+  - Build and test on iOS:
+    `xcodebuild -project App/SwiftyExif.xcodeproj -scheme SwiftyExif -destination 'platform=iOS Simulator,name=iPhone 18 Pro' test`
+  - The `CODE_SIGN_*` overrides sign ad hoc, because command-line sessions
+    cannot use the signing key in the keychain. Xcode uses automatic signing
+    with team 4TNB35NY7G.

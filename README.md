@@ -78,6 +78,24 @@ Work is planned and tracked with [OpenSpec](https://github.com/Fission-AI/OpenSp
 For conformance testing, install exiftool as a development tool
 (`brew install exiftool`). It is never a runtime dependency.
 
+### SwiftyExif app
+
+The debug app lives in `App/`. Its Xcode project is generated with
+[XcodeGen](https://github.com/yonaskolb/XcodeGen) and is not committed:
+
+```sh
+brew install xcodegen
+xcodegen generate --spec App/project.yml
+open App/SwiftyExif.xcodeproj
+```
+
+From the command line:
+
+```sh
+xcodebuild -project App/SwiftyExif.xcodeproj -scheme SwiftyExif -destination 'platform=macOS' CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM= test
+xcodebuild -project App/SwiftyExif.xcodeproj -scheme SwiftyExif -destination 'platform=iOS Simulator,name=iPhone 18 Pro' test
+```
+
 ## Licence
 
 MIT, see [LICENSE](LICENSE). SwiftyExifTool contains no code or tag tables

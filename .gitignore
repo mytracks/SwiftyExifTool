@@ -14,3 +14,7 @@ DerivedData/
 
 # Claude Code: personal settings
 .claude/settings.local.json
+
+# XcodeGen output (regenerate with `xcodegen generate --spec App/project.yml`)
+/App/SwiftyExif.xcodeproj
+/App/SwiftyExif/Generated/
