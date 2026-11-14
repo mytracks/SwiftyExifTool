@@ -1,0 +1,1879 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "NEF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "nef"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/x-nikon-nef"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : "Reduced-resolution image"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 160
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 120
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : "8 8 8"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : "Uncompressed"
+    },
+    {
+      "key" : "IFD0:PhotometricInterpretation",
+      "value" : "RGB"
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "NIKON CORPORATION"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "NIKON D750"
+    },
+    {
+      "key" : "IFD0:StripOffsets",
+      "value" : 162512
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : "Horizontal (normal)"
+    },
+    {
+      "key" : "IFD0:SamplesPerPixel",
+      "value" : 3
+    },
+    {
+      "key" : "IFD0:RowsPerStrip",
+      "value" : 120
+    },
+    {
+      "key" : "IFD0:StripByteCounts",
+      "value" : 57600
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "IFD0:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "IFD0:PlanarConfiguration",
+      "value" : "Chunky"
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "Ver.1.10"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "sha256:1b32e4ba668bed31e38c555644617f099eb1e0a209d237e9524adc3d99ddf630"
+    },
+    {
+      "key" : "IFD0:ReferenceBlackWhite",
+      "value" : "0 255 0 255 0 255"
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "IFD0:DateTimeOriginal",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "IFD0:TIFF-EPStandardID",
+      "value" : "1.0.0.0"
+    },
+    {
+      "key" : "IFD0:ThumbnailTIFF",
+      "value" : "(Binary data 57816 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD:SubfileType",
+      "value" : "Reduced-resolution image"
+    },
+    {
+      "key" : "SubIFD:Compression",
+      "value" : "JPEG (old-style)"
+    },
+    {
+      "key" : "SubIFD:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "SubIFD:JpgFromRawStart",
+      "value" : 978944
+    },
+    {
+      "key" : "SubIFD:JpgFromRawLength",
+      "value" : 1004983
+    },
+    {
+      "key" : "SubIFD:YCbCrPositioning",
+      "value" : "Co-sited"
+    },
+    {
+      "key" : "SubIFD:JpgFromRaw",
+      "value" : "(Binary data 1004983 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD1:SubfileType",
+      "value" : "Full-resolution image"
+    },
+    {
+      "key" : "SubIFD1:ImageWidth",
+      "value" : 6032
+    },
+    {
+      "key" : "SubIFD1:ImageHeight",
+      "value" : 4032
+    },
+    {
+      "key" : "SubIFD1:BitsPerSample",
+      "value" : 14
+    },
+    {
+      "key" : "SubIFD1:Compression",
+      "value" : "Nikon NEF Compressed"
+    },
+    {
+      "key" : "SubIFD1:PhotometricInterpretation",
+      "value" : "Color Filter Array"
+    },
+    {
+      "key" : "SubIFD1:StripOffsets",
+      "value" : 1984000
+    },
+    {
+      "key" : "SubIFD1:SamplesPerPixel",
+      "value" : 1
+    },
+    {
+      "key" : "SubIFD1:RowsPerStrip",
+      "value" : 4032
+    },
+    {
+      "key" : "SubIFD1:StripByteCounts",
+      "value" : 20877674
+    },
+    {
+      "key" : "SubIFD1:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD1:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD1:PlanarConfiguration",
+      "value" : "Chunky"
+    },
+    {
+      "key" : "SubIFD1:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "SubIFD1:CFARepeatPatternDim",
+      "value" : "2 2"
+    },
+    {
+      "key" : "SubIFD1:CFAPattern2",
+      "value" : "0 1 1 2"
+    },
+    {
+      "key" : "SubIFD1:SensingMethod",
+      "value" : "One-chip color area"
+    },
+    {
+      "key" : "SubIFD2:SubfileType",
+      "value" : "Reduced-resolution image"
+    },
+    {
+      "key" : "SubIFD2:Compression",
+      "value" : "JPEG (old-style)"
+    },
+    {
+      "key" : "SubIFD2:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD2:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD2:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "SubIFD2:OtherImageStart",
+      "value" : 220672
+    },
+    {
+      "key" : "SubIFD2:OtherImageLength",
+      "value" : 758137
+    },
+    {
+      "key" : "SubIFD2:YCbCrPositioning",
+      "value" : "Co-sited"
+    },
+    {
+      "key" : "SubIFD2:OtherImage",
+      "value" : "(Binary data 758137 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "XMP-xmp:CreatorTool",
+      "value" : "NIKON D750 Ver.1.10     "
+    },
+    {
+      "key" : "XMP-xmp:CreateDate",
+      "value" : "2017:01:15 21:38:52.16"
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : "1/30"
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 1.8
+    },
+    {
+      "key" : "ExifIFD:ExposureProgram",
+      "value" : "Aperture-priority AE"
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 100
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : "Recommended Exposure Index"
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "ExifIFD:CreateDate",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "ExifIFD:ExposureCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:MaxApertureValue",
+      "value" : 1.7
+    },
+    {
+      "key" : "ExifIFD:MeteringMode",
+      "value" : "Multi-segment"
+    },
+    {
+      "key" : "ExifIFD:LightSource",
+      "value" : "Unknown"
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : "On, Return detected"
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : "35.0 mm"
+    },
+    {
+      "key" : "ExifIFD:UserComment",
+      "value" : ""
+    },
+    {
+      "key" : "ExifIFD:SubSecTime",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeOriginal",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeDigitized",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:SensingMethod",
+      "value" : "One-chip color area"
+    },
+    {
+      "key" : "ExifIFD:FileSource",
+      "value" : "Digital Camera"
+    },
+    {
+      "key" : "ExifIFD:SceneType",
+      "value" : "Directly photographed"
+    },
+    {
+      "key" : "ExifIFD:CFAPattern",
+      "value" : "[Red,Green][Green,Blue]"
+    },
+    {
+      "key" : "ExifIFD:CustomRendered",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:ExposureMode",
+      "value" : "Auto"
+    },
+    {
+      "key" : "ExifIFD:WhiteBalance",
+      "value" : "Auto"
+    },
+    {
+      "key" : "ExifIFD:DigitalZoomRatio",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:FocalLengthIn35mmFormat",
+      "value" : "35 mm"
+    },
+    {
+      "key" : "ExifIFD:SceneCaptureType",
+      "value" : "Standard"
+    },
+    {
+      "key" : "ExifIFD:GainControl",
+      "value" : "None"
+    },
+    {
+      "key" : "ExifIFD:Contrast",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:Saturation",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:Sharpness",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:SubjectDistanceRange",
+      "value" : "Unknown"
+    },
+    {
+      "key" : "Nikon:MakerNoteVersion",
+      "value" : 2.1099999999999999
+    },
+    {
+      "key" : "Nikon:Quality",
+      "value" : "RAW"
+    },
+    {
+      "key" : "Nikon:WhiteBalance",
+      "value" : "Auto1"
+    },
+    {
+      "key" : "Nikon:FocusMode",
+      "value" : "AF-C"
+    },
+    {
+      "key" : "Nikon:FlashSetting",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Nikon:FlashType",
+      "value" : "Optional,TTL"
+    },
+    {
+      "key" : "Nikon:WB_RBLevels",
+      "value" : "2.07421875 1.2109375 1 1"
+    },
+    {
+      "key" : "Nikon:ProgramShift",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ExposureDifference",
+      "value" : -2.7000000000000002
+    },
+    {
+      "key" : "Nikon:FlashExposureComp",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ExternalFlashExposureComp",
+      "value" : "-2/3"
+    },
+    {
+      "key" : "Nikon:FlashExposureBracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ExposureBracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:CropHiSpeed",
+      "value" : "FX Uncropped (6032x4032 cropped to 6032x4032 at pixel 0,0)"
+    },
+    {
+      "key" : "Nikon:ExposureTuning",
+      "value" : "-1/2"
+    },
+    {
+      "key" : "Nikon:SerialNumber",
+      "value" : "sha256:8645153000902bd595db33866a1fdcfd39f8c73a38a7de67b8b57eddf7c31b76"
+    },
+    {
+      "key" : "Nikon:ColorSpace",
+      "value" : "sRGB"
+    },
+    {
+      "key" : "Nikon:VRInfoVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:VibrationReduction",
+      "value" : "On"
+    },
+    {
+      "key" : "Nikon:VRMode",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Nikon:ActiveD-Lighting",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:PictureControlVersion",
+      "value" : "0200"
+    },
+    {
+      "key" : "Nikon:PictureControlName",
+      "value" : "Standard"
+    },
+    {
+      "key" : "Nikon:PictureControlBase",
+      "value" : "Standard"
+    },
+    {
+      "key" : "Nikon:PictureControlAdjust",
+      "value" : "Default Settings"
+    },
+    {
+      "key" : "Nikon:PictureControlQuickAdjust",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Nikon:Sharpness",
+      "value" : 3
+    },
+    {
+      "key" : "Nikon:Clarity",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:Contrast",
+      "value" : "None"
+    },
+    {
+      "key" : "Nikon:Brightness",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Nikon:Saturation",
+      "value" : "None"
+    },
+    {
+      "key" : "Nikon:Hue",
+      "value" : "None"
+    },
+    {
+      "key" : "Nikon:FilterEffect",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Nikon:ToningEffect",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Nikon:ToningSaturation",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Nikon:TimeZone",
+      "value" : "+01:00"
+    },
+    {
+      "key" : "Nikon:DaylightSavings",
+      "value" : "No"
+    },
+    {
+      "key" : "Nikon:DateDisplayFormat",
+      "value" : "D/M/Y"
+    },
+    {
+      "key" : "Nikon:ISO",
+      "value" : 100
+    },
+    {
+      "key" : "Nikon:ISOExpansion",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:ISO2",
+      "value" : 100
+    },
+    {
+      "key" : "Nikon:ISOExpansion2",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:VignetteControl",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Nikon:DistortionVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:AutoDistortionControl",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:UnknownInfoVersion",
+      "value" : "0101"
+    },
+    {
+      "key" : "Nikon:Nikon_0x003b",
+      "value" : "1 1 1 1"
+    },
+    {
+      "key" : "Nikon:Nikon_0x003c",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:BlackLevel",
+      "value" : "600 600 600 600"
+    },
+    {
+      "key" : "Nikon:ImageSizeRAW",
+      "value" : "Large"
+    },
+    {
+      "key" : "Nikon:WhiteBalanceFineTune",
+      "value" : "0 0"
+    },
+    {
+      "key" : "Nikon:Nikon_0x0040",
+      "value" : "0100\u0001C0110"
+    },
+    {
+      "key" : "Nikon:Nikon_0x0042",
+      "value" : "0100\u0003"
+    },
+    {
+      "key" : "Nikon:LensType",
+      "value" : "G VR"
+    },
+    {
+      "key" : "Nikon:Lens",
+      "value" : "35mm f/1.8"
+    },
+    {
+      "key" : "Nikon:FlashMode",
+      "value" : "Fired, External"
+    },
+    {
+      "key" : "Nikon:ShootingMode",
+      "value" : "Continuous"
+    },
+    {
+      "key" : "Nikon:Nikon_0x008a",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:ContrastCurve",
+      "value" : "(Binary data 578 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Nikon:ShotInfoVersion",
+      "value" : "0234"
+    },
+    {
+      "key" : "Nikon:FirmwareVersion",
+      "value" : "1.10d"
+    },
+    {
+      "key" : "Nikon:NEFCompression",
+      "value" : "Lossy (type 2)"
+    },
+    {
+      "key" : "Nikon:NoiseReduction",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:NEFLinearizationTable",
+      "value" : "(Binary data 624 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Nikon:WB_RGGBLevels",
+      "value" : "531 256 256 310"
+    },
+    {
+      "key" : "Nikon:LensDataVersion",
+      "value" : "0204"
+    },
+    {
+      "key" : "Nikon:ExitPupilPosition",
+      "value" : "89.0 mm"
+    },
+    {
+      "key" : "Nikon:AFAperture",
+      "value" : 1.8
+    },
+    {
+      "key" : "Nikon:FocusPosition",
+      "value" : "0x33"
+    },
+    {
+      "key" : "Nikon:FocusDistance",
+      "value" : "0.30 m"
+    },
+    {
+      "key" : "Nikon:FocalLength",
+      "value" : "35.6 mm"
+    },
+    {
+      "key" : "Nikon:LensIDNumber",
+      "value" : 232
+    },
+    {
+      "key" : "Nikon:LensFStops",
+      "value" : 6.3300000000000001
+    },
+    {
+      "key" : "Nikon:MinFocalLength",
+      "value" : "35.6 mm"
+    },
+    {
+      "key" : "Nikon:MaxFocalLength",
+      "value" : "35.6 mm"
+    },
+    {
+      "key" : "Nikon:MaxApertureAtMinFocal",
+      "value" : 1.8
+    },
+    {
+      "key" : "Nikon:MaxApertureAtMaxFocal",
+      "value" : 1.8
+    },
+    {
+      "key" : "Nikon:MCUVersion",
+      "value" : 223
+    },
+    {
+      "key" : "Nikon:EffectiveMaxAperture",
+      "value" : 1.8
+    },
+    {
+      "key" : "Nikon:RawImageCenter",
+      "value" : "0 0"
+    },
+    {
+      "key" : "Nikon:RetouchHistory",
+      "value" : "None"
+    },
+    {
+      "key" : "Nikon:Nikon_0x00a3",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Nikon_0x00a4",
+      "value" : "0300"
+    },
+    {
+      "key" : "Nikon:ShutterCount",
+      "value" : 5711
+    },
+    {
+      "key" : "Nikon:FlashInfoVersion",
+      "value" : "0107"
+    },
+    {
+      "key" : "Nikon:FlashSource",
+      "value" : "External"
+    },
+    {
+      "key" : "Nikon:ExternalFlashFirmware",
+      "value" : "5.01 (SB-900)"
+    },
+    {
+      "key" : "Nikon:ExternalFlashZoomOverride",
+      "value" : "No"
+    },
+    {
+      "key" : "Nikon:ExternalFlashStatus",
+      "value" : "Flash Attached"
+    },
+    {
+      "key" : "Nikon:ExternalFlashReadyState",
+      "value" : "Unknown (2)"
+    },
+    {
+      "key" : "Nikon:FlashCompensation",
+      "value" : "-2/3"
+    },
+    {
+      "key" : "Nikon:FlashFocalLength",
+      "value" : "12 mm"
+    },
+    {
+      "key" : "Nikon:FlashGNDistance",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Nikon:FlashGroupAControlMode",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:FlashGroupBControlMode",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:FlashGroupCControlMode",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:FlashGroupACompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FlashGroupBCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FlashGroupCCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:VariProgram",
+      "value" : ""
+    },
+    {
+      "key" : "Nikon:MultiExposureVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:MultiExposureMode",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:MultiExposureShots",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:MultiExposureAutoGain",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:HighISONoiseReduction",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Nikon:PowerUpTime",
+      "value" : "0000:00:00 00:00:00"
+    },
+    {
+      "key" : "Nikon:AFInfo2Version",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:AFDetectionMethod",
+      "value" : "Phase Detect"
+    },
+    {
+      "key" : "Nikon:AFAreaMode",
+      "value" : "Dynamic Area (3D-tracking)"
+    },
+    {
+      "key" : "Nikon:FocusPointSchema",
+      "value" : "51-point"
+    },
+    {
+      "key" : "Nikon:PrimaryAFPoint",
+      "value" : "C6 (Center)"
+    },
+    {
+      "key" : "Nikon:AFPointsUsed",
+      "value" : "C6"
+    },
+    {
+      "key" : "Nikon:FileInfoVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:MemoryCardNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:DirectoryNumber",
+      "value" : 100
+    },
+    {
+      "key" : "Nikon:FileNumber",
+      "value" : 5048
+    },
+    {
+      "key" : "Nikon:AFFineTune",
+      "value" : "On (1)"
+    },
+    {
+      "key" : "Nikon:AFFineTuneIndex",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Nikon:AFFineTuneAdj",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:AFFineTuneAdjTele",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Nikon_0x00ba",
+      "value" : "I2\u0001?\u0003?\u0003?\u0003?\u0003?\u0003?\u0003?\u0003l\u0003X\u0003D\u00031\u0003\u001e\u0003\u000b\u0003[...]"
+    },
+    {
+      "key" : "Nikon:RetouchInfoVersion",
+      "value" : "0200"
+    },
+    {
+      "key" : "Nikon:RetouchNEFProcessing",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:Nikon_0x00bc",
+      "value" : "0220D,-+n`\f\u0001??\u0001b \u0006b?\u0006r?\u0007?\t?`\t?0\t?`\t?\u0010\n??\n?P\u000b?`\u000b[...]"
+    },
+    {
+      "key" : "Nikon:SilentPhotography",
+      "value" : "Off"
+    },
+    {
+      "key" : "Nikon:Nikon_0x00c0",
+      "value" : "<\u0001\f?\u0001\f"
+    },
+    {
+      "key" : "PreviewIFD:Compression",
+      "value" : "JPEG (old-style)"
+    },
+    {
+      "key" : "PreviewIFD:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "PreviewIFD:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "PreviewIFD:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "PreviewIFD:PreviewImageStart",
+      "value" : 45636
+    },
+    {
+      "key" : "PreviewIFD:PreviewImageLength",
+      "value" : 116857
+    },
+    {
+      "key" : "PreviewIFD:YCbCrPositioning",
+      "value" : "Co-sited"
+    },
+    {
+      "key" : "PreviewIFD:PreviewImage",
+      "value" : "(Binary data 116857 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "GPS:GPSVersionID",
+      "value" : "sha256:eee50e57fbea00e0eaf78f0a26b94d21b32fdf3c59484f787ecd104a9b624b65"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fileName" : "compressed_14_bit.NEF",
+  "fixture" : "nikon-d750-nef",
+  "personalFields" : "hashed as sha256 (ConformanceKit/PersonalFields.swift)",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "NEF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "NEF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/x-nikon-nef"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 160
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 120
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : "8 8 8"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:PhotometricInterpretation",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "NIKON CORPORATION"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "NIKON D750"
+    },
+    {
+      "key" : "IFD0:StripOffsets",
+      "value" : 162512
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:SamplesPerPixel",
+      "value" : 3
+    },
+    {
+      "key" : "IFD0:RowsPerStrip",
+      "value" : 120
+    },
+    {
+      "key" : "IFD0:StripByteCounts",
+      "value" : 57600
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "IFD0:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "IFD0:PlanarConfiguration",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "Ver.1.10"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "sha256:1b32e4ba668bed31e38c555644617f099eb1e0a209d237e9524adc3d99ddf630"
+    },
+    {
+      "key" : "IFD0:ReferenceBlackWhite",
+      "value" : "0 255 0 255 0 255"
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "IFD0:DateTimeOriginal",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "IFD0:TIFF-EPStandardID",
+      "value" : "1 0 0 0"
+    },
+    {
+      "key" : "IFD0:ThumbnailTIFF",
+      "value" : "(Binary data 57816 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD:SubfileType",
+      "value" : 1
+    },
+    {
+      "key" : "SubIFD:Compression",
+      "value" : 6
+    },
+    {
+      "key" : "SubIFD:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "SubIFD:JpgFromRawStart",
+      "value" : 978944
+    },
+    {
+      "key" : "SubIFD:JpgFromRawLength",
+      "value" : 1004983
+    },
+    {
+      "key" : "SubIFD:YCbCrPositioning",
+      "value" : 2
+    },
+    {
+      "key" : "SubIFD:JpgFromRaw",
+      "value" : "(Binary data 1004983 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD1:SubfileType",
+      "value" : 0
+    },
+    {
+      "key" : "SubIFD1:ImageWidth",
+      "value" : 6032
+    },
+    {
+      "key" : "SubIFD1:ImageHeight",
+      "value" : 4032
+    },
+    {
+      "key" : "SubIFD1:BitsPerSample",
+      "value" : 14
+    },
+    {
+      "key" : "SubIFD1:Compression",
+      "value" : 34713
+    },
+    {
+      "key" : "SubIFD1:PhotometricInterpretation",
+      "value" : 32803
+    },
+    {
+      "key" : "SubIFD1:StripOffsets",
+      "value" : 1984000
+    },
+    {
+      "key" : "SubIFD1:SamplesPerPixel",
+      "value" : 1
+    },
+    {
+      "key" : "SubIFD1:RowsPerStrip",
+      "value" : 4032
+    },
+    {
+      "key" : "SubIFD1:StripByteCounts",
+      "value" : 20877674
+    },
+    {
+      "key" : "SubIFD1:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD1:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD1:PlanarConfiguration",
+      "value" : 1
+    },
+    {
+      "key" : "SubIFD1:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "SubIFD1:CFARepeatPatternDim",
+      "value" : "2 2"
+    },
+    {
+      "key" : "SubIFD1:CFAPattern2",
+      "value" : "0 1 1 2"
+    },
+    {
+      "key" : "SubIFD1:SensingMethod",
+      "value" : 2
+    },
+    {
+      "key" : "SubIFD2:SubfileType",
+      "value" : 1
+    },
+    {
+      "key" : "SubIFD2:Compression",
+      "value" : 6
+    },
+    {
+      "key" : "SubIFD2:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD2:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "SubIFD2:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "SubIFD2:OtherImageStart",
+      "value" : 220672
+    },
+    {
+      "key" : "SubIFD2:OtherImageLength",
+      "value" : 758137
+    },
+    {
+      "key" : "SubIFD2:YCbCrPositioning",
+      "value" : 2
+    },
+    {
+      "key" : "SubIFD2:OtherImage",
+      "value" : "(Binary data 758137 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "XMP-xmp:CreatorTool",
+      "value" : "NIKON D750 Ver.1.10     "
+    },
+    {
+      "key" : "XMP-xmp:CreateDate",
+      "value" : "2017:01:15 21:38:52.16"
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : 0.033333333329999999
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 1.8
+    },
+    {
+      "key" : "ExifIFD:ExposureProgram",
+      "value" : 3
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 100
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "ExifIFD:CreateDate",
+      "value" : "2017:01:15 21:38:52"
+    },
+    {
+      "key" : "ExifIFD:ExposureCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:MaxApertureValue",
+      "value" : 1.74110112659225
+    },
+    {
+      "key" : "ExifIFD:MeteringMode",
+      "value" : 5
+    },
+    {
+      "key" : "ExifIFD:LightSource",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : 15
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : 35
+    },
+    {
+      "key" : "ExifIFD:UserComment",
+      "value" : ""
+    },
+    {
+      "key" : "ExifIFD:SubSecTime",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeOriginal",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeDigitized",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:SensingMethod",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:FileSource",
+      "value" : 3
+    },
+    {
+      "key" : "ExifIFD:SceneType",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:CFAPattern",
+      "value" : "2 2 0 1 1 2"
+    },
+    {
+      "key" : "ExifIFD:CustomRendered",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ExposureMode",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:WhiteBalance",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:DigitalZoomRatio",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:FocalLengthIn35mmFormat",
+      "value" : 35
+    },
+    {
+      "key" : "ExifIFD:SceneCaptureType",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:GainControl",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Contrast",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Saturation",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Sharpness",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:SubjectDistanceRange",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:MakerNoteVersion",
+      "value" : "0211"
+    },
+    {
+      "key" : "Nikon:Quality",
+      "value" : "RAW    "
+    },
+    {
+      "key" : "Nikon:WhiteBalance",
+      "value" : "AUTO1       "
+    },
+    {
+      "key" : "Nikon:FocusMode",
+      "value" : "AF-C  "
+    },
+    {
+      "key" : "Nikon:FlashSetting",
+      "value" : "NORMAL      "
+    },
+    {
+      "key" : "Nikon:FlashType",
+      "value" : "Optional,TTL       "
+    },
+    {
+      "key" : "Nikon:WB_RBLevels",
+      "value" : "2.07421875 1.2109375 1 1"
+    },
+    {
+      "key" : "Nikon:ProgramShift",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ExposureDifference",
+      "value" : -2.6666666666666701
+    },
+    {
+      "key" : "Nikon:FlashExposureComp",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ExternalFlashExposureComp",
+      "value" : -0.66666666666666696
+    },
+    {
+      "key" : "Nikon:FlashExposureBracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ExposureBracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:CropHiSpeed",
+      "value" : "11 6032 4032 6032 4032 0 0"
+    },
+    {
+      "key" : "Nikon:ExposureTuning",
+      "value" : -0.5
+    },
+    {
+      "key" : "Nikon:SerialNumber",
+      "value" : "sha256:8645153000902bd595db33866a1fdcfd39f8c73a38a7de67b8b57eddf7c31b76"
+    },
+    {
+      "key" : "Nikon:ColorSpace",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:VRInfoVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:VibrationReduction",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:VRMode",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ActiveD-Lighting",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:PictureControlVersion",
+      "value" : "0200"
+    },
+    {
+      "key" : "Nikon:PictureControlName",
+      "value" : "STANDARD"
+    },
+    {
+      "key" : "Nikon:PictureControlBase",
+      "value" : "STANDARD"
+    },
+    {
+      "key" : "Nikon:PictureControlAdjust",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:PictureControlQuickAdjust",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Sharpness",
+      "value" : 12
+    },
+    {
+      "key" : "Nikon:Clarity",
+      "value" : 4
+    },
+    {
+      "key" : "Nikon:Contrast",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Brightness",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Saturation",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Hue",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FilterEffect",
+      "value" : 255
+    },
+    {
+      "key" : "Nikon:ToningEffect",
+      "value" : 255
+    },
+    {
+      "key" : "Nikon:ToningSaturation",
+      "value" : 127
+    },
+    {
+      "key" : "Nikon:TimeZone",
+      "value" : 60
+    },
+    {
+      "key" : "Nikon:DaylightSavings",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:DateDisplayFormat",
+      "value" : 2
+    },
+    {
+      "key" : "Nikon:ISO",
+      "value" : 100
+    },
+    {
+      "key" : "Nikon:ISOExpansion",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ISO2",
+      "value" : 100
+    },
+    {
+      "key" : "Nikon:ISOExpansion2",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:VignetteControl",
+      "value" : 3
+    },
+    {
+      "key" : "Nikon:DistortionVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:AutoDistortionControl",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:UnknownInfoVersion",
+      "value" : "0101"
+    },
+    {
+      "key" : "Nikon:Nikon_0x003b",
+      "value" : "1 1 1 1"
+    },
+    {
+      "key" : "Nikon:Nikon_0x003c",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:BlackLevel",
+      "value" : "600 600 600 600"
+    },
+    {
+      "key" : "Nikon:ImageSizeRAW",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:WhiteBalanceFineTune",
+      "value" : "0 0"
+    },
+    {
+      "key" : "Nikon:Nikon_0x0040",
+      "value" : "0100\u0001C0110"
+    },
+    {
+      "key" : "Nikon:Nikon_0x0042",
+      "value" : "0100\u0003"
+    },
+    {
+      "key" : "Nikon:LensType",
+      "value" : 14
+    },
+    {
+      "key" : "Nikon:Lens",
+      "value" : "35 35 1.8 1.8"
+    },
+    {
+      "key" : "Nikon:FlashMode",
+      "value" : 7
+    },
+    {
+      "key" : "Nikon:ShootingMode",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:Nikon_0x008a",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:ContrastCurve",
+      "value" : "(Binary data 578 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Nikon:ShotInfoVersion",
+      "value" : "0234"
+    },
+    {
+      "key" : "Nikon:FirmwareVersion",
+      "value" : "1.10d"
+    },
+    {
+      "key" : "Nikon:NEFCompression",
+      "value" : 4
+    },
+    {
+      "key" : "Nikon:NoiseReduction",
+      "value" : "OFF "
+    },
+    {
+      "key" : "Nikon:NEFLinearizationTable",
+      "value" : "(Binary data 624 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Nikon:WB_RGGBLevels",
+      "value" : "531 256 256 310"
+    },
+    {
+      "key" : "Nikon:LensDataVersion",
+      "value" : "0204"
+    },
+    {
+      "key" : "Nikon:ExitPupilPosition",
+      "value" : 89.043478260869605
+    },
+    {
+      "key" : "Nikon:AFAperture",
+      "value" : 1.7817974362806801
+    },
+    {
+      "key" : "Nikon:FocusPosition",
+      "value" : 51
+    },
+    {
+      "key" : "Nikon:FocusDistance",
+      "value" : 0.298538261891796
+    },
+    {
+      "key" : "Nikon:FocalLength",
+      "value" : 35.635948725613602
+    },
+    {
+      "key" : "Nikon:LensIDNumber",
+      "value" : 232
+    },
+    {
+      "key" : "Nikon:LensFStops",
+      "value" : 6.3333333333333304
+    },
+    {
+      "key" : "Nikon:MinFocalLength",
+      "value" : 35.635948725613602
+    },
+    {
+      "key" : "Nikon:MaxFocalLength",
+      "value" : 35.635948725613602
+    },
+    {
+      "key" : "Nikon:MaxApertureAtMinFocal",
+      "value" : 1.7817974362806801
+    },
+    {
+      "key" : "Nikon:MaxApertureAtMaxFocal",
+      "value" : 1.7817974362806801
+    },
+    {
+      "key" : "Nikon:MCUVersion",
+      "value" : 223
+    },
+    {
+      "key" : "Nikon:EffectiveMaxAperture",
+      "value" : 1.7817974362806801
+    },
+    {
+      "key" : "Nikon:RawImageCenter",
+      "value" : "0 0"
+    },
+    {
+      "key" : "Nikon:RetouchHistory",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Nikon_0x00a3",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Nikon_0x00a4",
+      "value" : "0300"
+    },
+    {
+      "key" : "Nikon:ShutterCount",
+      "value" : 5711
+    },
+    {
+      "key" : "Nikon:FlashInfoVersion",
+      "value" : "0107"
+    },
+    {
+      "key" : "Nikon:FlashSource",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:ExternalFlashFirmware",
+      "value" : "5 1"
+    },
+    {
+      "key" : "Nikon:ExternalFlashZoomOverride",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:ExternalFlashStatus",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:ExternalFlashReadyState",
+      "value" : 2
+    },
+    {
+      "key" : "Nikon:FlashCompensation",
+      "value" : -0.66666666666666696
+    },
+    {
+      "key" : "Nikon:FlashFocalLength",
+      "value" : 12
+    },
+    {
+      "key" : "Nikon:FlashGNDistance",
+      "value" : 255
+    },
+    {
+      "key" : "Nikon:FlashGroupAControlMode",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FlashGroupBControlMode",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FlashGroupCControlMode",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FlashGroupACompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FlashGroupBCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:FlashGroupCCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:VariProgram",
+      "value" : "               "
+    },
+    {
+      "key" : "Nikon:MultiExposureVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:MultiExposureMode",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:MultiExposureShots",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:MultiExposureAutoGain",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:HighISONoiseReduction",
+      "value" : 4
+    },
+    {
+      "key" : "Nikon:PowerUpTime",
+      "value" : "0000:00:00 00:00:00"
+    },
+    {
+      "key" : "Nikon:AFInfo2Version",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:AFDetectionMethod",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:AFAreaMode",
+      "value" : 9
+    },
+    {
+      "key" : "Nikon:FocusPointSchema",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:PrimaryAFPoint",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:AFPointsUsed",
+      "value" : "01 00 00 00 00 00 00"
+    },
+    {
+      "key" : "Nikon:FileInfoVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "Nikon:MemoryCardNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:DirectoryNumber",
+      "value" : 100
+    },
+    {
+      "key" : "Nikon:FileNumber",
+      "value" : 5048
+    },
+    {
+      "key" : "Nikon:AFFineTune",
+      "value" : 1
+    },
+    {
+      "key" : "Nikon:AFFineTuneIndex",
+      "value" : 255
+    },
+    {
+      "key" : "Nikon:AFFineTuneAdj",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:AFFineTuneAdjTele",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Nikon_0x00ba",
+      "value" : "<snapshot: string of 1341 characters omitted>"
+    },
+    {
+      "key" : "Nikon:RetouchInfoVersion",
+      "value" : "0200"
+    },
+    {
+      "key" : "Nikon:RetouchNEFProcessing",
+      "value" : -1
+    },
+    {
+      "key" : "Nikon:Nikon_0x00bc",
+      "value" : "<snapshot: string of 6012 characters omitted>"
+    },
+    {
+      "key" : "Nikon:SilentPhotography",
+      "value" : 0
+    },
+    {
+      "key" : "Nikon:Nikon_0x00c0",
+      "value" : "<\u0001\f?\u0001\f"
+    },
+    {
+      "key" : "PreviewIFD:Compression",
+      "value" : 6
+    },
+    {
+      "key" : "PreviewIFD:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "PreviewIFD:YResolution",
+      "value" : 300
+    },
+    {
+      "key" : "PreviewIFD:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "PreviewIFD:PreviewImageStart",
+      "value" : 45636
+    },
+    {
+      "key" : "PreviewIFD:PreviewImageLength",
+      "value" : 116857
+    },
+    {
+      "key" : "PreviewIFD:YCbCrPositioning",
+      "value" : 2
+    },
+    {
+      "key" : "PreviewIFD:PreviewImage",
+      "value" : "(Binary data 116857 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "GPS:GPSVersionID",
+      "value" : "sha256:b5e9d99e17d81dd5566096377e672fe41bd86a442aaca263d5a69671b63d0dbd"
+    }
+  ],
+  "sha256" : "3389da2bd0997be2f8e1408d8d0fba09f5062de05c4017a0bbf2849d8f0cd2a1"
+}

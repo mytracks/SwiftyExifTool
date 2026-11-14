@@ -1,4 +1,5 @@
 #if os(macOS)
+import ConformanceKit
 import FixtureKit
 import Foundation
 
@@ -17,7 +18,7 @@ struct Snapshotter {
     let snapshotDirectory: URL
 
     func run() throws {
-        let version = try exiftool(["-ver"]).trimmingCharacters(in: .whitespacesAndNewlines)
+        let version = try Exiftool.version()
         let fm = FileManager.default
         // Replace snapshots of any earlier exiftool version.
         if fm.fileExists(atPath: snapshotDirectory.path) {
@@ -37,9 +38,9 @@ struct Snapshotter {
             let rawArgs = ["-j", "-a", "-G1", "-u", "-n"]
             let displayArgs = ["-j", "-a", "-G1", "-u"]
             let verboseArgs = ["-v2"]
-            let raw = try filtered(OrderedJSON.parseFirstObject(try exiftool(rawArgs + [path])))
-            let display = try filtered(OrderedJSON.parseFirstObject(try exiftool(displayArgs + [path])))
-            let verbose = verboseDirectoryLines(try exiftool(verboseArgs + [path]))
+            let raw = try Self.filtered(OrderedJSON.parseFirstObject(try Exiftool.run(rawArgs + [path])))
+            let display = try Self.filtered(OrderedJSON.parseFirstObject(try Exiftool.run(displayArgs + [path])))
+            let verbose = verboseDirectoryLines(try Exiftool.run(verboseArgs + [path]))
 
             let snapshot: [String: Any] = [
                 "fixture": fixture.id,
@@ -58,19 +59,14 @@ struct Snapshotter {
     /// Strings longer than this are replaced by a placeholder to keep snapshots small.
     static let maxStringLength = 1024
 
-    private func filtered(_ entries: [(key: String, value: Any)]) -> [(key: String, value: Any)] {
-        entries.map { entry -> (key: String, value: Any) in
+    /// Drops keys outside the library's scope (`ExiftoolOutput.isCompared`)
+    /// and replaces strings longer than ``maxStringLength`` by a placeholder.
+    static func filtered(_ entries: [(key: String, value: Any)]) -> [(key: String, value: Any)] {
+        entries.filter { ExiftoolOutput.isCompared($0.key) }.map { entry -> (key: String, value: Any) in
             if let string = entry.value as? String, string.count > Self.maxStringLength {
                 return (entry.key, "<snapshot: string of \(string.count) characters omitted>")
             }
             return entry
-        }.filter { entry in
-            let group = entry.key.split(separator: ":").first.map(String.init) ?? ""
-            switch group {
-            case "System", "Composite": return false
-            case "ExifTool": return entry.key == "ExifTool:Warning" || entry.key == "ExifTool:Error"
-            default: return entry.key != "SourceFile"
-            }
         }
     }
 
@@ -81,26 +77,6 @@ struct Snapshotter {
         guard let start = lines.firstIndex(where: { $0.hasPrefix("  + [") }) else { return [] }
         return Array(lines[start...]).filter { !$0.isEmpty }
     }
-
-    private func exiftool(_ arguments: [String]) throws -> String {
-        let process = Process()
-        process.executableURL = URL(fileURLWithPath: "/usr/bin/env")
-        process.arguments = ["exiftool"] + arguments
-        let output = Pipe()
-        process.standardOutput = output
-        process.standardError = Pipe()
-        try process.run()
-        let data = output.fileHandleForReading.readDataToEndOfFile()
-        process.waitUntilExit()
-        if process.terminationStatus == 127 {
-            throw ToolError("exiftool not found on PATH; install it with `brew install exiftool`")
-        }
-        // exiftool exits with 1 when a file has errors but still prints output.
-        guard let text = String(data: data, encoding: .utf8), !text.isEmpty else {
-            throw ToolError("exiftool \(arguments.joined(separator: " ")) produced no output (status \(process.terminationStatus))")
-        }
-        return text
-    }
 }
 
 struct ToolError: Error, CustomStringConvertible {
@@ -108,77 +84,4 @@ struct ToolError: Error, CustomStringConvertible {
     init(_ description: String) { self.description = description }
 }
 
-/// Parses the first object of exiftool's JSON array while keeping key order.
-enum OrderedJSON {
-    static func parseFirstObject(_ text: String) throws -> [(key: String, value: Any)] {
-        let bytes = Array(text.utf8)
-        var i = 0
-        func skipWhitespace() { while i < bytes.count, [0x20, 0x0A, 0x0D, 0x09].contains(bytes[i]) { i += 1 } }
-        func expect(_ c: UInt8) throws {
-            skipWhitespace()
-            guard i < bytes.count, bytes[i] == c else { throw ToolError("unexpected JSON at \(i)") }
-            i += 1
-        }
-        /// Returns the raw text of the JSON value starting at `i`.
-        func valueSpan() throws -> String {
-            skipWhitespace()
-            let start = i
-            var depth = 0
-            var inString = false
-            while i < bytes.count {
-                let c = bytes[i]
-                if inString {
-                    if c == 0x5C { i += 2; continue }
-                    if c == 0x22 { inString = false }
-                } else {
-                    switch c {
-                    case 0x22: inString = true
-                    case 0x5B, 0x7B: depth += 1
-                    case 0x5D, 0x7D:
-                        if depth == 0 { return String(decoding: bytes[start ..< i], as: UTF8.self) }
-                        depth -= 1
-                    case 0x2C where depth == 0:
-                        return String(decoding: bytes[start ..< i], as: UTF8.self)
-                    default: break
-                    }
-                }
-                i += 1
-            }
-            throw ToolError("unterminated JSON value")
-        }
-
-        /// Returns the raw text of the JSON string starting at `i`.
-        func stringSpan() throws -> String {
-            skipWhitespace()
-            let start = i
-            guard i < bytes.count, bytes[i] == 0x22 else { throw ToolError("expected string at \(i)") }
-            i += 1
-            while i < bytes.count {
-                if bytes[i] == 0x5C { i += 2; continue }
-                if bytes[i] == 0x22 { i += 1; return String(decoding: bytes[start ..< i], as: UTF8.self) }
-                i += 1
-            }
-            throw ToolError("unterminated JSON string")
-        }
-
-        try expect(0x5B)
-        try expect(0x7B)
-        var result: [(key: String, value: Any)] = []
-        while true {
-            skipWhitespace()
-            if i < bytes.count, bytes[i] == 0x7D { break }
-            let keyText = try stringSpan()
-            guard let key = try JSONSerialization.jsonObject(with: Data(keyText.utf8), options: .fragmentsAllowed) as? String else {
-                throw ToolError("bad key \(keyText)")
-            }
-            try expect(0x3A)
-            let valueText = try valueSpan()
-            let value = try JSONSerialization.jsonObject(with: Data(valueText.utf8), options: .fragmentsAllowed)
-            result.append((key, value))
-            skipWhitespace()
-            if i < bytes.count, bytes[i] == 0x2C { i += 1 }
-        }
-        return result
-    }
-}
 #endif

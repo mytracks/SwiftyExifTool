@@ -1,3 +1,4 @@
+import ConformanceKit
 import Foundation
 import Testing
 import FixtureKit
@@ -48,7 +49,7 @@ import FixtureKit
         let missing = Metadata(fileType: metadata.fileType, byteOrder: metadata.byteOrder,
                                tags: metadata.tags.filter { $0.name != "Make" }, directories: [], warnings: [])
         let mismatches = Conformance.compare(missing, with: snapshot, deviations: try Deviations.load())
-        #expect(mismatches.contains { $0.expected.contains("IFD0:Make") })
+        #expect(mismatches.contains { $0.key == "IFD0:Make" && $0.kind == "missing" })
     }
 
     @Test func everyTIFFFixtureHasASnapshot() throws {
