@@ -1,0 +1,135 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : "Horizontal (normal)"
+    },
+    {
+      "key" : "IFD1:Orientation",
+      "value" : "Mirror horizontal"
+    },
+    {
+      "key" : "IFD2:Orientation",
+      "value" : "Rotate 180"
+    },
+    {
+      "key" : "IFD3:Orientation",
+      "value" : "Mirror vertical"
+    },
+    {
+      "key" : "IFD4:Orientation",
+      "value" : "Mirror horizontal and rotate 270 CW"
+    },
+    {
+      "key" : "IFD5:Orientation",
+      "value" : "Rotate 90 CW"
+    },
+    {
+      "key" : "IFD6:Orientation",
+      "value" : "Mirror horizontal and rotate 90 CW"
+    },
+    {
+      "key" : "IFD7:Orientation",
+      "value" : "Rotate 270 CW"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-orientation",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:Orientation",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:Orientation",
+      "value" : 3
+    },
+    {
+      "key" : "IFD3:Orientation",
+      "value" : 4
+    },
+    {
+      "key" : "IFD4:Orientation",
+      "value" : 5
+    },
+    {
+      "key" : "IFD5:Orientation",
+      "value" : 6
+    },
+    {
+      "key" : "IFD6:Orientation",
+      "value" : 7
+    },
+    {
+      "key" : "IFD7:Orientation",
+      "value" : 8
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  Orientation = 1",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  Orientation = 2",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  Orientation = 3",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  Orientation = 4",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  Orientation = 5",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  Orientation = 6",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  Orientation = 7",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  Orientation = 8",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])"
+  ]
+}

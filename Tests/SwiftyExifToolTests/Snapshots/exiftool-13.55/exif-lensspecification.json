@@ -1,0 +1,91 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:LensInfo",
+      "value" : "24-70mm f/2.8"
+    },
+    {
+      "key" : "IFD1:LensInfo",
+      "value" : "50mm f/1.8"
+    },
+    {
+      "key" : "IFD2:LensInfo",
+      "value" : "18-55mm f/3.5-5.6"
+    },
+    {
+      "key" : "IFD3:LensInfo",
+      "value" : "?mm f/?"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-lensspecification",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:LensInfo",
+      "value" : "24 70 2.8 2.8"
+    },
+    {
+      "key" : "IFD1:LensInfo",
+      "value" : "50 50 1.8 1.8"
+    },
+    {
+      "key" : "IFD2:LensInfo",
+      "value" : "18 55 3.5 5.6"
+    },
+    {
+      "key" : "IFD3:LensInfo",
+      "value" : "undef undef undef undef"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  LensInfo = 24 70 2.8 2.8 (24/1 70/1 28/10 28/10)",
+    "  |     - Tag 0xa432 (32 bytes, rational64u[4])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  LensInfo = 50 50 1.8 1.8 (50/1 50/1 18/10 18/10)",
+    "  |     - Tag 0xa432 (32 bytes, rational64u[4])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  LensInfo = 18 55 3.5 5.6 (18/1 55/1 35/10 56/10)",
+    "  |     - Tag 0xa432 (32 bytes, rational64u[4])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  LensInfo = undef undef undef undef (0/0 0/0 0/0 0/0)",
+    "  |     - Tag 0xa432 (32 bytes, rational64u[4])"
+  ]
+}

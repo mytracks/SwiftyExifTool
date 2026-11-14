@@ -1,0 +1,182 @@
+[
+  {
+    "fixture": "strings",
+    "tag": "IFD0:Artist",
+    "reason": "ISO 8859-1 bytes are decoded as Latin-1; exiftool 13.55 prints '?' in JSON.",
+    "requirement": "exif-tags: Strings"
+  },
+  {
+    "fixture": "self-linked-ifd0",
+    "tag": "IFD1:*",
+    "reason": "A directory is read at most once; exiftool 13.55 re-reads a self-linked IFD0 as IFD1.",
+    "requirement": "tiff-container: Cycle detection"
+  },
+  {
+    "fixture": "too-many-ifds",
+    "tag": "*",
+    "reason": "Reading stops at the directory limit (256); exiftool reads all 300 IFDs. Covered by TIFFRobustnessTests instead.",
+    "requirement": "tiff-container: Resource limits"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:OtherImage",
+    "reason": "exiftool synthesises this image tag from the start/length pair; embedded previews are listed by roadmap entry 4.",
+    "requirement": "proposal: Scope (embedded previews out of scope)"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:ThumbnailImage",
+    "reason": "exiftool synthesises this image tag from the start/length pair; embedded previews are listed by roadmap entry 4.",
+    "requirement": "proposal: Scope (embedded previews out of scope)"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:JpgFromRaw",
+    "reason": "exiftool synthesises this image tag from the start/length pair; embedded previews are listed by roadmap entry 4.",
+    "requirement": "proposal: Scope (embedded previews out of scope)"
+  },
+  {
+    "fixture": "value-beyond-eof",
+    "tag": "IFD0:Model",
+    "reason": "After a value beyond the end of the file the remaining entries are still read; exiftool 13.55 stops reading the directory.",
+    "requirement": "tiff-container: Bounds safety"
+  },
+  {
+    "fixture": "*",
+    "tag": "File:PageCount",
+    "reason": "exiftool derives a page count from SubfileType tags; derived File tags are not produced.",
+    "requirement": "proposal: Scope (File group limited to FileType, FileTypeExtension, MIMEType, ExifByteOrder)"
+  },
+  {
+    "fixture": "*",
+    "tag": "File:CurrentIPTCDigest",
+    "reason": "exiftool computes a digest of the IPTC block; IPTC is out of scope.",
+    "requirement": "proposal: Scope (IPTC out of scope)"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:ApplicationNotes",
+    "reason": "Embedded block reported as an undecoded binary tag; exiftool hides the block tag from its JSON output and decodes or omits the content.",
+    "requirement": "exif-tags: Embedded blocks stay undecoded"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:IPTC-NAA",
+    "reason": "Embedded block reported as an undecoded binary tag; exiftool hides the block tag from its JSON output and decodes or omits the content.",
+    "requirement": "exif-tags: Embedded blocks stay undecoded"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:ICC_Profile",
+    "reason": "Embedded block reported as an undecoded binary tag; exiftool hides the block tag from its JSON output and decodes or omits the content.",
+    "requirement": "exif-tags: Embedded blocks stay undecoded"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:MakerNoteUnknown",
+    "reason": "Embedded block reported as an undecoded binary tag; exiftool hides the block tag from its JSON output and decodes or omits the content.",
+    "requirement": "exif-tags: Embedded blocks stay undecoded"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:Exif_0x9287",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0x9287); the library uses the specification's name LearningOptOutIn.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:LearningOptOutIn",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0x9287); the library uses the specification's name LearningOptOutIn.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:Exif_0xa40d",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa40d); the library uses the specification's name DevelopmentType.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:DevelopmentType",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa40d); the library uses the specification's name DevelopmentType.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:Exif_0xa40e",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa40e); the library uses the specification's name DevelopmentTypeDescription.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:DevelopmentTypeDescription",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa40e); the library uses the specification's name DevelopmentTypeDescription.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:Exif_0xa40f",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa40f); the library uses the specification's name DistortionCorrection.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:DistortionCorrection",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa40f); the library uses the specification's name DistortionCorrection.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:Exif_0xa410",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa410); the library uses the specification's name ChromaticAberrationCorrection.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:ChromaticAberrationCorrection",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa410); the library uses the specification's name ChromaticAberrationCorrection.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:Exif_0xa411",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa411); the library uses the specification's name ShadingCorrection.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:ShadingCorrection",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa411); the library uses the specification's name ShadingCorrection.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:Exif_0xa412",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa412); the library uses the specification's name NoiseReduction.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:NoiseReduction",
+    "reason": "Exif 3.1 tag that exiftool 13.55 does not know (it reports Exif_0xa412); the library uses the specification's name NoiseReduction.",
+    "requirement": "exif-tags: Standard tag coverage"
+  },
+  {
+    "fixture": "*",
+    "tag": "*:SpatialFrequencyResponse",
+    "reason": "Structured value reported as binary; exiftool 13.55 decodes part of the structure.",
+    "requirement": "exif-tags: Three value levels (stored value lossless; structure decoding deferred)"
+  },
+  {
+    "fixture": "exif-usercomment",
+    "tag": "IFD4:UserComment",
+    "reason": "UNICODE text without NUL bytes is read as UTF-8 per CIPA DC-008-2026 4.6.4; exiftool 13.55 reads it as UCS-2.",
+    "requirement": "exif-tags: Standard tag coverage (Exif 3.1)"
+  },
+  {
+    "fixture": "exif-usercomment",
+    "tag": "IFD6:UserComment",
+    "reason": "JIS text is decoded as ISO-2022-JP; exiftool 13.55 reads the bytes as JIS X 0208 without escape sequences.",
+    "requirement": "exif-tags: Standard tag coverage (Exif 3.1)"
+  }
+]

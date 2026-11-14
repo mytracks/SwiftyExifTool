@@ -1,0 +1,97 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Big-endian (Motorola, MM)"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : "1/60"
+    },
+    {
+      "key" : "InteropIFD:InteropIndex",
+      "value" : "R98 - DCF basic file (sRGB)"
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "North"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-gps-interop",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "MM"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : 0.01666666667
+    },
+    {
+      "key" : "InteropIFD:InteropIndex",
+      "value" : "R98"
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "N"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 3 entries]",
+    "  | 0)  ImageWidth = 1",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 1)  ExifOffset (SubDirectory) -->",
+    "  |     - Tag 0x8769 (4 bytes, int32u[1])",
+    "  | + [ExifIFD directory with 2 entries]",
+    "  | | 0)  ExposureTime = 0.01666666667 (1/60)",
+    "  | |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  | | 1)  InteropOffset (SubDirectory) -->",
+    "  | |     - Tag 0xa005 (4 bytes, int32u[1])",
+    "  | | + [InteropIFD directory with 1 entries]",
+    "  | | | 0)  InteropIndex = R98",
+    "  | | |     - Tag 0x0001 (4 bytes, string[4])",
+    "  | 2)  GPSInfo (SubDirectory) -->",
+    "  |     - Tag 0x8825 (4 bytes, int32u[1])",
+    "  | + [GPS directory with 1 entries]",
+    "  | | 0)  GPSLatitudeRef = N",
+    "  | |     - Tag 0x0001 (2 bytes, string[2])"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 640
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 480
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "TestCam"
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : "Rotate 90 CW"
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : "1/250"
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2026:11:14 10:00:00"
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : "Off, Did not fire"
+    },
+    {
+      "key" : "GPS:GPSVersionID",
+      "value" : "2.3.0.0"
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "North"
+    },
+    {
+      "key" : "IFD1:ImageWidth",
+      "value" : 160
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "basic-le",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 640
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 480
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "TestCam"
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : 6
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 300
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : 0.0040000000000000001
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2026:11:14 10:00:00"
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : 16
+    },
+    {
+      "key" : "GPS:GPSVersionID",
+      "value" : "2 3 0 0"
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "N"
+    },
+    {
+      "key" : "IFD1:ImageWidth",
+      "value" : 160
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 8 entries]",
+    "  | 0)  ImageWidth = 640",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 1)  ImageHeight = 480",
+    "  |     - Tag 0x0101 (2 bytes, int16u[1])",
+    "  | 2)  Make = TestCam",
+    "  |     - Tag 0x010f (8 bytes, string[8])",
+    "  | 3)  Orientation = 6",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  | 4)  XResolution = 300 (300/1)",
+    "  |     - Tag 0x011a (8 bytes, rational64u[1])",
+    "  | 5)  ResolutionUnit = 2",
+    "  |     - Tag 0x0128 (2 bytes, int16u[1])",
+    "  | 6)  ExifOffset (SubDirectory) -->",
+    "  |     - Tag 0x8769 (4 bytes, int32u[1])",
+    "  | + [ExifIFD directory with 4 entries]",
+    "  | | 0)  ExposureTime = 0.004 (1/250)",
+    "  | |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  | | 1)  ISO = 200",
+    "  | |     - Tag 0x8827 (2 bytes, int16u[1])",
+    "  | | 2)  DateTimeOriginal = 2026:11:14 10:00:00",
+    "  | |     - Tag 0x9003 (20 bytes, string[20])",
+    "  | | 3)  Flash = 16",
+    "  | |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  | 7)  GPSInfo (SubDirectory) -->",
+    "  |     - Tag 0x8825 (4 bytes, int32u[1])",
+    "  | + [GPS directory with 2 entries]",
+    "  | | 0)  GPSVersionID = 2 3 0 0",
+    "  | |     - Tag 0x0000 (4 bytes, int8u[4])",
+    "  | | 1)  GPSLatitudeRef = N",
+    "  | |     - Tag 0x0001 (2 bytes, string[2])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  ImageWidth = 160",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])"
+  ]
+}

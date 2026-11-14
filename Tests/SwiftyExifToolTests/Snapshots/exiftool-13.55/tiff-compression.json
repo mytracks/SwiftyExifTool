@@ -1,0 +1,124 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : "Uncompressed"
+    },
+    {
+      "key" : "IFD1:Compression",
+      "value" : "CCITT 1D"
+    },
+    {
+      "key" : "IFD2:Compression",
+      "value" : "T4/Group 3 Fax"
+    },
+    {
+      "key" : "IFD3:Compression",
+      "value" : "T6/Group 4 Fax"
+    },
+    {
+      "key" : "IFD4:Compression",
+      "value" : "LZW"
+    },
+    {
+      "key" : "IFD5:Compression",
+      "value" : "JPEG (old-style)"
+    },
+    {
+      "key" : "IFD6:Compression",
+      "value" : "PackBits"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-compression",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:Compression",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:Compression",
+      "value" : 3
+    },
+    {
+      "key" : "IFD3:Compression",
+      "value" : 4
+    },
+    {
+      "key" : "IFD4:Compression",
+      "value" : 5
+    },
+    {
+      "key" : "IFD5:Compression",
+      "value" : 6
+    },
+    {
+      "key" : "IFD6:Compression",
+      "value" : 32773
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  Compression = 1",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  Compression = 2",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  Compression = 3",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  Compression = 4",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  Compression = 5",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  Compression = 6",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  Compression = 32773",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])"
+  ]
+}

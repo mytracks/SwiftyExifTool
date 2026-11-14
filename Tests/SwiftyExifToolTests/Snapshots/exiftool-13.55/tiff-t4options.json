@@ -1,0 +1,157 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:T4Options",
+      "value" : "(none)"
+    },
+    {
+      "key" : "IFD1:T4Options",
+      "value" : "2-Dimensional encoding"
+    },
+    {
+      "key" : "IFD2:T4Options",
+      "value" : "Uncompressed"
+    },
+    {
+      "key" : "IFD3:T4Options",
+      "value" : "2-Dimensional encoding, Uncompressed"
+    },
+    {
+      "key" : "IFD4:T4Options",
+      "value" : "Fill bits added"
+    },
+    {
+      "key" : "IFD5:T4Options",
+      "value" : "2-Dimensional encoding, Fill bits added"
+    },
+    {
+      "key" : "IFD6:T4Options",
+      "value" : "Uncompressed, Fill bits added"
+    },
+    {
+      "key" : "IFD7:T4Options",
+      "value" : "2-Dimensional encoding, Uncompressed, Fill bits added"
+    },
+    {
+      "key" : "IFD8:T4Options",
+      "value" : "[3]"
+    },
+    {
+      "key" : "IFD9:T4Options",
+      "value" : "2-Dimensional encoding, [3]"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-t4options",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:T4Options",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:T4Options",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:T4Options",
+      "value" : 2
+    },
+    {
+      "key" : "IFD3:T4Options",
+      "value" : 3
+    },
+    {
+      "key" : "IFD4:T4Options",
+      "value" : 4
+    },
+    {
+      "key" : "IFD5:T4Options",
+      "value" : 5
+    },
+    {
+      "key" : "IFD6:T4Options",
+      "value" : 6
+    },
+    {
+      "key" : "IFD7:T4Options",
+      "value" : 7
+    },
+    {
+      "key" : "IFD8:T4Options",
+      "value" : 8
+    },
+    {
+      "key" : "IFD9:T4Options",
+      "value" : 9
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  T4Options = 0",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  T4Options = 1",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  T4Options = 2",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  T4Options = 3",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  T4Options = 4",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  T4Options = 5",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  T4Options = 6",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  T4Options = 7",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD8 directory with 1 entries]",
+    "  | 0)  T4Options = 8",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  + [IFD9 directory with 1 entries]",
+    "  | 0)  T4Options = 9",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])"
+  ]
+}

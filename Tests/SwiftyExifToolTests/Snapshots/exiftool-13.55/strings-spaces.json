@@ -1,0 +1,88 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ImageDescription",
+      "value" : "        "
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : ""
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "A"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : ""
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "strings-spaces",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ImageDescription",
+      "value" : "        "
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : ""
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "A"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : ""
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 4 entries]",
+    "  | 0)  ImageDescription =         ",
+    "  |     - Tag 0x010e (9 bytes, string[9])",
+    "  | 1)  Make =     ",
+    "  |     - Tag 0x010f (4 bytes, string[4])",
+    "  | 2)  Model = A  ",
+    "  |     - Tag 0x0110 (4 bytes, string[4])",
+    "  | 3)  Software = ",
+    "  |     - Tag 0x0131 (4 bytes, string[4])"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "File:PageCount",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : "Full-resolution image"
+    },
+    {
+      "key" : "IFD1:SubfileType",
+      "value" : "Reduced-resolution image"
+    },
+    {
+      "key" : "IFD2:SubfileType",
+      "value" : "Single page of multi-page image"
+    },
+    {
+      "key" : "IFD3:SubfileType",
+      "value" : "Single page of multi-page reduced-resolution image"
+    },
+    {
+      "key" : "IFD4:SubfileType",
+      "value" : "Transparency mask"
+    },
+    {
+      "key" : "IFD5:SubfileType",
+      "value" : "Transparency mask of reduced-resolution image"
+    },
+    {
+      "key" : "IFD6:SubfileType",
+      "value" : "Transparency mask of multi-page image"
+    },
+    {
+      "key" : "IFD7:SubfileType",
+      "value" : "Transparency mask of reduced-resolution multi-page image"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-newsubfiletype",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "File:PageCount",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:SubfileType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:SubfileType",
+      "value" : 2
+    },
+    {
+      "key" : "IFD3:SubfileType",
+      "value" : 3
+    },
+    {
+      "key" : "IFD4:SubfileType",
+      "value" : 4
+    },
+    {
+      "key" : "IFD5:SubfileType",
+      "value" : 5
+    },
+    {
+      "key" : "IFD6:SubfileType",
+      "value" : 6
+    },
+    {
+      "key" : "IFD7:SubfileType",
+      "value" : 7
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  SubfileType = 0",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  SubfileType = 1",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  SubfileType = 2",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  SubfileType = 3",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  SubfileType = 4",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  SubfileType = 5",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  SubfileType = 6",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  SubfileType = 7",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  PageCount = 2"
+  ]
+}

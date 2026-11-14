@@ -1,0 +1,89 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "File:PageCount",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:OldSubfileType",
+      "value" : "Full-resolution image"
+    },
+    {
+      "key" : "IFD1:OldSubfileType",
+      "value" : "Reduced-resolution image"
+    },
+    {
+      "key" : "IFD2:OldSubfileType",
+      "value" : "Single page of multi-page image"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-subfiletype",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "File:PageCount",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:OldSubfileType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:OldSubfileType",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:OldSubfileType",
+      "value" : 3
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  OldSubfileType = 1",
+    "  |     - Tag 0x00ff (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  OldSubfileType = 2",
+    "  |     - Tag 0x00ff (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  OldSubfileType = 3",
+    "  |     - Tag 0x00ff (2 bytes, int16u[1])",
+    "  PageCount = 2"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:CFAPattern",
+      "value" : "[Red,Green][Green,Blue]"
+    },
+    {
+      "key" : "IFD1:CFAPattern",
+      "value" : "[Green,Blue][Red,Green]"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-cfapattern",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:CFAPattern",
+      "value" : "2 2 0 1 1 2"
+    },
+    {
+      "key" : "IFD1:CFAPattern",
+      "value" : "2 2 1 2 0 1"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  CFAPattern = .....",
+    "  |     - Tag 0xa302 (8 bytes, undef[8])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  CFAPattern = .....",
+    "  |     - Tag 0xa302 (8 bytes, undef[8])"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:Exif_0xa40d",
+      "value" : 257
+    },
+    {
+      "key" : "IFD1:Exif_0xa40d",
+      "value" : 258
+    },
+    {
+      "key" : "IFD2:Exif_0xa40d",
+      "value" : 260
+    },
+    {
+      "key" : "IFD3:Exif_0xa40d",
+      "value" : 513
+    },
+    {
+      "key" : "IFD4:Exif_0xa40d",
+      "value" : 514
+    },
+    {
+      "key" : "IFD5:Exif_0xa40d",
+      "value" : 516
+    },
+    {
+      "key" : "IFD6:Exif_0xa40d",
+      "value" : 1025
+    },
+    {
+      "key" : "IFD7:Exif_0xa40d",
+      "value" : 1026
+    },
+    {
+      "key" : "IFD8:Exif_0xa40d",
+      "value" : 1028
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-developmenttype",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:Exif_0xa40d",
+      "value" : 257
+    },
+    {
+      "key" : "IFD1:Exif_0xa40d",
+      "value" : 258
+    },
+    {
+      "key" : "IFD2:Exif_0xa40d",
+      "value" : 260
+    },
+    {
+      "key" : "IFD3:Exif_0xa40d",
+      "value" : 513
+    },
+    {
+      "key" : "IFD4:Exif_0xa40d",
+      "value" : 514
+    },
+    {
+      "key" : "IFD5:Exif_0xa40d",
+      "value" : 516
+    },
+    {
+      "key" : "IFD6:Exif_0xa40d",
+      "value" : 1025
+    },
+    {
+      "key" : "IFD7:Exif_0xa40d",
+      "value" : 1026
+    },
+    {
+      "key" : "IFD8:Exif_0xa40d",
+      "value" : 1028
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 257",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 258",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 260",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 513",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 514",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 516",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 1025",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 1026",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  + [IFD8 directory with 1 entries]",
+    "  | 0)  Exif_0xa40d = 1028",
+    "  |     - Tag 0xa40d (2 bytes, int16u[1])"
+  ]
+}

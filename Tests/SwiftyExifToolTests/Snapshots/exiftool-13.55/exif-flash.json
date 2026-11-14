@@ -1,0 +1,344 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:Flash",
+      "value" : "No Flash"
+    },
+    {
+      "key" : "IFD1:Flash",
+      "value" : "Fired"
+    },
+    {
+      "key" : "IFD2:Flash",
+      "value" : "Fired, Return not detected"
+    },
+    {
+      "key" : "IFD3:Flash",
+      "value" : "Fired, Return detected"
+    },
+    {
+      "key" : "IFD4:Flash",
+      "value" : "On, Did not fire"
+    },
+    {
+      "key" : "IFD5:Flash",
+      "value" : "On, Fired"
+    },
+    {
+      "key" : "IFD6:Flash",
+      "value" : "On, Return not detected"
+    },
+    {
+      "key" : "IFD7:Flash",
+      "value" : "On, Return detected"
+    },
+    {
+      "key" : "IFD8:Flash",
+      "value" : "Off, Did not fire"
+    },
+    {
+      "key" : "IFD9:Flash",
+      "value" : "Off, Did not fire, Return not detected"
+    },
+    {
+      "key" : "IFD10:Flash",
+      "value" : "Auto, Did not fire"
+    },
+    {
+      "key" : "IFD11:Flash",
+      "value" : "Auto, Fired"
+    },
+    {
+      "key" : "IFD12:Flash",
+      "value" : "Auto, Fired, Return not detected"
+    },
+    {
+      "key" : "IFD13:Flash",
+      "value" : "Auto, Fired, Return detected"
+    },
+    {
+      "key" : "IFD14:Flash",
+      "value" : "No flash function"
+    },
+    {
+      "key" : "IFD15:Flash",
+      "value" : "Off, No flash function"
+    },
+    {
+      "key" : "IFD16:Flash",
+      "value" : "Fired, Red-eye reduction"
+    },
+    {
+      "key" : "IFD17:Flash",
+      "value" : "Fired, Red-eye reduction, Return not detected"
+    },
+    {
+      "key" : "IFD18:Flash",
+      "value" : "Fired, Red-eye reduction, Return detected"
+    },
+    {
+      "key" : "IFD19:Flash",
+      "value" : "On, Red-eye reduction"
+    },
+    {
+      "key" : "IFD20:Flash",
+      "value" : "On, Red-eye reduction, Return not detected"
+    },
+    {
+      "key" : "IFD21:Flash",
+      "value" : "On, Red-eye reduction, Return detected"
+    },
+    {
+      "key" : "IFD22:Flash",
+      "value" : "Off, Red-eye reduction"
+    },
+    {
+      "key" : "IFD23:Flash",
+      "value" : "Auto, Did not fire, Red-eye reduction"
+    },
+    {
+      "key" : "IFD24:Flash",
+      "value" : "Auto, Fired, Red-eye reduction"
+    },
+    {
+      "key" : "IFD25:Flash",
+      "value" : "Auto, Fired, Red-eye reduction, Return not detected"
+    },
+    {
+      "key" : "IFD26:Flash",
+      "value" : "Auto, Fired, Red-eye reduction, Return detected"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-flash",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:Flash",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:Flash",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:Flash",
+      "value" : 5
+    },
+    {
+      "key" : "IFD3:Flash",
+      "value" : 7
+    },
+    {
+      "key" : "IFD4:Flash",
+      "value" : 8
+    },
+    {
+      "key" : "IFD5:Flash",
+      "value" : 9
+    },
+    {
+      "key" : "IFD6:Flash",
+      "value" : 13
+    },
+    {
+      "key" : "IFD7:Flash",
+      "value" : 15
+    },
+    {
+      "key" : "IFD8:Flash",
+      "value" : 16
+    },
+    {
+      "key" : "IFD9:Flash",
+      "value" : 20
+    },
+    {
+      "key" : "IFD10:Flash",
+      "value" : 24
+    },
+    {
+      "key" : "IFD11:Flash",
+      "value" : 25
+    },
+    {
+      "key" : "IFD12:Flash",
+      "value" : 29
+    },
+    {
+      "key" : "IFD13:Flash",
+      "value" : 31
+    },
+    {
+      "key" : "IFD14:Flash",
+      "value" : 32
+    },
+    {
+      "key" : "IFD15:Flash",
+      "value" : 48
+    },
+    {
+      "key" : "IFD16:Flash",
+      "value" : 65
+    },
+    {
+      "key" : "IFD17:Flash",
+      "value" : 69
+    },
+    {
+      "key" : "IFD18:Flash",
+      "value" : 71
+    },
+    {
+      "key" : "IFD19:Flash",
+      "value" : 73
+    },
+    {
+      "key" : "IFD20:Flash",
+      "value" : 77
+    },
+    {
+      "key" : "IFD21:Flash",
+      "value" : 79
+    },
+    {
+      "key" : "IFD22:Flash",
+      "value" : 80
+    },
+    {
+      "key" : "IFD23:Flash",
+      "value" : 88
+    },
+    {
+      "key" : "IFD24:Flash",
+      "value" : 89
+    },
+    {
+      "key" : "IFD25:Flash",
+      "value" : 93
+    },
+    {
+      "key" : "IFD26:Flash",
+      "value" : 95
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  Flash = 0",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  Flash = 1",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  Flash = 5",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  Flash = 7",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  Flash = 8",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  Flash = 9",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  Flash = 13",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  Flash = 15",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD8 directory with 1 entries]",
+    "  | 0)  Flash = 16",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD9 directory with 1 entries]",
+    "  | 0)  Flash = 20",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD10 directory with 1 entries]",
+    "  | 0)  Flash = 24",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD11 directory with 1 entries]",
+    "  | 0)  Flash = 25",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD12 directory with 1 entries]",
+    "  | 0)  Flash = 29",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD13 directory with 1 entries]",
+    "  | 0)  Flash = 31",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD14 directory with 1 entries]",
+    "  | 0)  Flash = 32",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD15 directory with 1 entries]",
+    "  | 0)  Flash = 48",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD16 directory with 1 entries]",
+    "  | 0)  Flash = 65",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD17 directory with 1 entries]",
+    "  | 0)  Flash = 69",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD18 directory with 1 entries]",
+    "  | 0)  Flash = 71",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD19 directory with 1 entries]",
+    "  | 0)  Flash = 73",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD20 directory with 1 entries]",
+    "  | 0)  Flash = 77",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD21 directory with 1 entries]",
+    "  | 0)  Flash = 79",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD22 directory with 1 entries]",
+    "  | 0)  Flash = 80",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD23 directory with 1 entries]",
+    "  | 0)  Flash = 88",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD24 directory with 1 entries]",
+    "  | 0)  Flash = 89",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD25 directory with 1 entries]",
+    "  | 0)  Flash = 93",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  + [IFD26 directory with 1 entries]",
+    "  | 0)  Flash = 95",
+    "  |     - Tag 0x9209 (2 bytes, int16u[1])"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "GPS:GPSAltitudeRef",
+      "value" : "Negative Sea Level (sea-level ref)"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "gps-refs-3",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "GPS:GPSAltitudeRef",
+      "value" : 3
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  GPSInfo (SubDirectory) -->",
+    "  |     - Tag 0x8825 (4 bytes, int32u[1])",
+    "  | + [GPS directory with 1 entries]",
+    "  | | 0)  GPSAltitudeRef = 3",
+    "  | |     - Tag 0x0005 (1 bytes, int8u[1])"
+  ]
+}

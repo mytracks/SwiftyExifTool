@@ -1,0 +1,91 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:SceneCaptureType",
+      "value" : "Standard"
+    },
+    {
+      "key" : "IFD1:SceneCaptureType",
+      "value" : "Landscape"
+    },
+    {
+      "key" : "IFD2:SceneCaptureType",
+      "value" : "Portrait"
+    },
+    {
+      "key" : "IFD3:SceneCaptureType",
+      "value" : "Night"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-scenecapturetype",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:SceneCaptureType",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:SceneCaptureType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:SceneCaptureType",
+      "value" : 2
+    },
+    {
+      "key" : "IFD3:SceneCaptureType",
+      "value" : 3
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  SceneCaptureType = 0",
+    "  |     - Tag 0xa406 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  SceneCaptureType = 1",
+    "  |     - Tag 0xa406 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  SceneCaptureType = 2",
+    "  |     - Tag 0xa406 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  SceneCaptureType = 3",
+    "  |     - Tag 0xa406 (2 bytes, int16u[1])"
+  ]
+}

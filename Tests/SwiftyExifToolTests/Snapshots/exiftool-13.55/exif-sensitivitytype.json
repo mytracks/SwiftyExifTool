@@ -1,0 +1,135 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:SensitivityType",
+      "value" : "Unknown"
+    },
+    {
+      "key" : "IFD1:SensitivityType",
+      "value" : "Standard Output Sensitivity"
+    },
+    {
+      "key" : "IFD2:SensitivityType",
+      "value" : "Recommended Exposure Index"
+    },
+    {
+      "key" : "IFD3:SensitivityType",
+      "value" : "ISO Speed"
+    },
+    {
+      "key" : "IFD4:SensitivityType",
+      "value" : "Standard Output Sensitivity and Recommended Exposure Index"
+    },
+    {
+      "key" : "IFD5:SensitivityType",
+      "value" : "Standard Output Sensitivity and ISO Speed"
+    },
+    {
+      "key" : "IFD6:SensitivityType",
+      "value" : "Recommended Exposure Index and ISO Speed"
+    },
+    {
+      "key" : "IFD7:SensitivityType",
+      "value" : "Standard Output Sensitivity, Recommended Exposure Index and ISO Speed"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-sensitivitytype",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:SensitivityType",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:SensitivityType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:SensitivityType",
+      "value" : 2
+    },
+    {
+      "key" : "IFD3:SensitivityType",
+      "value" : 3
+    },
+    {
+      "key" : "IFD4:SensitivityType",
+      "value" : 4
+    },
+    {
+      "key" : "IFD5:SensitivityType",
+      "value" : 5
+    },
+    {
+      "key" : "IFD6:SensitivityType",
+      "value" : 6
+    },
+    {
+      "key" : "IFD7:SensitivityType",
+      "value" : 7
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  SensitivityType = 0",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  SensitivityType = 1",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  SensitivityType = 2",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  SensitivityType = 3",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  SensitivityType = 4",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  SensitivityType = 5",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  SensitivityType = 6",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  SensitivityType = 7",
+    "  |     - Tag 0x8830 (2 bytes, int16u[1])"
+  ]
+}

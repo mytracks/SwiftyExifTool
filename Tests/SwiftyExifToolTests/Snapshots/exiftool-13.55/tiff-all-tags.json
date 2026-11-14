@@ -1,0 +1,806 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "File:PageCount",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : "Full-resolution image"
+    },
+    {
+      "key" : "IFD0:OldSubfileType",
+      "value" : "Full-resolution image"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 640
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 480
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : "8 8 8"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : "Uncompressed"
+    },
+    {
+      "key" : "IFD0:PhotometricInterpretation",
+      "value" : "RGB"
+    },
+    {
+      "key" : "IFD0:Thresholding",
+      "value" : "No dithering or halftoning"
+    },
+    {
+      "key" : "IFD0:CellWidth",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:CellLength",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:FillOrder",
+      "value" : "Normal"
+    },
+    {
+      "key" : "IFD0:DocumentName",
+      "value" : "Document"
+    },
+    {
+      "key" : "IFD0:ImageDescription",
+      "value" : "Description"
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Make"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "Model"
+    },
+    {
+      "key" : "IFD0:StripOffsets",
+      "value" : "1000 2000"
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : "Horizontal (normal)"
+    },
+    {
+      "key" : "IFD0:SamplesPerPixel",
+      "value" : 3
+    },
+    {
+      "key" : "IFD0:RowsPerStrip",
+      "value" : 64
+    },
+    {
+      "key" : "IFD0:StripByteCounts",
+      "value" : "500 600"
+    },
+    {
+      "key" : "IFD0:MinSampleValue",
+      "value" : "0 0 0"
+    },
+    {
+      "key" : "IFD0:MaxSampleValue",
+      "value" : "255 255 255"
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:YResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:PlanarConfiguration",
+      "value" : "Chunky"
+    },
+    {
+      "key" : "IFD0:PageName",
+      "value" : "Page"
+    },
+    {
+      "key" : "IFD0:XPosition",
+      "value" : 0.5
+    },
+    {
+      "key" : "IFD0:YPosition",
+      "value" : 0.75
+    },
+    {
+      "key" : "IFD0:FreeOffsets",
+      "value" : 4096
+    },
+    {
+      "key" : "IFD0:FreeByteCounts",
+      "value" : 128
+    },
+    {
+      "key" : "IFD0:GrayResponseUnit",
+      "value" : 0.001
+    },
+    {
+      "key" : "IFD0:GrayResponseCurve",
+      "value" : "(Binary data 13 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:T4Options",
+      "value" : "(none)"
+    },
+    {
+      "key" : "IFD0:T6Options",
+      "value" : "(none)"
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "IFD0:PageNumber",
+      "value" : "1 3"
+    },
+    {
+      "key" : "IFD0:TransferFunction",
+      "value" : "(Binary data 7 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "Software 1.0"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2026:11:14 10:00:00"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "Artist"
+    },
+    {
+      "key" : "IFD0:HostComputer",
+      "value" : "Host"
+    },
+    {
+      "key" : "IFD0:Predictor",
+      "value" : "None"
+    },
+    {
+      "key" : "IFD0:WhitePoint",
+      "value" : "0.313 0.329"
+    },
+    {
+      "key" : "IFD0:PrimaryChromaticities",
+      "value" : "0.64 0.33 0.3 0.6 0.15 0.06"
+    },
+    {
+      "key" : "IFD0:ColorMap",
+      "value" : "(Binary data 12 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:HalftoneHints",
+      "value" : "10 245"
+    },
+    {
+      "key" : "IFD0:TileWidth",
+      "value" : 256
+    },
+    {
+      "key" : "IFD0:TileLength",
+      "value" : 256
+    },
+    {
+      "key" : "IFD0:TileOffsets",
+      "value" : "3000 4000"
+    },
+    {
+      "key" : "IFD0:TileByteCounts",
+      "value" : "100 200"
+    },
+    {
+      "key" : "IFD0:InkSet",
+      "value" : "CMYK"
+    },
+    {
+      "key" : "IFD0:InkNames",
+      "value" : "Cyan"
+    },
+    {
+      "key" : "IFD0:NumberofInks",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:DotRange",
+      "value" : "0 255"
+    },
+    {
+      "key" : "IFD0:TargetPrinter",
+      "value" : "Printer"
+    },
+    {
+      "key" : "IFD0:ExtraSamples",
+      "value" : "Associated Alpha"
+    },
+    {
+      "key" : "IFD0:SampleFormat",
+      "value" : "Unsigned; Unsigned; Unsigned"
+    },
+    {
+      "key" : "IFD0:SMinSampleValue",
+      "value" : "0 0 0"
+    },
+    {
+      "key" : "IFD0:SMaxSampleValue",
+      "value" : "255 255 255"
+    },
+    {
+      "key" : "IFD0:TransferRange",
+      "value" : "0 255 0 255 0 255"
+    },
+    {
+      "key" : "IFD0:JPEGProc",
+      "value" : "Baseline"
+    },
+    {
+      "key" : "IFD0:OtherImageStart",
+      "value" : 5000
+    },
+    {
+      "key" : "IFD0:OtherImageLength",
+      "value" : 6000
+    },
+    {
+      "key" : "IFD0:JPEGRestartInterval",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:JPEGLosslessPredictors",
+      "value" : "1 1 1"
+    },
+    {
+      "key" : "IFD0:JPEGPointTransforms",
+      "value" : "0 0 0"
+    },
+    {
+      "key" : "IFD0:JPEGQTables",
+      "value" : "7000 7100 7200"
+    },
+    {
+      "key" : "IFD0:JPEGDCTables",
+      "value" : "7300 7400 7500"
+    },
+    {
+      "key" : "IFD0:JPEGACTables",
+      "value" : "7600 7700 7800"
+    },
+    {
+      "key" : "IFD0:YCbCrCoefficients",
+      "value" : "0.299 0.587 0.114"
+    },
+    {
+      "key" : "IFD0:YCbCrSubSampling",
+      "value" : "YCbCr4:2:2 (2 1)"
+    },
+    {
+      "key" : "IFD0:YCbCrPositioning",
+      "value" : "Centered"
+    },
+    {
+      "key" : "IFD0:ReferenceBlackWhite",
+      "value" : "0 255 128 255 128 255"
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "Copyright"
+    },
+    {
+      "key" : "IFD0:OtherImage",
+      "value" : "(Binary data 6000 bytes, use -b option to extract)"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-all-tags",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "File:PageCount",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:OldSubfileType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 640
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 480
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : "8 8 8"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:PhotometricInterpretation",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:Thresholding",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:CellWidth",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:CellLength",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:FillOrder",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:DocumentName",
+      "value" : "Document"
+    },
+    {
+      "key" : "IFD0:ImageDescription",
+      "value" : "Description"
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Make"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "Model"
+    },
+    {
+      "key" : "IFD0:StripOffsets",
+      "value" : "1000 2000"
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:SamplesPerPixel",
+      "value" : 3
+    },
+    {
+      "key" : "IFD0:RowsPerStrip",
+      "value" : 64
+    },
+    {
+      "key" : "IFD0:StripByteCounts",
+      "value" : "500 600"
+    },
+    {
+      "key" : "IFD0:MinSampleValue",
+      "value" : "0 0 0"
+    },
+    {
+      "key" : "IFD0:MaxSampleValue",
+      "value" : "255 255 255"
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:YResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:PlanarConfiguration",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:PageName",
+      "value" : "Page"
+    },
+    {
+      "key" : "IFD0:XPosition",
+      "value" : 0.5
+    },
+    {
+      "key" : "IFD0:YPosition",
+      "value" : 0.75
+    },
+    {
+      "key" : "IFD0:FreeOffsets",
+      "value" : 4096
+    },
+    {
+      "key" : "IFD0:FreeByteCounts",
+      "value" : 128
+    },
+    {
+      "key" : "IFD0:GrayResponseUnit",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:GrayResponseCurve",
+      "value" : "(Binary data 13 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:T4Options",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:T6Options",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:PageNumber",
+      "value" : "1 3"
+    },
+    {
+      "key" : "IFD0:TransferFunction",
+      "value" : "(Binary data 7 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "Software 1.0"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2026:11:14 10:00:00"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "Artist"
+    },
+    {
+      "key" : "IFD0:HostComputer",
+      "value" : "Host"
+    },
+    {
+      "key" : "IFD0:Predictor",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:WhitePoint",
+      "value" : "0.313 0.329"
+    },
+    {
+      "key" : "IFD0:PrimaryChromaticities",
+      "value" : "0.64 0.33 0.3 0.6 0.15 0.06"
+    },
+    {
+      "key" : "IFD0:ColorMap",
+      "value" : "(Binary data 12 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:HalftoneHints",
+      "value" : "10 245"
+    },
+    {
+      "key" : "IFD0:TileWidth",
+      "value" : 256
+    },
+    {
+      "key" : "IFD0:TileLength",
+      "value" : 256
+    },
+    {
+      "key" : "IFD0:TileOffsets",
+      "value" : "3000 4000"
+    },
+    {
+      "key" : "IFD0:TileByteCounts",
+      "value" : "100 200"
+    },
+    {
+      "key" : "IFD0:InkSet",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:InkNames",
+      "value" : "Cyan"
+    },
+    {
+      "key" : "IFD0:NumberofInks",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:DotRange",
+      "value" : "0 255"
+    },
+    {
+      "key" : "IFD0:TargetPrinter",
+      "value" : "Printer"
+    },
+    {
+      "key" : "IFD0:ExtraSamples",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:SampleFormat",
+      "value" : "1 1 1"
+    },
+    {
+      "key" : "IFD0:SMinSampleValue",
+      "value" : "0 0 0"
+    },
+    {
+      "key" : "IFD0:SMaxSampleValue",
+      "value" : "255 255 255"
+    },
+    {
+      "key" : "IFD0:TransferRange",
+      "value" : "0 255 0 255 0 255"
+    },
+    {
+      "key" : "IFD0:JPEGProc",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:OtherImageStart",
+      "value" : 5000
+    },
+    {
+      "key" : "IFD0:OtherImageLength",
+      "value" : 6000
+    },
+    {
+      "key" : "IFD0:JPEGRestartInterval",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:JPEGLosslessPredictors",
+      "value" : "1 1 1"
+    },
+    {
+      "key" : "IFD0:JPEGPointTransforms",
+      "value" : "0 0 0"
+    },
+    {
+      "key" : "IFD0:JPEGQTables",
+      "value" : "7000 7100 7200"
+    },
+    {
+      "key" : "IFD0:JPEGDCTables",
+      "value" : "7300 7400 7500"
+    },
+    {
+      "key" : "IFD0:JPEGACTables",
+      "value" : "7600 7700 7800"
+    },
+    {
+      "key" : "IFD0:YCbCrCoefficients",
+      "value" : "0.299 0.587 0.114"
+    },
+    {
+      "key" : "IFD0:YCbCrSubSampling",
+      "value" : "2 1"
+    },
+    {
+      "key" : "IFD0:YCbCrPositioning",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:ReferenceBlackWhite",
+      "value" : "0 255 128 255 128 255"
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "Copyright"
+    },
+    {
+      "key" : "IFD0:OtherImage",
+      "value" : "(Binary data 6000 bytes, use -b option to extract)"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 74 entries]",
+    "  | 0)  SubfileType = 0",
+    "  |     - Tag 0x00fe (4 bytes, int32u[1])",
+    "  | 1)  OldSubfileType = 1",
+    "  |     - Tag 0x00ff (2 bytes, int16u[1])",
+    "  | 2)  ImageWidth = 640",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 3)  ImageHeight = 480",
+    "  |     - Tag 0x0101 (2 bytes, int16u[1])",
+    "  | 4)  BitsPerSample = 8 8 8",
+    "  |     - Tag 0x0102 (6 bytes, int16u[3])",
+    "  | 5)  Compression = 1",
+    "  |     - Tag 0x0103 (2 bytes, int16u[1])",
+    "  | 6)  PhotometricInterpretation = 2",
+    "  |     - Tag 0x0106 (2 bytes, int16u[1])",
+    "  | 7)  Thresholding = 1",
+    "  |     - Tag 0x0107 (2 bytes, int16u[1])",
+    "  | 8)  CellWidth = 4",
+    "  |     - Tag 0x0108 (2 bytes, int16u[1])",
+    "  | 9)  CellLength = 4",
+    "  |     - Tag 0x0109 (2 bytes, int16u[1])",
+    "  | 10) FillOrder = 1",
+    "  |     - Tag 0x010a (2 bytes, int16u[1])",
+    "  | 11) DocumentName = Document",
+    "  |     - Tag 0x010d (9 bytes, string[9])",
+    "  | 12) ImageDescription = Description",
+    "  |     - Tag 0x010e (12 bytes, string[12])",
+    "  | 13) Make = Make",
+    "  |     - Tag 0x010f (5 bytes, string[5])",
+    "  | 14) Model = Model",
+    "  |     - Tag 0x0110 (6 bytes, string[6])",
+    "  | 15) StripOffsets = 1000 2000",
+    "  |     - Tag 0x0111 (8 bytes, int32u[2])",
+    "  | 16) Orientation = 1",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  | 17) SamplesPerPixel = 3",
+    "  |     - Tag 0x0115 (2 bytes, int16u[1])",
+    "  | 18) RowsPerStrip = 64",
+    "  |     - Tag 0x0116 (4 bytes, int32u[1])",
+    "  | 19) StripByteCounts = 500 600",
+    "  |     - Tag 0x0117 (8 bytes, int32u[2])",
+    "  | 20) MinSampleValue = 0 0 0",
+    "  |     - Tag 0x0118 (6 bytes, int16u[3])",
+    "  | 21) MaxSampleValue = 255 255 255",
+    "  |     - Tag 0x0119 (6 bytes, int16u[3])",
+    "  | 22) XResolution = 72 (72/1)",
+    "  |     - Tag 0x011a (8 bytes, rational64u[1])",
+    "  | 23) YResolution = 72 (72/1)",
+    "  |     - Tag 0x011b (8 bytes, rational64u[1])",
+    "  | 24) PlanarConfiguration = 1",
+    "  |     - Tag 0x011c (2 bytes, int16u[1])",
+    "  | 25) PageName = Page",
+    "  |     - Tag 0x011d (5 bytes, string[5])",
+    "  | 26) XPosition = 0.5 (1/2)",
+    "  |     - Tag 0x011e (8 bytes, rational64u[1])",
+    "  | 27) YPosition = 0.75 (3/4)",
+    "  |     - Tag 0x011f (8 bytes, rational64u[1])",
+    "  | 28) FreeOffsets = 4096",
+    "  |     - Tag 0x0120 (4 bytes, int32u[1])",
+    "  | 29) FreeByteCounts = 128",
+    "  |     - Tag 0x0121 (4 bytes, int32u[1])",
+    "  | 30) GrayResponseUnit = 2",
+    "  |     - Tag 0x0122 (2 bytes, int16u[1])",
+    "  | 31) GrayResponseCurve = 0 100 200 300",
+    "  |     - Tag 0x0123 (8 bytes, int16u[4])",
+    "  | 32) T4Options = 0",
+    "  |     - Tag 0x0124 (4 bytes, int32u[1])",
+    "  | 33) T6Options = 0",
+    "  |     - Tag 0x0125 (4 bytes, int32u[1])",
+    "  | 34) ResolutionUnit = 2",
+    "  |     - Tag 0x0128 (2 bytes, int16u[1])",
+    "  | 35) PageNumber = 1 3",
+    "  |     - Tag 0x0129 (4 bytes, int16u[2])",
+    "  | 36) TransferFunction = 0 1 2 3",
+    "  |     - Tag 0x012d (8 bytes, int16u[4])",
+    "  | 37) Software = Software 1.0",
+    "  |     - Tag 0x0131 (13 bytes, string[13])",
+    "  | 38) ModifyDate = 2026:11:14 10:00:00",
+    "  |     - Tag 0x0132 (20 bytes, string[20])",
+    "  | 39) Artist = Artist",
+    "  |     - Tag 0x013b (7 bytes, string[7])",
+    "  | 40) HostComputer = Host",
+    "  |     - Tag 0x013c (5 bytes, string[5])",
+    "  | 41) Predictor = 1",
+    "  |     - Tag 0x013d (2 bytes, int16u[1])",
+    "  | 42) WhitePoint = 0.313 0.329 (313/1000 329/1000)",
+    "  |     - Tag 0x013e (16 bytes, rational64u[2])",
+    "  | 43) PrimaryChromaticities = 0.64 0.33 0.3 0.6 0.15 0.06 (64/100 33/100 30/100 60/10[snip]",
+    "  |     - Tag 0x013f (48 bytes, rational64u[6])",
+    "  | 44) ColorMap = .....",
+    "  |     - Tag 0x0140 (12 bytes, int16u[6] read as undef[12])",
+    "  | 45) HalftoneHints = 10 245",
+    "  |     - Tag 0x0141 (4 bytes, int16u[2])",
+    "  | 46) TileWidth = 256",
+    "  |     - Tag 0x0142 (4 bytes, int32u[1])",
+    "  | 47) TileLength = 256",
+    "  |     - Tag 0x0143 (4 bytes, int32u[1])",
+    "  | 48) TileOffsets = 3000 4000",
+    "  |     - Tag 0x0144 (8 bytes, int32u[2])",
+    "  | 49) TileByteCounts = 100 200",
+    "  |     - Tag 0x0145 (8 bytes, int32u[2])",
+    "  | 50) InkSet = 1",
+    "  |     - Tag 0x014c (2 bytes, int16u[1])",
+    "  | 51) InkNames = Cyan",
+    "  |     - Tag 0x014d (5 bytes, string[5])",
+    "  | 52) NumberofInks = 4",
+    "  |     - Tag 0x014e (2 bytes, int16u[1])",
+    "  | 53) DotRange = 0 255",
+    "  |     - Tag 0x0150 (4 bytes, int16u[2])",
+    "  | 54) TargetPrinter = Printer",
+    "  |     - Tag 0x0151 (8 bytes, string[8])",
+    "  | 55) ExtraSamples = 1",
+    "  |     - Tag 0x0152 (2 bytes, int16u[1])",
+    "  | 56) SampleFormat = 1 1 1",
+    "  |     - Tag 0x0153 (6 bytes, int16u[3])",
+    "  | 57) SMinSampleValue = 0 0 0",
+    "  |     - Tag 0x0154 (6 bytes, int16u[3])",
+    "  | 58) SMaxSampleValue = 255 255 255",
+    "  |     - Tag 0x0155 (6 bytes, int16u[3])",
+    "  | 59) TransferRange = 0 255 0 255 0 255",
+    "  |     - Tag 0x0156 (12 bytes, int16u[6])",
+    "  | 60) JPEGProc = 1",
+    "  |     - Tag 0x0200 (2 bytes, int16u[1])",
+    "  | 61) OtherImageStart = 5000",
+    "  |     - Tag 0x0201 (4 bytes, int32u[1])",
+    "  | 62) OtherImageLength = 6000",
+    "  |     - Tag 0x0202 (4 bytes, int32u[1])",
+    "  | 63) JPEGRestartInterval = 0",
+    "  |     - Tag 0x0203 (2 bytes, int16u[1])",
+    "  | 64) JPEGLosslessPredictors = 1 1 1",
+    "  |     - Tag 0x0205 (6 bytes, int16u[3])",
+    "  | 65) JPEGPointTransforms = 0 0 0",
+    "  |     - Tag 0x0206 (6 bytes, int16u[3])",
+    "  | 66) JPEGQTables = 7000 7100 7200",
+    "  |     - Tag 0x0207 (12 bytes, int32u[3])",
+    "  | 67) JPEGDCTables = 7300 7400 7500",
+    "  |     - Tag 0x0208 (12 bytes, int32u[3])",
+    "  | 68) JPEGACTables = 7600 7700 7800",
+    "  |     - Tag 0x0209 (12 bytes, int32u[3])",
+    "  | 69) YCbCrCoefficients = 0.299 0.587 0.114 (299/1000 587/1000 114/1000)",
+    "  |     - Tag 0x0211 (24 bytes, rational64u[3])",
+    "  | 70) YCbCrSubSampling = 2 1",
+    "  |     - Tag 0x0212 (4 bytes, int16u[2])",
+    "  | 71) YCbCrPositioning = 1",
+    "  |     - Tag 0x0213 (2 bytes, int16u[1])",
+    "  | 72) ReferenceBlackWhite = 0 255 128 255 128 255",
+    "  |     - Tag 0x0214 (24 bytes, int32u[6])",
+    "  | 73) Copyright = Copyright",
+    "  |     - Tag 0x8298 (10 bytes, string[10] read as undef[10])",
+    "  PageCount = 2",
+    "  Warning = Error reading OtherImage from file"
+  ]
+}

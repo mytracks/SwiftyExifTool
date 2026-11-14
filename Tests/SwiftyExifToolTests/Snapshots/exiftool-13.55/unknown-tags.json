@@ -1,0 +1,98 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:Exif_0xc0de",
+      "value" : 7
+    },
+    {
+      "key" : "InteropIFD:Exif_0x0077",
+      "value" : 9
+    },
+    {
+      "key" : "GPS:GPS_0x0077",
+      "value" : 9
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "unknown-tags",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:Exif_0xc0de",
+      "value" : 7
+    },
+    {
+      "key" : "InteropIFD:Exif_0x0077",
+      "value" : 9
+    },
+    {
+      "key" : "GPS:GPS_0x0077",
+      "value" : 9
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 4 entries]",
+    "  | 0)  ImageWidth = 10",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 1)  Exif_0xc0de = 7",
+    "  |     - Tag 0xc0de (2 bytes, int16u[1])",
+    "  | Warning = Tag ID 0x8769 ExifOffset out of sequence in IFD0",
+    "  | 2)  ExifOffset (SubDirectory) -->",
+    "  |     - Tag 0x8769 (4 bytes, int32u[1])",
+    "  | + [ExifIFD directory with 1 entries]",
+    "  | | 0)  InteropOffset (SubDirectory) -->",
+    "  | |     - Tag 0xa005 (4 bytes, int32u[1])",
+    "  | | + [InteropIFD directory with 1 entries]",
+    "  | | | 0)  Exif_0x0077 = 9",
+    "  | | |     - Tag 0x0077 (2 bytes, int16u[1])",
+    "  | 3)  GPSInfo (SubDirectory) -->",
+    "  |     - Tag 0x8825 (4 bytes, int32u[1])",
+    "  | + [GPS directory with 1 entries]",
+    "  | | 0)  GPS_0x0077 = 9",
+    "  | |     - Tag 0x0077 (2 bytes, int16u[1])"
+  ]
+}

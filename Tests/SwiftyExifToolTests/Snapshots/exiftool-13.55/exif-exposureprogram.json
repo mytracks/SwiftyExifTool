@@ -1,0 +1,146 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ExposureProgram",
+      "value" : "Not Defined"
+    },
+    {
+      "key" : "IFD1:ExposureProgram",
+      "value" : "Manual"
+    },
+    {
+      "key" : "IFD2:ExposureProgram",
+      "value" : "Program AE"
+    },
+    {
+      "key" : "IFD3:ExposureProgram",
+      "value" : "Aperture-priority AE"
+    },
+    {
+      "key" : "IFD4:ExposureProgram",
+      "value" : "Shutter speed priority AE"
+    },
+    {
+      "key" : "IFD5:ExposureProgram",
+      "value" : "Creative (Slow speed)"
+    },
+    {
+      "key" : "IFD6:ExposureProgram",
+      "value" : "Action (High speed)"
+    },
+    {
+      "key" : "IFD7:ExposureProgram",
+      "value" : "Portrait"
+    },
+    {
+      "key" : "IFD8:ExposureProgram",
+      "value" : "Landscape"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-exposureprogram",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ExposureProgram",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:ExposureProgram",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:ExposureProgram",
+      "value" : 2
+    },
+    {
+      "key" : "IFD3:ExposureProgram",
+      "value" : 3
+    },
+    {
+      "key" : "IFD4:ExposureProgram",
+      "value" : 4
+    },
+    {
+      "key" : "IFD5:ExposureProgram",
+      "value" : 5
+    },
+    {
+      "key" : "IFD6:ExposureProgram",
+      "value" : 6
+    },
+    {
+      "key" : "IFD7:ExposureProgram",
+      "value" : 7
+    },
+    {
+      "key" : "IFD8:ExposureProgram",
+      "value" : 8
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 0",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 1",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 2",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 3",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 4",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 5",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 6",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 7",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  + [IFD8 directory with 1 entries]",
+    "  | 0)  ExposureProgram = 8",
+    "  |     - Tag 0x8822 (2 bytes, int16u[1])"
+  ]
+}

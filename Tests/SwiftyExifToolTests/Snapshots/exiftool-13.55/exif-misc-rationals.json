@@ -1,0 +1,169 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:CompressedBitsPerPixel",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:FlashEnergy",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:FocalPlaneXResolution",
+      "value" : 4000
+    },
+    {
+      "key" : "IFD0:FocalPlaneYResolution",
+      "value" : 3000
+    },
+    {
+      "key" : "IFD0:ExposureIndex",
+      "value" : 200
+    },
+    {
+      "key" : "IFD0:Gamma",
+      "value" : 2.2000000000000002
+    },
+    {
+      "key" : "IFD1:CompressedBitsPerPixel",
+      "value" : 0.33333333329999998
+    },
+    {
+      "key" : "IFD1:FlashEnergy",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:FocalPlaneXResolution",
+      "value" : 3333.333333
+    },
+    {
+      "key" : "IFD1:FocalPlaneYResolution",
+      "value" : "inf"
+    },
+    {
+      "key" : "IFD1:ExposureIndex",
+      "value" : 12.5
+    },
+    {
+      "key" : "IFD1:Gamma",
+      "value" : 1
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-misc-rationals",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:CompressedBitsPerPixel",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:FlashEnergy",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:FocalPlaneXResolution",
+      "value" : 4000
+    },
+    {
+      "key" : "IFD0:FocalPlaneYResolution",
+      "value" : 3000
+    },
+    {
+      "key" : "IFD0:ExposureIndex",
+      "value" : 200
+    },
+    {
+      "key" : "IFD0:Gamma",
+      "value" : 2.2000000000000002
+    },
+    {
+      "key" : "IFD1:CompressedBitsPerPixel",
+      "value" : 0.33333333329999998
+    },
+    {
+      "key" : "IFD1:FlashEnergy",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:FocalPlaneXResolution",
+      "value" : 3333.333333
+    },
+    {
+      "key" : "IFD1:FocalPlaneYResolution",
+      "value" : "inf"
+    },
+    {
+      "key" : "IFD1:ExposureIndex",
+      "value" : 12.5
+    },
+    {
+      "key" : "IFD1:Gamma",
+      "value" : 1
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 6 entries]",
+    "  | 0)  CompressedBitsPerPixel = 4 (4/1)",
+    "  |     - Tag 0x9102 (8 bytes, rational64u[1])",
+    "  | 1)  FlashEnergy = 10 (10/1)",
+    "  |     - Tag 0xa20b (8 bytes, rational64u[1])",
+    "  | 2)  FocalPlaneXResolution = 4000 (4000/1)",
+    "  |     - Tag 0xa20e (8 bytes, rational64u[1])",
+    "  | 3)  FocalPlaneYResolution = 3000 (3000/1)",
+    "  |     - Tag 0xa20f (8 bytes, rational64u[1])",
+    "  | 4)  ExposureIndex = 200 (200/1)",
+    "  |     - Tag 0xa215 (8 bytes, rational64u[1])",
+    "  | 5)  Gamma = 2.2 (22/10)",
+    "  |     - Tag 0xa500 (8 bytes, rational64u[1])",
+    "  + [IFD1 directory with 6 entries]",
+    "  | 0)  CompressedBitsPerPixel = 0.3333333333 (1/3)",
+    "  |     - Tag 0x9102 (8 bytes, rational64u[1])",
+    "  | 1)  FlashEnergy = 0 (0/1)",
+    "  |     - Tag 0xa20b (8 bytes, rational64u[1])",
+    "  | 2)  FocalPlaneXResolution = 3333.333333 (10000/3)",
+    "  |     - Tag 0xa20e (8 bytes, rational64u[1])",
+    "  | 3)  FocalPlaneYResolution = inf (1/0)",
+    "  |     - Tag 0xa20f (8 bytes, rational64u[1])",
+    "  | 4)  ExposureIndex = 12.5 (125/10)",
+    "  |     - Tag 0xa215 (8 bytes, rational64u[1])",
+    "  | 5)  Gamma = 1 (1/1)",
+    "  |     - Tag 0xa500 (8 bytes, rational64u[1])"
+  ]
+}
