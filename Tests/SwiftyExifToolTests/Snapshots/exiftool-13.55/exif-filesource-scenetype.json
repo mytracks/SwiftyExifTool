@@ -1,0 +1,131 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:FileSource",
+      "value" : "Unknown (0)"
+    },
+    {
+      "key" : "IFD0:SceneType",
+      "value" : "Directly photographed"
+    },
+    {
+      "key" : "IFD1:FileSource",
+      "value" : "Film Scanner"
+    },
+    {
+      "key" : "IFD1:SceneType",
+      "value" : "Directly photographed"
+    },
+    {
+      "key" : "IFD2:FileSource",
+      "value" : "Reflection Print Scanner"
+    },
+    {
+      "key" : "IFD2:SceneType",
+      "value" : "Directly photographed"
+    },
+    {
+      "key" : "IFD3:FileSource",
+      "value" : "Digital Camera"
+    },
+    {
+      "key" : "IFD3:SceneType",
+      "value" : "Directly photographed"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-filesource-scenetype",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:FileSource",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:SceneType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:FileSource",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:SceneType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:FileSource",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:SceneType",
+      "value" : 1
+    },
+    {
+      "key" : "IFD3:FileSource",
+      "value" : 3
+    },
+    {
+      "key" : "IFD3:SceneType",
+      "value" : 1
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 2 entries]",
+    "  | 0)  FileSource = 0",
+    "  |     - Tag 0xa300 (1 bytes, undef[1])",
+    "  | 1)  SceneType = 1",
+    "  |     - Tag 0xa301 (1 bytes, undef[1])",
+    "  + [IFD1 directory with 2 entries]",
+    "  | 0)  FileSource = 1",
+    "  |     - Tag 0xa300 (1 bytes, undef[1])",
+    "  | 1)  SceneType = 1",
+    "  |     - Tag 0xa301 (1 bytes, undef[1])",
+    "  + [IFD2 directory with 2 entries]",
+    "  | 0)  FileSource = 2",
+    "  |     - Tag 0xa300 (1 bytes, undef[1])",
+    "  | 1)  SceneType = 1",
+    "  |     - Tag 0xa301 (1 bytes, undef[1])",
+    "  + [IFD3 directory with 2 entries]",
+    "  | 0)  FileSource = 3",
+    "  |     - Tag 0xa300 (1 bytes, undef[1])",
+    "  | 1)  SceneType = 1",
+    "  |     - Tag 0xa301 (1 bytes, undef[1])"
+  ]
+}

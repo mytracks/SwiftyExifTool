@@ -1,0 +1,181 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "South"
+    },
+    {
+      "key" : "GPS:GPSLongitudeRef",
+      "value" : "West"
+    },
+    {
+      "key" : "GPS:GPSAltitudeRef",
+      "value" : "Below Sea Level"
+    },
+    {
+      "key" : "GPS:GPSStatus",
+      "value" : "Measurement Void"
+    },
+    {
+      "key" : "GPS:GPSMeasureMode",
+      "value" : "2-Dimensional Measurement"
+    },
+    {
+      "key" : "GPS:GPSSpeedRef",
+      "value" : "mph"
+    },
+    {
+      "key" : "GPS:GPSTrackRef",
+      "value" : "Magnetic North"
+    },
+    {
+      "key" : "GPS:GPSImgDirectionRef",
+      "value" : "True North"
+    },
+    {
+      "key" : "GPS:GPSDestLatitudeRef",
+      "value" : "North"
+    },
+    {
+      "key" : "GPS:GPSDestLongitudeRef",
+      "value" : "East"
+    },
+    {
+      "key" : "GPS:GPSDestBearingRef",
+      "value" : "Magnetic North"
+    },
+    {
+      "key" : "GPS:GPSDestDistanceRef",
+      "value" : "Kilometers"
+    },
+    {
+      "key" : "GPS:GPSDifferential",
+      "value" : "No Correction"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "gps-refs-1",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "S"
+    },
+    {
+      "key" : "GPS:GPSLongitudeRef",
+      "value" : "W"
+    },
+    {
+      "key" : "GPS:GPSAltitudeRef",
+      "value" : 1
+    },
+    {
+      "key" : "GPS:GPSStatus",
+      "value" : "V"
+    },
+    {
+      "key" : "GPS:GPSMeasureMode",
+      "value" : 2
+    },
+    {
+      "key" : "GPS:GPSSpeedRef",
+      "value" : "M"
+    },
+    {
+      "key" : "GPS:GPSTrackRef",
+      "value" : "M"
+    },
+    {
+      "key" : "GPS:GPSImgDirectionRef",
+      "value" : "T"
+    },
+    {
+      "key" : "GPS:GPSDestLatitudeRef",
+      "value" : "N"
+    },
+    {
+      "key" : "GPS:GPSDestLongitudeRef",
+      "value" : "E"
+    },
+    {
+      "key" : "GPS:GPSDestBearingRef",
+      "value" : "M"
+    },
+    {
+      "key" : "GPS:GPSDestDistanceRef",
+      "value" : "K"
+    },
+    {
+      "key" : "GPS:GPSDifferential",
+      "value" : 0
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  GPSInfo (SubDirectory) -->",
+    "  |     - Tag 0x8825 (4 bytes, int32u[1])",
+    "  | + [GPS directory with 13 entries]",
+    "  | | 0)  GPSLatitudeRef = S",
+    "  | |     - Tag 0x0001 (2 bytes, string[2])",
+    "  | | 1)  GPSLongitudeRef = W",
+    "  | |     - Tag 0x0003 (2 bytes, string[2])",
+    "  | | 2)  GPSAltitudeRef = 1",
+    "  | |     - Tag 0x0005 (1 bytes, int8u[1])",
+    "  | | 3)  GPSStatus = V",
+    "  | |     - Tag 0x0009 (2 bytes, string[2])",
+    "  | | 4)  GPSMeasureMode = 2",
+    "  | |     - Tag 0x000a (2 bytes, string[2])",
+    "  | | 5)  GPSSpeedRef = M",
+    "  | |     - Tag 0x000c (2 bytes, string[2])",
+    "  | | 6)  GPSTrackRef = M",
+    "  | |     - Tag 0x000e (2 bytes, string[2])",
+    "  | | 7)  GPSImgDirectionRef = T",
+    "  | |     - Tag 0x0010 (2 bytes, string[2])",
+    "  | | 8)  GPSDestLatitudeRef = N",
+    "  | |     - Tag 0x0013 (2 bytes, string[2])",
+    "  | | 9)  GPSDestLongitudeRef = E",
+    "  | |     - Tag 0x0015 (2 bytes, string[2])",
+    "  | | 10) GPSDestBearingRef = M",
+    "  | |     - Tag 0x0017 (2 bytes, string[2])",
+    "  | | 11) GPSDestDistanceRef = K",
+    "  | |     - Tag 0x0019 (2 bytes, string[2])",
+    "  | | 12) GPSDifferential = 0",
+    "  | |     - Tag 0x001e (2 bytes, int16u[1])"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "InteropIFD:InteropIndex",
+      "value" : "R98 - DCF basic file (sRGB)"
+    },
+    {
+      "key" : "IFD1:InteropIndex",
+      "value" : "THM - DCF thumbnail file"
+    },
+    {
+      "key" : "IFD2:InteropIndex",
+      "value" : "R03 - DCF option file (Adobe RGB)"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "interop-index",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "InteropIFD:InteropIndex",
+      "value" : "R98"
+    },
+    {
+      "key" : "IFD1:InteropIndex",
+      "value" : "THM"
+    },
+    {
+      "key" : "IFD2:InteropIndex",
+      "value" : "R03"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  ExifOffset (SubDirectory) -->",
+    "  |     - Tag 0x8769 (4 bytes, int32u[1])",
+    "  | + [ExifIFD directory with 1 entries]",
+    "  | | 0)  InteropOffset (SubDirectory) -->",
+    "  | |     - Tag 0xa005 (4 bytes, int32u[1])",
+    "  | | + [InteropIFD directory with 1 entries]",
+    "  | | | 0)  InteropIndex = R98",
+    "  | | |     - Tag 0x0001 (4 bytes, string[4])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  InteropIndex = THM",
+    "  |     - Tag 0x0001 (4 bytes, string[4])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  InteropIndex = R03",
+    "  |     - Tag 0x0001 (4 bytes, string[4])"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:Exif_0xf001",
+      "value" : "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ[...]"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "large-undefined",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:Exif_0xf001",
+      "value" : "<snapshot: string of 1048576 characters omitted>"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 2 entries]",
+    "  | 0)  ImageWidth = 10",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 1)  Exif_0xf001 = ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ[snip]",
+    "  |     - Tag 0xf001 (1048576 bytes, undef[1048576])"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "ExifTool:Warning",
+      "value" : "IFD2 pointer references previous IFD1 directory"
+    },
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : "Horizontal (normal)"
+    },
+    {
+      "key" : "IFD1:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD1:Orientation",
+      "value" : "Horizontal (normal)"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "self-linked-ifd0",
+  "raw" : [
+    {
+      "key" : "ExifTool:Warning",
+      "value" : "IFD2 pointer references previous IFD1 directory"
+    },
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:ImageWidth",
+      "value" : 10
+    },
+    {
+      "key" : "IFD1:Orientation",
+      "value" : 1
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 2 entries]",
+    "  | 0)  ImageWidth = 10",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 1)  Orientation = 1",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 2 entries]",
+    "  | 0)  ImageWidth = 10",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 1)  Orientation = 1",
+    "  |     - Tag 0x0112 (2 bytes, int16u[1])",
+    "  Warning = IFD2 pointer references previous IFD1 directory"
+  ]
+}

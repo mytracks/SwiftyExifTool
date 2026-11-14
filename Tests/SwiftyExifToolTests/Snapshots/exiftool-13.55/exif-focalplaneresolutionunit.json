@@ -1,0 +1,80 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:FocalPlaneResolutionUnit",
+      "value" : "None"
+    },
+    {
+      "key" : "IFD1:FocalPlaneResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "IFD2:FocalPlaneResolutionUnit",
+      "value" : "cm"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-focalplaneresolutionunit",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:FocalPlaneResolutionUnit",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:FocalPlaneResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:FocalPlaneResolutionUnit",
+      "value" : 3
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  FocalPlaneResolutionUnit = 1",
+    "  |     - Tag 0xa210 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  FocalPlaneResolutionUnit = 2",
+    "  |     - Tag 0xa210 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  FocalPlaneResolutionUnit = 3",
+    "  |     - Tag 0xa210 (2 bytes, int16u[1])"
+  ]
+}

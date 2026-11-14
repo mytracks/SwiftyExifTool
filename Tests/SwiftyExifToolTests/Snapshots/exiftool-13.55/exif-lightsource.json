@@ -1,0 +1,399 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:LightSource",
+      "value" : "Unknown"
+    },
+    {
+      "key" : "IFD1:LightSource",
+      "value" : "Daylight"
+    },
+    {
+      "key" : "IFD2:LightSource",
+      "value" : "Fluorescent"
+    },
+    {
+      "key" : "IFD3:LightSource",
+      "value" : "Tungsten (Incandescent)"
+    },
+    {
+      "key" : "IFD4:LightSource",
+      "value" : "Flash"
+    },
+    {
+      "key" : "IFD5:LightSource",
+      "value" : "Fine Weather"
+    },
+    {
+      "key" : "IFD6:LightSource",
+      "value" : "Cloudy"
+    },
+    {
+      "key" : "IFD7:LightSource",
+      "value" : "Shade"
+    },
+    {
+      "key" : "IFD8:LightSource",
+      "value" : "Daylight Fluorescent"
+    },
+    {
+      "key" : "IFD9:LightSource",
+      "value" : "Day White Fluorescent"
+    },
+    {
+      "key" : "IFD10:LightSource",
+      "value" : "Cool White Fluorescent"
+    },
+    {
+      "key" : "IFD11:LightSource",
+      "value" : "White Fluorescent"
+    },
+    {
+      "key" : "IFD12:LightSource",
+      "value" : "Warm White Fluorescent"
+    },
+    {
+      "key" : "IFD13:LightSource",
+      "value" : "Standard Light A"
+    },
+    {
+      "key" : "IFD14:LightSource",
+      "value" : "Standard Light B"
+    },
+    {
+      "key" : "IFD15:LightSource",
+      "value" : "Standard Light C"
+    },
+    {
+      "key" : "IFD16:LightSource",
+      "value" : "D55"
+    },
+    {
+      "key" : "IFD17:LightSource",
+      "value" : "D65"
+    },
+    {
+      "key" : "IFD18:LightSource",
+      "value" : "D75"
+    },
+    {
+      "key" : "IFD19:LightSource",
+      "value" : "D50"
+    },
+    {
+      "key" : "IFD20:LightSource",
+      "value" : "ISO Studio Tungsten"
+    },
+    {
+      "key" : "IFD21:LightSource",
+      "value" : "Unknown (25)"
+    },
+    {
+      "key" : "IFD22:LightSource",
+      "value" : "Unknown (26)"
+    },
+    {
+      "key" : "IFD23:LightSource",
+      "value" : "Unknown (27)"
+    },
+    {
+      "key" : "IFD24:LightSource",
+      "value" : "Unknown (28)"
+    },
+    {
+      "key" : "IFD25:LightSource",
+      "value" : "Unknown (29)"
+    },
+    {
+      "key" : "IFD26:LightSource",
+      "value" : "Unknown (30)"
+    },
+    {
+      "key" : "IFD27:LightSource",
+      "value" : "Unknown (31)"
+    },
+    {
+      "key" : "IFD28:LightSource",
+      "value" : "Unknown (32)"
+    },
+    {
+      "key" : "IFD29:LightSource",
+      "value" : "Unknown (33)"
+    },
+    {
+      "key" : "IFD30:LightSource",
+      "value" : "Unknown (34)"
+    },
+    {
+      "key" : "IFD31:LightSource",
+      "value" : "Other"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-lightsource",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:LightSource",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:LightSource",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:LightSource",
+      "value" : 2
+    },
+    {
+      "key" : "IFD3:LightSource",
+      "value" : 3
+    },
+    {
+      "key" : "IFD4:LightSource",
+      "value" : 4
+    },
+    {
+      "key" : "IFD5:LightSource",
+      "value" : 9
+    },
+    {
+      "key" : "IFD6:LightSource",
+      "value" : 10
+    },
+    {
+      "key" : "IFD7:LightSource",
+      "value" : 11
+    },
+    {
+      "key" : "IFD8:LightSource",
+      "value" : 12
+    },
+    {
+      "key" : "IFD9:LightSource",
+      "value" : 13
+    },
+    {
+      "key" : "IFD10:LightSource",
+      "value" : 14
+    },
+    {
+      "key" : "IFD11:LightSource",
+      "value" : 15
+    },
+    {
+      "key" : "IFD12:LightSource",
+      "value" : 16
+    },
+    {
+      "key" : "IFD13:LightSource",
+      "value" : 17
+    },
+    {
+      "key" : "IFD14:LightSource",
+      "value" : 18
+    },
+    {
+      "key" : "IFD15:LightSource",
+      "value" : 19
+    },
+    {
+      "key" : "IFD16:LightSource",
+      "value" : 20
+    },
+    {
+      "key" : "IFD17:LightSource",
+      "value" : 21
+    },
+    {
+      "key" : "IFD18:LightSource",
+      "value" : 22
+    },
+    {
+      "key" : "IFD19:LightSource",
+      "value" : 23
+    },
+    {
+      "key" : "IFD20:LightSource",
+      "value" : 24
+    },
+    {
+      "key" : "IFD21:LightSource",
+      "value" : 25
+    },
+    {
+      "key" : "IFD22:LightSource",
+      "value" : 26
+    },
+    {
+      "key" : "IFD23:LightSource",
+      "value" : 27
+    },
+    {
+      "key" : "IFD24:LightSource",
+      "value" : 28
+    },
+    {
+      "key" : "IFD25:LightSource",
+      "value" : 29
+    },
+    {
+      "key" : "IFD26:LightSource",
+      "value" : 30
+    },
+    {
+      "key" : "IFD27:LightSource",
+      "value" : 31
+    },
+    {
+      "key" : "IFD28:LightSource",
+      "value" : 32
+    },
+    {
+      "key" : "IFD29:LightSource",
+      "value" : 33
+    },
+    {
+      "key" : "IFD30:LightSource",
+      "value" : 34
+    },
+    {
+      "key" : "IFD31:LightSource",
+      "value" : 255
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  LightSource = 0",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  LightSource = 1",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  LightSource = 2",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  LightSource = 3",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  LightSource = 4",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  LightSource = 9",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  LightSource = 10",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  LightSource = 11",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD8 directory with 1 entries]",
+    "  | 0)  LightSource = 12",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD9 directory with 1 entries]",
+    "  | 0)  LightSource = 13",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD10 directory with 1 entries]",
+    "  | 0)  LightSource = 14",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD11 directory with 1 entries]",
+    "  | 0)  LightSource = 15",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD12 directory with 1 entries]",
+    "  | 0)  LightSource = 16",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD13 directory with 1 entries]",
+    "  | 0)  LightSource = 17",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD14 directory with 1 entries]",
+    "  | 0)  LightSource = 18",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD15 directory with 1 entries]",
+    "  | 0)  LightSource = 19",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD16 directory with 1 entries]",
+    "  | 0)  LightSource = 20",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD17 directory with 1 entries]",
+    "  | 0)  LightSource = 21",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD18 directory with 1 entries]",
+    "  | 0)  LightSource = 22",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD19 directory with 1 entries]",
+    "  | 0)  LightSource = 23",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD20 directory with 1 entries]",
+    "  | 0)  LightSource = 24",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD21 directory with 1 entries]",
+    "  | 0)  LightSource = 25",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD22 directory with 1 entries]",
+    "  | 0)  LightSource = 26",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD23 directory with 1 entries]",
+    "  | 0)  LightSource = 27",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD24 directory with 1 entries]",
+    "  | 0)  LightSource = 28",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD25 directory with 1 entries]",
+    "  | 0)  LightSource = 29",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD26 directory with 1 entries]",
+    "  | 0)  LightSource = 30",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD27 directory with 1 entries]",
+    "  | 0)  LightSource = 31",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD28 directory with 1 entries]",
+    "  | 0)  LightSource = 32",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD29 directory with 1 entries]",
+    "  | 0)  LightSource = 33",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD30 directory with 1 entries]",
+    "  | 0)  LightSource = 34",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  + [IFD31 directory with 1 entries]",
+    "  | 0)  LightSource = 255",
+    "  |     - Tag 0x9208 (2 bytes, int16u[1])"
+  ]
+}

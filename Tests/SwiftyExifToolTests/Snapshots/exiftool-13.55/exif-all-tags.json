@@ -1,0 +1,991 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : "1/250"
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "ExifIFD:ExposureProgram",
+      "value" : "Program AE"
+    },
+    {
+      "key" : "ExifIFD:SpectralSensitivity",
+      "value" : "Spectral"
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:Opto-ElectricConvFactor",
+      "value" : "(Binary data 14 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : "Recommended Exposure Index"
+    },
+    {
+      "key" : "ExifIFD:StandardOutputSensitivity",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:RecommendedExposureIndex",
+      "value" : 210
+    },
+    {
+      "key" : "ExifIFD:ISOSpeed",
+      "value" : 220
+    },
+    {
+      "key" : "ExifIFD:ISOSpeedLatitudeyyy",
+      "value" : 230
+    },
+    {
+      "key" : "ExifIFD:ISOSpeedLatitudezzz",
+      "value" : 240
+    },
+    {
+      "key" : "ExifIFD:ExifVersion",
+      "value" : "0232"
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2026:11:14 10:00:00"
+    },
+    {
+      "key" : "ExifIFD:CreateDate",
+      "value" : "2026:11:14 10:00:01"
+    },
+    {
+      "key" : "ExifIFD:OffsetTime",
+      "value" : "+01:00"
+    },
+    {
+      "key" : "ExifIFD:OffsetTimeOriginal",
+      "value" : "+02:00"
+    },
+    {
+      "key" : "ExifIFD:OffsetTimeDigitized",
+      "value" : "-03:30"
+    },
+    {
+      "key" : "ExifIFD:ComponentsConfiguration",
+      "value" : "Y, Cb, Cr, -"
+    },
+    {
+      "key" : "ExifIFD:CompressedBitsPerPixel",
+      "value" : 4
+    },
+    {
+      "key" : "ExifIFD:ShutterSpeedValue",
+      "value" : "1/256"
+    },
+    {
+      "key" : "ExifIFD:ApertureValue",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "ExifIFD:BrightnessValue",
+      "value" : 2.5
+    },
+    {
+      "key" : "ExifIFD:ExposureCompensation",
+      "value" : "-1/3"
+    },
+    {
+      "key" : "ExifIFD:MaxApertureValue",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "ExifIFD:SubjectDistance",
+      "value" : "2.5 m"
+    },
+    {
+      "key" : "ExifIFD:MeteringMode",
+      "value" : "Multi-segment"
+    },
+    {
+      "key" : "ExifIFD:LightSource",
+      "value" : "Daylight"
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : "Off, Did not fire"
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : "50.0 mm"
+    },
+    {
+      "key" : "ExifIFD:SubjectArea",
+      "value" : "100 200 50 40"
+    },
+    {
+      "key" : "ExifIFD:UserComment",
+      "value" : "Hello world"
+    },
+    {
+      "key" : "ExifIFD:Exif_0x9287",
+      "value" : "\u0002\u0001\u0001\u0004"
+    },
+    {
+      "key" : "ExifIFD:SubSecTime",
+      "value" : 123
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeOriginal",
+      "value" : 45
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeDigitized",
+      "value" : 6
+    },
+    {
+      "key" : "ExifIFD:AmbientTemperature",
+      "value" : "21.5 C"
+    },
+    {
+      "key" : "ExifIFD:Humidity",
+      "value" : 50
+    },
+    {
+      "key" : "ExifIFD:Pressure",
+      "value" : 1013
+    },
+    {
+      "key" : "ExifIFD:WaterDepth",
+      "value" : -5
+    },
+    {
+      "key" : "ExifIFD:Acceleration",
+      "value" : 0.97999999999999998
+    },
+    {
+      "key" : "ExifIFD:CameraElevationAngle",
+      "value" : -10
+    },
+    {
+      "key" : "ExifIFD:FlashpixVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "ExifIFD:ColorSpace",
+      "value" : "sRGB"
+    },
+    {
+      "key" : "ExifIFD:ExifImageWidth",
+      "value" : 6000
+    },
+    {
+      "key" : "ExifIFD:ExifImageHeight",
+      "value" : 4000
+    },
+    {
+      "key" : "ExifIFD:RelatedSoundFile",
+      "value" : "DSC00001.WAV"
+    },
+    {
+      "key" : "ExifIFD:FlashEnergy",
+      "value" : 10
+    },
+    {
+      "key" : "ExifIFD:SpatialFrequencyResponse",
+      "value" : "\u0002\u0001AB\u0001\u0002"
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneXResolution",
+      "value" : 4000
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneYResolution",
+      "value" : 4000
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneResolutionUnit",
+      "value" : "cm"
+    },
+    {
+      "key" : "ExifIFD:SubjectLocation",
+      "value" : "100 200"
+    },
+    {
+      "key" : "ExifIFD:ExposureIndex",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:SensingMethod",
+      "value" : "One-chip color area"
+    },
+    {
+      "key" : "ExifIFD:FileSource",
+      "value" : "Digital Camera"
+    },
+    {
+      "key" : "ExifIFD:SceneType",
+      "value" : "Directly photographed"
+    },
+    {
+      "key" : "ExifIFD:CFAPattern",
+      "value" : "[Red,Green][Green,Blue]"
+    },
+    {
+      "key" : "ExifIFD:CustomRendered",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:ExposureMode",
+      "value" : "Auto"
+    },
+    {
+      "key" : "ExifIFD:WhiteBalance",
+      "value" : "Auto"
+    },
+    {
+      "key" : "ExifIFD:DigitalZoomRatio",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:FocalLengthIn35mmFormat",
+      "value" : "75 mm"
+    },
+    {
+      "key" : "ExifIFD:SceneCaptureType",
+      "value" : "Standard"
+    },
+    {
+      "key" : "ExifIFD:GainControl",
+      "value" : "None"
+    },
+    {
+      "key" : "ExifIFD:Contrast",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:Saturation",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:Sharpness",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:DeviceSettingDescription",
+      "value" : "(Binary data 8 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "ExifIFD:SubjectDistanceRange",
+      "value" : "Unknown"
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa40d",
+      "value" : 257
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa40e",
+      "value" : "Straight"
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa40f",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa410",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa411",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa412",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:ImageUniqueID",
+      "value" : "0123456789abcdef0123456789abcdef"
+    },
+    {
+      "key" : "ExifIFD:OwnerName",
+      "value" : "Owner"
+    },
+    {
+      "key" : "ExifIFD:SerialNumber",
+      "value" : "SN123"
+    },
+    {
+      "key" : "ExifIFD:LensInfo",
+      "value" : "24-70mm f/2.8"
+    },
+    {
+      "key" : "ExifIFD:LensMake",
+      "value" : "LensMaker"
+    },
+    {
+      "key" : "ExifIFD:LensModel",
+      "value" : "Lens 24-70"
+    },
+    {
+      "key" : "ExifIFD:LensSerialNumber",
+      "value" : "LSN456"
+    },
+    {
+      "key" : "ExifIFD:ImageTitle",
+      "value" : "Title"
+    },
+    {
+      "key" : "ExifIFD:Photographer",
+      "value" : "Photographer"
+    },
+    {
+      "key" : "ExifIFD:ImageEditor",
+      "value" : "Editor"
+    },
+    {
+      "key" : "ExifIFD:CameraFirmware",
+      "value" : "FW 1.0"
+    },
+    {
+      "key" : "ExifIFD:RAWDevelopingSoftware",
+      "value" : "RAW Dev"
+    },
+    {
+      "key" : "ExifIFD:ImageEditingSoftware",
+      "value" : "Edit SW"
+    },
+    {
+      "key" : "ExifIFD:MetadataEditingSoftware",
+      "value" : "Meta SW"
+    },
+    {
+      "key" : "ExifIFD:CompositeImage",
+      "value" : "Not a Composite Image"
+    },
+    {
+      "key" : "ExifIFD:CompositeImageCount",
+      "value" : "2 2"
+    },
+    {
+      "key" : "ExifIFD:CompositeImageExposureTimes",
+      "value" : "undef"
+    },
+    {
+      "key" : "ExifIFD:Gamma",
+      "value" : 2.2000000000000002
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-all-tags",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : 0.0040000000000000001
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "ExifIFD:ExposureProgram",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:SpectralSensitivity",
+      "value" : "Spectral"
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:Opto-ElectricConvFactor",
+      "value" : "(Binary data 14 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:StandardOutputSensitivity",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:RecommendedExposureIndex",
+      "value" : 210
+    },
+    {
+      "key" : "ExifIFD:ISOSpeed",
+      "value" : 220
+    },
+    {
+      "key" : "ExifIFD:ISOSpeedLatitudeyyy",
+      "value" : 230
+    },
+    {
+      "key" : "ExifIFD:ISOSpeedLatitudezzz",
+      "value" : 240
+    },
+    {
+      "key" : "ExifIFD:ExifVersion",
+      "value" : "0232"
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2026:11:14 10:00:00"
+    },
+    {
+      "key" : "ExifIFD:CreateDate",
+      "value" : "2026:11:14 10:00:01"
+    },
+    {
+      "key" : "ExifIFD:OffsetTime",
+      "value" : "+01:00"
+    },
+    {
+      "key" : "ExifIFD:OffsetTimeOriginal",
+      "value" : "+02:00"
+    },
+    {
+      "key" : "ExifIFD:OffsetTimeDigitized",
+      "value" : "-03:30"
+    },
+    {
+      "key" : "ExifIFD:ComponentsConfiguration",
+      "value" : "1 2 3 0"
+    },
+    {
+      "key" : "ExifIFD:CompressedBitsPerPixel",
+      "value" : 4
+    },
+    {
+      "key" : "ExifIFD:ShutterSpeedValue",
+      "value" : 0.00390625
+    },
+    {
+      "key" : "ExifIFD:ApertureValue",
+      "value" : 2.8284271247461898
+    },
+    {
+      "key" : "ExifIFD:BrightnessValue",
+      "value" : 2.5
+    },
+    {
+      "key" : "ExifIFD:ExposureCompensation",
+      "value" : -0.33333333329999998
+    },
+    {
+      "key" : "ExifIFD:MaxApertureValue",
+      "value" : 2.8284271247461898
+    },
+    {
+      "key" : "ExifIFD:SubjectDistance",
+      "value" : 2.5
+    },
+    {
+      "key" : "ExifIFD:MeteringMode",
+      "value" : 5
+    },
+    {
+      "key" : "ExifIFD:LightSource",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : 50
+    },
+    {
+      "key" : "ExifIFD:SubjectArea",
+      "value" : "100 200 50 40"
+    },
+    {
+      "key" : "ExifIFD:UserComment",
+      "value" : "Hello world"
+    },
+    {
+      "key" : "ExifIFD:Exif_0x9287",
+      "value" : "\u0002\u0001\u0001\u0004"
+    },
+    {
+      "key" : "ExifIFD:SubSecTime",
+      "value" : 123
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeOriginal",
+      "value" : 45
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeDigitized",
+      "value" : 6
+    },
+    {
+      "key" : "ExifIFD:AmbientTemperature",
+      "value" : 21.5
+    },
+    {
+      "key" : "ExifIFD:Humidity",
+      "value" : 50
+    },
+    {
+      "key" : "ExifIFD:Pressure",
+      "value" : 1013
+    },
+    {
+      "key" : "ExifIFD:WaterDepth",
+      "value" : -5
+    },
+    {
+      "key" : "ExifIFD:Acceleration",
+      "value" : 0.97999999999999998
+    },
+    {
+      "key" : "ExifIFD:CameraElevationAngle",
+      "value" : -10
+    },
+    {
+      "key" : "ExifIFD:FlashpixVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "ExifIFD:ColorSpace",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:ExifImageWidth",
+      "value" : 6000
+    },
+    {
+      "key" : "ExifIFD:ExifImageHeight",
+      "value" : 4000
+    },
+    {
+      "key" : "ExifIFD:RelatedSoundFile",
+      "value" : "DSC00001.WAV"
+    },
+    {
+      "key" : "ExifIFD:FlashEnergy",
+      "value" : 10
+    },
+    {
+      "key" : "ExifIFD:SpatialFrequencyResponse",
+      "value" : "\u0002\u0001AB\u0001\u0002"
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneXResolution",
+      "value" : 4000
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneYResolution",
+      "value" : 4000
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneResolutionUnit",
+      "value" : 3
+    },
+    {
+      "key" : "ExifIFD:SubjectLocation",
+      "value" : "100 200"
+    },
+    {
+      "key" : "ExifIFD:ExposureIndex",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:SensingMethod",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:FileSource",
+      "value" : 3
+    },
+    {
+      "key" : "ExifIFD:SceneType",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:CFAPattern",
+      "value" : "2 2 0 1 1 2"
+    },
+    {
+      "key" : "ExifIFD:CustomRendered",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ExposureMode",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:WhiteBalance",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:DigitalZoomRatio",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:FocalLengthIn35mmFormat",
+      "value" : 75
+    },
+    {
+      "key" : "ExifIFD:SceneCaptureType",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:GainControl",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Contrast",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Saturation",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Sharpness",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:DeviceSettingDescription",
+      "value" : "(Binary data 8 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "ExifIFD:SubjectDistanceRange",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa40d",
+      "value" : 257
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa40e",
+      "value" : "Straight"
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa40f",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa410",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa411",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:Exif_0xa412",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:ImageUniqueID",
+      "value" : "0123456789abcdef0123456789abcdef"
+    },
+    {
+      "key" : "ExifIFD:OwnerName",
+      "value" : "Owner"
+    },
+    {
+      "key" : "ExifIFD:SerialNumber",
+      "value" : "SN123"
+    },
+    {
+      "key" : "ExifIFD:LensInfo",
+      "value" : "24 70 2.8 2.8"
+    },
+    {
+      "key" : "ExifIFD:LensMake",
+      "value" : "LensMaker"
+    },
+    {
+      "key" : "ExifIFD:LensModel",
+      "value" : "Lens 24-70"
+    },
+    {
+      "key" : "ExifIFD:LensSerialNumber",
+      "value" : "LSN456"
+    },
+    {
+      "key" : "ExifIFD:ImageTitle",
+      "value" : "Title"
+    },
+    {
+      "key" : "ExifIFD:Photographer",
+      "value" : "Photographer"
+    },
+    {
+      "key" : "ExifIFD:ImageEditor",
+      "value" : "Editor"
+    },
+    {
+      "key" : "ExifIFD:CameraFirmware",
+      "value" : "FW 1.0"
+    },
+    {
+      "key" : "ExifIFD:RAWDevelopingSoftware",
+      "value" : "RAW Dev"
+    },
+    {
+      "key" : "ExifIFD:ImageEditingSoftware",
+      "value" : "Edit SW"
+    },
+    {
+      "key" : "ExifIFD:MetadataEditingSoftware",
+      "value" : "Meta SW"
+    },
+    {
+      "key" : "ExifIFD:CompositeImage",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:CompositeImageCount",
+      "value" : "2 2"
+    },
+    {
+      "key" : "ExifIFD:CompositeImageExposureTimes",
+      "value" : "undef"
+    },
+    {
+      "key" : "ExifIFD:Gamma",
+      "value" : 2.2000000000000002
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  ExifOffset (SubDirectory) -->",
+    "  |     - Tag 0x8769 (4 bytes, int32u[1])",
+    "  | + [ExifIFD directory with 94 entries]",
+    "  | | 0)  ExposureTime = 0.004 (1/250)",
+    "  | |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  | | 1)  FNumber = 2.8 (28/10)",
+    "  | |     - Tag 0x829d (8 bytes, rational64u[1])",
+    "  | | 2)  ExposureProgram = 2",
+    "  | |     - Tag 0x8822 (2 bytes, int16u[1])",
+    "  | | 3)  SpectralSensitivity = Spectral",
+    "  | |     - Tag 0x8824 (9 bytes, string[9])",
+    "  | | 4)  ISO = 200",
+    "  | |     - Tag 0x8827 (2 bytes, int16u[1])",
+    "  | | 5)  Opto-ElectricConvFactor = ..AB..",
+    "  | |     - Tag 0x8828 (14 bytes, undef[14])",
+    "  | | 6)  SensitivityType = 2",
+    "  | |     - Tag 0x8830 (2 bytes, int16u[1])",
+    "  | | 7)  StandardOutputSensitivity = 200",
+    "  | |     - Tag 0x8831 (4 bytes, int32u[1])",
+    "  | | 8)  RecommendedExposureIndex = 210",
+    "  | |     - Tag 0x8832 (4 bytes, int32u[1])",
+    "  | | 9)  ISOSpeed = 220",
+    "  | |     - Tag 0x8833 (4 bytes, int32u[1])",
+    "  | | 10) ISOSpeedLatitudeyyy = 230",
+    "  | |     - Tag 0x8834 (4 bytes, int32u[1])",
+    "  | | 11) ISOSpeedLatitudezzz = 240",
+    "  | |     - Tag 0x8835 (4 bytes, int32u[1])",
+    "  | | 12) ExifVersion = 0232",
+    "  | |     - Tag 0x9000 (4 bytes, undef[4])",
+    "  | | 13) DateTimeOriginal = 2026:11:14 10:00:00",
+    "  | |     - Tag 0x9003 (20 bytes, string[20])",
+    "  | | 14) CreateDate = 2026:11:14 10:00:01",
+    "  | |     - Tag 0x9004 (20 bytes, string[20])",
+    "  | | 15) OffsetTime = +01:00",
+    "  | |     - Tag 0x9010 (7 bytes, string[7])",
+    "  | | 16) OffsetTimeOriginal = +02:00",
+    "  | |     - Tag 0x9011 (7 bytes, string[7])",
+    "  | | 17) OffsetTimeDigitized = -03:30",
+    "  | |     - Tag 0x9012 (7 bytes, string[7])",
+    "  | | 18) ComponentsConfiguration = 1 2 3 0",
+    "  | |     - Tag 0x9101 (4 bytes, undef[4] read as int8u[4])",
+    "  | | 19) CompressedBitsPerPixel = 4 (4/1)",
+    "  | |     - Tag 0x9102 (8 bytes, rational64u[1])",
+    "  | | 20) ShutterSpeedValue = 8 (8/1)",
+    "  | |     - Tag 0x9201 (8 bytes, rational64s[1])",
+    "  | | 21) ApertureValue = 3 (3/1)",
+    "  | |     - Tag 0x9202 (8 bytes, rational64u[1])",
+    "  | | 22) BrightnessValue = 2.5 (5/2)",
+    "  | |     - Tag 0x9203 (8 bytes, rational64s[1])",
+    "  | | 23) ExposureCompensation = -0.3333333333 (-1/3)",
+    "  | |     - Tag 0x9204 (8 bytes, rational64s[1])",
+    "  | | 24) MaxApertureValue = 3 (3/1)",
+    "  | |     - Tag 0x9205 (8 bytes, rational64u[1])",
+    "  | | 25) SubjectDistance = 2.5 (25/10)",
+    "  | |     - Tag 0x9206 (8 bytes, rational64u[1])",
+    "  | | 26) MeteringMode = 5",
+    "  | |     - Tag 0x9207 (2 bytes, int16u[1])",
+    "  | | 27) LightSource = 1",
+    "  | |     - Tag 0x9208 (2 bytes, int16u[1])",
+    "  | | 28) Flash = 16",
+    "  | |     - Tag 0x9209 (2 bytes, int16u[1])",
+    "  | | 29) FocalLength = 50 (50/1)",
+    "  | |     - Tag 0x920a (8 bytes, rational64u[1])",
+    "  | | 30) SubjectArea = 100 200 50 40",
+    "  | |     - Tag 0x9214 (8 bytes, int16u[4])",
+    "  | | 31) UserComment = ASCIIHello world",
+    "  | |     - Tag 0x9286 (19 bytes, undef[19])",
+    "  | | 32) Exif_0x9287 = ....",
+    "  | |     - Tag 0x9287 (6 bytes, undef[6])",
+    "  | | 33) SubSecTime = 123",
+    "  | |     - Tag 0x9290 (4 bytes, string[4])",
+    "  | | 34) SubSecTimeOriginal = 45",
+    "  | |     - Tag 0x9291 (3 bytes, string[3])",
+    "  | | 35) SubSecTimeDigitized = 6",
+    "  | |     - Tag 0x9292 (2 bytes, string[2])",
+    "  | | 36) AmbientTemperature = 21.5 (215/10)",
+    "  | |     - Tag 0x9400 (8 bytes, rational64s[1])",
+    "  | | 37) Humidity = 50 (50/1)",
+    "  | |     - Tag 0x9401 (8 bytes, rational64u[1])",
+    "  | | 38) Pressure = 1013 (1013/1)",
+    "  | |     - Tag 0x9402 (8 bytes, rational64u[1])",
+    "  | | 39) WaterDepth = -5 (-5/1)",
+    "  | |     - Tag 0x9403 (8 bytes, rational64s[1])",
+    "  | | 40) Acceleration = 0.98 (98/100)",
+    "  | |     - Tag 0x9404 (8 bytes, rational64u[1])",
+    "  | | 41) CameraElevationAngle = -10 (-10/1)",
+    "  | |     - Tag 0x9405 (8 bytes, rational64s[1])",
+    "  | | 42) FlashpixVersion = 0100",
+    "  | |     - Tag 0xa000 (4 bytes, undef[4])",
+    "  | | 43) ColorSpace = 1",
+    "  | |     - Tag 0xa001 (2 bytes, int16u[1])",
+    "  | | 44) ExifImageWidth = 6000",
+    "  | |     - Tag 0xa002 (4 bytes, int32u[1])",
+    "  | | 45) ExifImageHeight = 4000",
+    "  | |     - Tag 0xa003 (4 bytes, int32u[1])",
+    "  | | 46) RelatedSoundFile = DSC00001.WAV",
+    "  | |     - Tag 0xa004 (13 bytes, string[13])",
+    "  | | 47) FlashEnergy = 10 (10/1)",
+    "  | |     - Tag 0xa20b (8 bytes, rational64u[1])",
+    "  | | 48) SpatialFrequencyResponse = ..AB..",
+    "  | |     - Tag 0xa20c (16 bytes, undef[16])",
+    "  | | 49) FocalPlaneXResolution = 4000 (4000/1)",
+    "  | |     - Tag 0xa20e (8 bytes, rational64u[1])",
+    "  | | 50) FocalPlaneYResolution = 4000 (4000/1)",
+    "  | |     - Tag 0xa20f (8 bytes, rational64u[1])",
+    "  | | 51) FocalPlaneResolutionUnit = 3",
+    "  | |     - Tag 0xa210 (2 bytes, int16u[1])",
+    "  | | 52) SubjectLocation = 100 200",
+    "  | |     - Tag 0xa214 (4 bytes, int16u[2])",
+    "  | | 53) ExposureIndex = 200 (200/1)",
+    "  | |     - Tag 0xa215 (8 bytes, rational64u[1])",
+    "  | | 54) SensingMethod = 2",
+    "  | |     - Tag 0xa217 (2 bytes, int16u[1])",
+    "  | | 55) FileSource = 3",
+    "  | |     - Tag 0xa300 (1 bytes, undef[1])",
+    "  | | 56) SceneType = 1",
+    "  | |     - Tag 0xa301 (1 bytes, undef[1])",
+    "  | | 57) CFAPattern = .....",
+    "  | |     - Tag 0xa302 (8 bytes, undef[8])",
+    "  | | 58) CustomRendered = 0",
+    "  | |     - Tag 0xa401 (2 bytes, int16u[1])",
+    "  | | 59) ExposureMode = 0",
+    "  | |     - Tag 0xa402 (2 bytes, int16u[1])",
+    "  | | 60) WhiteBalance = 0",
+    "  | |     - Tag 0xa403 (2 bytes, int16u[1])",
+    "  | | 61) DigitalZoomRatio = 1 (1/1)",
+    "  | |     - Tag 0xa404 (8 bytes, rational64u[1])",
+    "  | | 62) FocalLengthIn35mmFormat = 75",
+    "  | |     - Tag 0xa405 (2 bytes, int16u[1])",
+    "  | | 63) SceneCaptureType = 0",
+    "  | |     - Tag 0xa406 (2 bytes, int16u[1])",
+    "  | | 64) GainControl = 0",
+    "  | |     - Tag 0xa407 (2 bytes, int16u[1])",
+    "  | | 65) Contrast = 0",
+    "  | |     - Tag 0xa408 (2 bytes, int16u[1])",
+    "  | | 66) Saturation = 0",
+    "  | |     - Tag 0xa409 (2 bytes, int16u[1])",
+    "  | | 67) Sharpness = 0",
+    "  | |     - Tag 0xa40a (2 bytes, int16u[1])",
+    "  | | 68) DeviceSettingDescription = ..A",
+    "  | |     - Tag 0xa40b (8 bytes, undef[8])",
+    "  | | 69) SubjectDistanceRange = 0",
+    "  | |     - Tag 0xa40c (2 bytes, int16u[1])",
+    "  | | 70) Exif_0xa40d = 257",
+    "  | |     - Tag 0xa40d (2 bytes, int16u[1])",
+    "  | | 71) Exif_0xa40e = Straight",
+    "  | |     - Tag 0xa40e (9 bytes, utf8[9])",
+    "  | | 72) Exif_0xa40f = 1",
+    "  | |     - Tag 0xa40f (2 bytes, int16u[1])",
+    "  | | 73) Exif_0xa410 = 1",
+    "  | |     - Tag 0xa410 (2 bytes, int16u[1])",
+    "  | | 74) Exif_0xa411 = 1",
+    "  | |     - Tag 0xa411 (2 bytes, int16u[1])",
+    "  | | 75) Exif_0xa412 = 2",
+    "  | |     - Tag 0xa412 (2 bytes, int16u[1])",
+    "  | | 76) ImageUniqueID = 0123456789abcdef0123456789abcdef",
+    "  | |     - Tag 0xa420 (33 bytes, string[33])",
+    "  | | 77) OwnerName = Owner",
+    "  | |     - Tag 0xa430 (6 bytes, string[6])",
+    "  | | 78) SerialNumber = SN123",
+    "  | |     - Tag 0xa431 (6 bytes, string[6])",
+    "  | | 79) LensInfo = 24 70 2.8 2.8 (24/1 70/1 28/10 28/10)",
+    "  | |     - Tag 0xa432 (32 bytes, rational64u[4])",
+    "  | | 80) LensMake = LensMaker",
+    "  | |     - Tag 0xa433 (10 bytes, string[10])",
+    "  | | 81) LensModel = Lens 24-70",
+    "  | |     - Tag 0xa434 (11 bytes, string[11])",
+    "  | | 82) LensSerialNumber = LSN456",
+    "  | |     - Tag 0xa435 (7 bytes, string[7])",
+    "  | | 83) ImageTitle = Title",
+    "  | |     - Tag 0xa436 (6 bytes, string[6])",
+    "  | | 84) Photographer = Photographer",
+    "  | |     - Tag 0xa437 (13 bytes, string[13])",
+    "  | | 85) ImageEditor = Editor",
+    "  | |     - Tag 0xa438 (7 bytes, string[7])",
+    "  | | 86) CameraFirmware = FW 1.0",
+    "  | |     - Tag 0xa439 (7 bytes, string[7])",
+    "  | | 87) RAWDevelopingSoftware = RAW Dev",
+    "  | |     - Tag 0xa43a (8 bytes, string[8])",
+    "  | | 88) ImageEditingSoftware = Edit SW",
+    "  | |     - Tag 0xa43b (8 bytes, string[8])",
+    "  | | 89) MetadataEditingSoftware = Meta SW",
+    "  | |     - Tag 0xa43c (8 bytes, string[8])",
+    "  | | 90) CompositeImage = 1",
+    "  | |     - Tag 0xa460 (2 bytes, int16u[1])",
+    "  | | 91) CompositeImageCount = 2 2",
+    "  | |     - Tag 0xa461 (4 bytes, int16u[2])",
+    "  | | 92) CompositeImageExposureTimes = ",
+    "  | |     - Tag 0xa462 (8 bytes, undef[8])",
+    "  | | 93) Gamma = 2.2 (22/10)",
+    "  | |     - Tag 0xa500 (8 bytes, rational64u[1])"
+  ]
+}

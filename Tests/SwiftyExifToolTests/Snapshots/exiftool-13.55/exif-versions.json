@@ -1,0 +1,131 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ExifVersion",
+      "value" : "0232"
+    },
+    {
+      "key" : "IFD0:FlashpixVersion",
+      "value" : "0232"
+    },
+    {
+      "key" : "IFD1:ExifVersion",
+      "value" : "0300"
+    },
+    {
+      "key" : "IFD1:FlashpixVersion",
+      "value" : "0300"
+    },
+    {
+      "key" : "IFD2:ExifVersion",
+      "value" : "0310"
+    },
+    {
+      "key" : "IFD2:FlashpixVersion",
+      "value" : "0310"
+    },
+    {
+      "key" : "IFD3:ExifVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "IFD3:FlashpixVersion",
+      "value" : "0100"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-versions",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ExifVersion",
+      "value" : "0232"
+    },
+    {
+      "key" : "IFD0:FlashpixVersion",
+      "value" : "0232"
+    },
+    {
+      "key" : "IFD1:ExifVersion",
+      "value" : "0300"
+    },
+    {
+      "key" : "IFD1:FlashpixVersion",
+      "value" : "0300"
+    },
+    {
+      "key" : "IFD2:ExifVersion",
+      "value" : "0310"
+    },
+    {
+      "key" : "IFD2:FlashpixVersion",
+      "value" : "0310"
+    },
+    {
+      "key" : "IFD3:ExifVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "IFD3:FlashpixVersion",
+      "value" : "0100"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 2 entries]",
+    "  | 0)  ExifVersion = 0232",
+    "  |     - Tag 0x9000 (4 bytes, undef[4])",
+    "  | 1)  FlashpixVersion = 0232",
+    "  |     - Tag 0xa000 (4 bytes, undef[4])",
+    "  + [IFD1 directory with 2 entries]",
+    "  | 0)  ExifVersion = 0300",
+    "  |     - Tag 0x9000 (4 bytes, undef[4])",
+    "  | 1)  FlashpixVersion = 0300",
+    "  |     - Tag 0xa000 (4 bytes, undef[4])",
+    "  + [IFD2 directory with 2 entries]",
+    "  | 0)  ExifVersion = 0310",
+    "  |     - Tag 0x9000 (4 bytes, undef[4])",
+    "  | 1)  FlashpixVersion = 0310",
+    "  |     - Tag 0xa000 (4 bytes, undef[4])",
+    "  + [IFD3 directory with 2 entries]",
+    "  | 0)  ExifVersion = 0100",
+    "  |     - Tag 0x9000 (4 bytes, undef[4])",
+    "  | 1)  FlashpixVersion = 0100",
+    "  |     - Tag 0xa000 (4 bytes, undef[4])"
+  ]
+}

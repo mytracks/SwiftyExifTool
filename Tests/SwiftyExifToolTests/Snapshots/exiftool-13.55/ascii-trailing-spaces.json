@@ -1,0 +1,542 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:DocumentName",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageDescription",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:PageName",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:HostComputer",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:InkNames",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:TargetPrinter",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:SpectralSensitivity",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:DateTimeOriginal",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:CreateDate",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OffsetTime",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OffsetTimeOriginal",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OffsetTimeDigitized",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:SubSecTime",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:SubSecTimeOriginal",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:SubSecTimeDigitized",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:RelatedSoundFile",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageUniqueID",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OwnerName",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:SerialNumber",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:LensMake",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:LensModel",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:LensSerialNumber",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageTitle",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Photographer",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageEditor",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:CameraFirmware",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:RAWDevelopingSoftware",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageEditingSoftware",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:MetadataEditingSoftware",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSLongitudeRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSSatellites",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSStatus",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSMeasureMode",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSSpeedRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSTrackRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSImgDirectionRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSMapDatum",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSDestLatitudeRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSDestLongitudeRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSDestBearingRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSDestDistanceRef",
+      "value" : "Unknown (X  )"
+    },
+    {
+      "key" : "GPS:GPSDateStamp",
+      "value" : "X  "
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "ascii-trailing-spaces",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:DocumentName",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageDescription",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:PageName",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:HostComputer",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:InkNames",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:TargetPrinter",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:SpectralSensitivity",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:DateTimeOriginal",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:CreateDate",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OffsetTime",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OffsetTimeOriginal",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OffsetTimeDigitized",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:SubSecTime",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:SubSecTimeOriginal",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:SubSecTimeDigitized",
+      "value" : "X"
+    },
+    {
+      "key" : "IFD0:RelatedSoundFile",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageUniqueID",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:OwnerName",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:SerialNumber",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:LensMake",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:LensModel",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:LensSerialNumber",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageTitle",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:Photographer",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageEditor",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:CameraFirmware",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:RAWDevelopingSoftware",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:ImageEditingSoftware",
+      "value" : "X  "
+    },
+    {
+      "key" : "IFD0:MetadataEditingSoftware",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSLatitudeRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSLongitudeRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSSatellites",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSStatus",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSMeasureMode",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSSpeedRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSTrackRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSImgDirectionRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSMapDatum",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSDestLatitudeRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSDestLongitudeRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSDestBearingRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSDestDistanceRef",
+      "value" : "X  "
+    },
+    {
+      "key" : "GPS:GPSDateStamp",
+      "value" : "X  "
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 36 entries]",
+    "  | 0)  DocumentName = X  ",
+    "  |     - Tag 0x010d (4 bytes, string[4])",
+    "  | 1)  ImageDescription = X  ",
+    "  |     - Tag 0x010e (4 bytes, string[4])",
+    "  | 2)  Make = X  ",
+    "  |     - Tag 0x010f (4 bytes, string[4])",
+    "  | 3)  Model = X  ",
+    "  |     - Tag 0x0110 (4 bytes, string[4])",
+    "  | 4)  PageName = X  ",
+    "  |     - Tag 0x011d (4 bytes, string[4])",
+    "  | 5)  Software = X  ",
+    "  |     - Tag 0x0131 (4 bytes, string[4])",
+    "  | 6)  ModifyDate = X  ",
+    "  |     - Tag 0x0132 (4 bytes, string[4])",
+    "  | 7)  Artist = X  ",
+    "  |     - Tag 0x013b (4 bytes, string[4])",
+    "  | 8)  HostComputer = X  ",
+    "  |     - Tag 0x013c (4 bytes, string[4])",
+    "  | 9)  InkNames = X  ",
+    "  |     - Tag 0x014d (4 bytes, string[4])",
+    "  | 10) TargetPrinter = X  ",
+    "  |     - Tag 0x0151 (4 bytes, string[4])",
+    "  | 11) Copyright = X  ",
+    "  |     - Tag 0x8298 (4 bytes, string[4] read as undef[4])",
+    "  | 12) SpectralSensitivity = X  ",
+    "  |     - Tag 0x8824 (4 bytes, string[4])",
+    "  | 13) DateTimeOriginal = X  ",
+    "  |     - Tag 0x9003 (4 bytes, string[4])",
+    "  | 14) CreateDate = X  ",
+    "  |     - Tag 0x9004 (4 bytes, string[4])",
+    "  | 15) OffsetTime = X  ",
+    "  |     - Tag 0x9010 (4 bytes, string[4])",
+    "  | 16) OffsetTimeOriginal = X  ",
+    "  |     - Tag 0x9011 (4 bytes, string[4])",
+    "  | 17) OffsetTimeDigitized = X  ",
+    "  |     - Tag 0x9012 (4 bytes, string[4])",
+    "  | 18) SubSecTime = X  ",
+    "  |     - Tag 0x9290 (4 bytes, string[4])",
+    "  | 19) SubSecTimeOriginal = X  ",
+    "  |     - Tag 0x9291 (4 bytes, string[4])",
+    "  | 20) SubSecTimeDigitized = X  ",
+    "  |     - Tag 0x9292 (4 bytes, string[4])",
+    "  | 21) RelatedSoundFile = X  ",
+    "  |     - Tag 0xa004 (4 bytes, string[4])",
+    "  | 22) ImageUniqueID = X  ",
+    "  |     - Tag 0xa420 (4 bytes, string[4])",
+    "  | 23) OwnerName = X  ",
+    "  |     - Tag 0xa430 (4 bytes, string[4])",
+    "  | 24) SerialNumber = X  ",
+    "  |     - Tag 0xa431 (4 bytes, string[4])",
+    "  | 25) LensMake = X  ",
+    "  |     - Tag 0xa433 (4 bytes, string[4])",
+    "  | 26) LensModel = X  ",
+    "  |     - Tag 0xa434 (4 bytes, string[4])",
+    "  | 27) LensSerialNumber = X  ",
+    "  |     - Tag 0xa435 (4 bytes, string[4])",
+    "  | 28) ImageTitle = X  ",
+    "  |     - Tag 0xa436 (4 bytes, string[4])",
+    "  | 29) Photographer = X  ",
+    "  |     - Tag 0xa437 (4 bytes, string[4])",
+    "  | 30) ImageEditor = X  ",
+    "  |     - Tag 0xa438 (4 bytes, string[4])",
+    "  | 31) CameraFirmware = X  ",
+    "  |     - Tag 0xa439 (4 bytes, string[4])",
+    "  | 32) RAWDevelopingSoftware = X  ",
+    "  |     - Tag 0xa43a (4 bytes, string[4])",
+    "  | 33) ImageEditingSoftware = X  ",
+    "  |     - Tag 0xa43b (4 bytes, string[4])",
+    "  | 34) MetadataEditingSoftware = X  ",
+    "  |     - Tag 0xa43c (4 bytes, string[4])",
+    "  | Warning = Tag ID 0x8825 GPSInfo out of sequence in IFD0",
+    "  | 35) GPSInfo (SubDirectory) -->",
+    "  |     - Tag 0x8825 (4 bytes, int32u[1])",
+    "  | + [GPS directory with 14 entries]",
+    "  | | 0)  GPSLatitudeRef = X  ",
+    "  | |     - Tag 0x0001 (4 bytes, string[4])",
+    "  | | 1)  GPSLongitudeRef = X  ",
+    "  | |     - Tag 0x0003 (4 bytes, string[4])",
+    "  | | 2)  GPSSatellites = X  ",
+    "  | |     - Tag 0x0008 (4 bytes, string[4])",
+    "  | | 3)  GPSStatus = X  ",
+    "  | |     - Tag 0x0009 (4 bytes, string[4])",
+    "  | | 4)  GPSMeasureMode = X  ",
+    "  | |     - Tag 0x000a (4 bytes, string[4])",
+    "  | | 5)  GPSSpeedRef = X  ",
+    "  | |     - Tag 0x000c (4 bytes, string[4])",
+    "  | | 6)  GPSTrackRef = X  ",
+    "  | |     - Tag 0x000e (4 bytes, string[4])",
+    "  | | 7)  GPSImgDirectionRef = X  ",
+    "  | |     - Tag 0x0010 (4 bytes, string[4])",
+    "  | | 8)  GPSMapDatum = X  ",
+    "  | |     - Tag 0x0012 (4 bytes, string[4])",
+    "  | | 9)  GPSDestLatitudeRef = X  ",
+    "  | |     - Tag 0x0013 (4 bytes, string[4])",
+    "  | | 10) GPSDestLongitudeRef = X  ",
+    "  | |     - Tag 0x0015 (4 bytes, string[4])",
+    "  | | 11) GPSDestBearingRef = X  ",
+    "  | |     - Tag 0x0017 (4 bytes, string[4])",
+    "  | | 12) GPSDestDistanceRef = X  ",
+    "  | |     - Tag 0x0019 (4 bytes, string[4])",
+    "  | | 13) GPSDateStamp = X  ",
+    "  | |     - Tag 0x001d (4 bytes, string[4] read as undef[4])"
+  ]
+}

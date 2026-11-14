@@ -1,0 +1,194 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "SubIFD:JpgFromRawStart",
+      "value" : 30
+    },
+    {
+      "key" : "SubIFD:JpgFromRawLength",
+      "value" : 4
+    },
+    {
+      "key" : "SubIFD:JpgFromRaw",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD1:OtherImageStart",
+      "value" : 40
+    },
+    {
+      "key" : "SubIFD1:OtherImageLength",
+      "value" : 4
+    },
+    {
+      "key" : "SubIFD1:OtherImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD2:OtherImageStart",
+      "value" : 50
+    },
+    {
+      "key" : "SubIFD2:OtherImageLength",
+      "value" : 4
+    },
+    {
+      "key" : "SubIFD2:OtherImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:OtherImageStart",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:OtherImageLength",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:OtherImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD1:ThumbnailOffset",
+      "value" : 20
+    },
+    {
+      "key" : "IFD1:ThumbnailLength",
+      "value" : 4
+    },
+    {
+      "key" : "IFD1:ThumbnailImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-jpeg-pointers",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "SubIFD:JpgFromRawStart",
+      "value" : 30
+    },
+    {
+      "key" : "SubIFD:JpgFromRawLength",
+      "value" : 4
+    },
+    {
+      "key" : "SubIFD:JpgFromRaw",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD1:OtherImageStart",
+      "value" : 40
+    },
+    {
+      "key" : "SubIFD1:OtherImageLength",
+      "value" : 4
+    },
+    {
+      "key" : "SubIFD1:OtherImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "SubIFD2:OtherImageStart",
+      "value" : 50
+    },
+    {
+      "key" : "SubIFD2:OtherImageLength",
+      "value" : 4
+    },
+    {
+      "key" : "SubIFD2:OtherImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD0:OtherImageStart",
+      "value" : 10
+    },
+    {
+      "key" : "IFD0:OtherImageLength",
+      "value" : 4
+    },
+    {
+      "key" : "IFD0:OtherImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD1:ThumbnailOffset",
+      "value" : 20
+    },
+    {
+      "key" : "IFD1:ThumbnailLength",
+      "value" : 4
+    },
+    {
+      "key" : "IFD1:ThumbnailImage",
+      "value" : "(Binary data 4 bytes, use -b option to extract)"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 3 entries]",
+    "  | 0)  SubIFD (SubDirectory) -->",
+    "  |     - Tag 0x014a (12 bytes, int32u[3])",
+    "  | + [SubIFD directory with 2 entries]",
+    "  | | 0)  JpgFromRawStart = 30",
+    "  | |     - Tag 0x0201 (4 bytes, int32u[1])",
+    "  | | 1)  JpgFromRawLength = 4",
+    "  | |     - Tag 0x0202 (4 bytes, int32u[1])",
+    "  | + [SubIFD1 directory with 2 entries]",
+    "  | | 0)  OtherImageStart = 40",
+    "  | |     - Tag 0x0201 (4 bytes, int32u[1])",
+    "  | | 1)  OtherImageLength = 4",
+    "  | |     - Tag 0x0202 (4 bytes, int32u[1])",
+    "  | + [SubIFD2 directory with 2 entries]",
+    "  | | 0)  OtherImageStart = 50",
+    "  | |     - Tag 0x0201 (4 bytes, int32u[1])",
+    "  | | 1)  OtherImageLength = 4",
+    "  | |     - Tag 0x0202 (4 bytes, int32u[1])",
+    "  | 1)  OtherImageStart = 10",
+    "  |     - Tag 0x0201 (4 bytes, int32u[1])",
+    "  | 2)  OtherImageLength = 4",
+    "  |     - Tag 0x0202 (4 bytes, int32u[1])",
+    "  + [IFD1 directory with 2 entries]",
+    "  | 0)  ThumbnailOffset = 20",
+    "  |     - Tag 0x0201 (4 bytes, int32u[1])",
+    "  | 1)  ThumbnailLength = 4",
+    "  |     - Tag 0x0202 (4 bytes, int32u[1])"
+  ]
+}

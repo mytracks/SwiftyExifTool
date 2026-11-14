@@ -1,0 +1,234 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ExposureTime",
+      "value" : "1/8000"
+    },
+    {
+      "key" : "IFD1:ExposureTime",
+      "value" : "1/250"
+    },
+    {
+      "key" : "IFD2:ExposureTime",
+      "value" : 0.29999999999999999
+    },
+    {
+      "key" : "IFD3:ExposureTime",
+      "value" : 0.29999999999999999
+    },
+    {
+      "key" : "IFD4:ExposureTime",
+      "value" : "1/4"
+    },
+    {
+      "key" : "IFD5:ExposureTime",
+      "value" : 0.40000000000000002
+    },
+    {
+      "key" : "IFD6:ExposureTime",
+      "value" : 0.5
+    },
+    {
+      "key" : "IFD7:ExposureTime",
+      "value" : 1
+    },
+    {
+      "key" : "IFD8:ExposureTime",
+      "value" : 1.3
+    },
+    {
+      "key" : "IFD9:ExposureTime",
+      "value" : 2
+    },
+    {
+      "key" : "IFD10:ExposureTime",
+      "value" : 30
+    },
+    {
+      "key" : "IFD11:ExposureTime",
+      "value" : 0
+    },
+    {
+      "key" : "IFD12:ShutterSpeedValue",
+      "value" : "1/8192"
+    },
+    {
+      "key" : "IFD13:ShutterSpeedValue",
+      "value" : "1/256"
+    },
+    {
+      "key" : "IFD14:ShutterSpeedValue",
+      "value" : 1
+    },
+    {
+      "key" : "IFD15:ShutterSpeedValue",
+      "value" : 4
+    },
+    {
+      "key" : "IFD16:ShutterSpeedValue",
+      "value" : 0.29999999999999999
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-exposuretimes",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ExposureTime",
+      "value" : 0.000125
+    },
+    {
+      "key" : "IFD1:ExposureTime",
+      "value" : 0.0040000000000000001
+    },
+    {
+      "key" : "IFD2:ExposureTime",
+      "value" : 0.33333333329999998
+    },
+    {
+      "key" : "IFD3:ExposureTime",
+      "value" : 0.3125
+    },
+    {
+      "key" : "IFD4:ExposureTime",
+      "value" : 0.25
+    },
+    {
+      "key" : "IFD5:ExposureTime",
+      "value" : 0.40000000000000002
+    },
+    {
+      "key" : "IFD6:ExposureTime",
+      "value" : 0.5
+    },
+    {
+      "key" : "IFD7:ExposureTime",
+      "value" : 1
+    },
+    {
+      "key" : "IFD8:ExposureTime",
+      "value" : 1.3
+    },
+    {
+      "key" : "IFD9:ExposureTime",
+      "value" : 2
+    },
+    {
+      "key" : "IFD10:ExposureTime",
+      "value" : 30
+    },
+    {
+      "key" : "IFD11:ExposureTime",
+      "value" : 0
+    },
+    {
+      "key" : "IFD12:ShutterSpeedValue",
+      "value" : 0.0001220703125
+    },
+    {
+      "key" : "IFD13:ShutterSpeedValue",
+      "value" : 0.00390625
+    },
+    {
+      "key" : "IFD14:ShutterSpeedValue",
+      "value" : 1
+    },
+    {
+      "key" : "IFD15:ShutterSpeedValue",
+      "value" : 4
+    },
+    {
+      "key" : "IFD16:ShutterSpeedValue",
+      "value" : 0.31498026240094201
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0.000125 (1/8000)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0.004 (1/250)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0.3333333333 (1/3)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0.3125 (10/32)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0.25 (1/4)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0.4 (4/10)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0.5 (1/2)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD7 directory with 1 entries]",
+    "  | 0)  ExposureTime = 1 (1/1)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD8 directory with 1 entries]",
+    "  | 0)  ExposureTime = 1.3 (13/10)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD9 directory with 1 entries]",
+    "  | 0)  ExposureTime = 2 (2/1)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD10 directory with 1 entries]",
+    "  | 0)  ExposureTime = 30 (30/1)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD11 directory with 1 entries]",
+    "  | 0)  ExposureTime = 0 (0/1)",
+    "  |     - Tag 0x829a (8 bytes, rational64u[1])",
+    "  + [IFD12 directory with 1 entries]",
+    "  | 0)  ShutterSpeedValue = 13 (13/1)",
+    "  |     - Tag 0x9201 (8 bytes, rational64s[1])",
+    "  + [IFD13 directory with 1 entries]",
+    "  | 0)  ShutterSpeedValue = 8 (8/1)",
+    "  |     - Tag 0x9201 (8 bytes, rational64s[1])",
+    "  + [IFD14 directory with 1 entries]",
+    "  | 0)  ShutterSpeedValue = 0 (0/1)",
+    "  |     - Tag 0x9201 (8 bytes, rational64s[1])",
+    "  + [IFD15 directory with 1 entries]",
+    "  | 0)  ShutterSpeedValue = -2 (-2/1)",
+    "  |     - Tag 0x9201 (8 bytes, rational64s[1])",
+    "  + [IFD16 directory with 1 entries]",
+    "  | 0)  ShutterSpeedValue = 1.666666667 (5/3)",
+    "  |     - Tag 0x9201 (8 bytes, rational64s[1])"
+  ]
+}

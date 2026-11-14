@@ -1,0 +1,80 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:Sharpness",
+      "value" : "Normal"
+    },
+    {
+      "key" : "IFD1:Sharpness",
+      "value" : "Soft"
+    },
+    {
+      "key" : "IFD2:Sharpness",
+      "value" : "Hard"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-sharpness",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:Sharpness",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:Sharpness",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:Sharpness",
+      "value" : 2
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  Sharpness = 0",
+    "  |     - Tag 0xa40a (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  Sharpness = 1",
+    "  |     - Tag 0xa40a (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  Sharpness = 2",
+    "  |     - Tag 0xa40a (2 bytes, int16u[1])"
+  ]
+}

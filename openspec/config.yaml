@@ -1,0 +1,84 @@
+schema: spec-driven
+
+# Project context: constraints that guide every OpenSpec artifact and workflow.
+context: |
+  Language: Write all OpenSpec artifacts, code, comments and docs in English.
+
+  Product: SwiftyExifTool is a Swift package that reimplements the parts of
+  ExifTool needed to read and write metadata, primarily in camera RAW files,
+  plus a debug GUI app ("Inspector") that shows everything the library extracts
+  from a selected file. ExifTool features beyond docs/roadmap.md are out of
+  scope unless a change explicitly adds them.
+
+  Platforms: The library and the Inspector app must run on macOS, iOS and
+  iPadOS. Minimum deployment targets: macOS 14, iOS 17, iPadOS 17.
+  Toolchain: Xcode 27, Swift 6.4, Swift 6 language mode with strict
+  concurrency. The library must not use APIs that are unavailable on any of
+  these platforms (e.g. Process, AppKit or UIKit). Expect sandboxed,
+  security-scoped file access on iOS/iPadOS.
+
+  Dependencies: The library depends only on the Swift standard library and
+  Foundation. No third-party packages. ImageIO/CoreGraphics metadata APIs must
+  not be used in parsing or writing paths (tests may use them as a secondary
+  cross-check). exiftool is a development-only tool for conformance testing,
+  never a runtime dependency.
+
+  Clean-room, MIT: The project stays MIT-licensed and is a clean-room
+  implementation. docs/clean-room.md is binding. In short:
+  - Never read, copy, translate or generate code or tag tables from ExifTool's
+    source or its generated tag documentation/database dumps, nor from
+    Exiv2, libexif, LibRaw, dcraw or other GPL/LGPL metadata code.
+  - Allowed sources: published specifications (TIFF 6.0, TIFF/EP, CIPA DC-008
+    Exif, DNG, XMP, ISO/IEC 14496-12 ISO BMFF), vendor documentation,
+    independent format write-ups, and black-box observation of exiftool's
+    output on individual test files.
+  - Every tag or format definition outside a published spec needs recorded
+    provenance. Recollection (human or AI) is not provenance.
+  - Tag names, group names and value formatting may follow exiftool's
+    observable output for interoperability.
+
+  Compatibility target: For supported formats, reading results should match
+  `exiftool -j -a -G1 -n` (raw values) and `exiftool -j -a -G1` (converted
+  values) on the same file: same tag names, groups and values, unless a spec
+  documents a deliberate deviation.
+
+  Robustness and safety:
+  - Parsing must be bounds-checked and must not crash, recurse or allocate
+    without limit on malformed or hostile files. Recoverable problems are
+    reported as warnings, not failures.
+  - Reading RAW files (tens of MB) must not require loading the whole file
+    into memory.
+  - Writing must never alter image data, must preserve unknown or unsupported
+    metadata (including MakerNotes) byte-exactly, must be atomic (no partially
+    written file on failure) and must refuse to write a file it could not
+    fully parse.
+
+  Roadmap and capability map: docs/roadmap.md. Use the capability names
+  defined there; when a change deviates, update the roadmap in the same change.
+
+# Per-artifact rules
+rules:
+  proposal:
+    - Name the docs/roadmap.md entry the change implements.
+    - State which file formats and metadata groups are in scope and which are explicitly out of scope.
+  specs:
+    - For the library, the public API and its observable results (tags, groups, values, warnings, errors, file contents after writing) are the behavior contract.
+    - Write scenarios against concrete fixtures or byte layouts so each scenario maps to a test.
+    - Cite the specification section or black-box observation for format- or tag-level behavior; never ExifTool or other GPL source.
+  design:
+    - Explain how parsing stays bounds-checked and memory-bounded for large RAW files on iOS.
+    - List the sources (specs, documents, observed fixtures with exiftool version) used for tag or format knowledge.
+  tasks:
+    - Each task names its verification (swift test filter, xcodebuild build, app check or exiftool comparison).
+    - Tasks that add tag or format definitions also add or update fixture-based tests and provenance records.
+    - Do not commit large sample RAW files or personal photos; follow the fixture rules in docs/clean-room.md.
+
+# Per-operation guidance
+operations:
+  apply:
+    guidance:
+      - Run `swift build` and `swift test` before marking a library task done; for app tasks also build for macOS and an iOS simulator with xcodebuild.
+      - Do not open ExifTool or other GPL metadata library source while implementing; stop and ask when a definition cannot be sourced.
+  archive:
+    guidance:
+      - Update the change's status in docs/roadmap.md when archiving.

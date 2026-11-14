@@ -1,0 +1,124 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:SensingMethod",
+      "value" : "Not defined"
+    },
+    {
+      "key" : "IFD1:SensingMethod",
+      "value" : "One-chip color area"
+    },
+    {
+      "key" : "IFD2:SensingMethod",
+      "value" : "Two-chip color area"
+    },
+    {
+      "key" : "IFD3:SensingMethod",
+      "value" : "Three-chip color area"
+    },
+    {
+      "key" : "IFD4:SensingMethod",
+      "value" : "Color sequential area"
+    },
+    {
+      "key" : "IFD5:SensingMethod",
+      "value" : "Trilinear"
+    },
+    {
+      "key" : "IFD6:SensingMethod",
+      "value" : "Color sequential linear"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-sensingmethod",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:SensingMethod",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:SensingMethod",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:SensingMethod",
+      "value" : 3
+    },
+    {
+      "key" : "IFD3:SensingMethod",
+      "value" : 4
+    },
+    {
+      "key" : "IFD4:SensingMethod",
+      "value" : 5
+    },
+    {
+      "key" : "IFD5:SensingMethod",
+      "value" : 7
+    },
+    {
+      "key" : "IFD6:SensingMethod",
+      "value" : 8
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  SensingMethod = 1",
+    "  |     - Tag 0xa217 (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  SensingMethod = 2",
+    "  |     - Tag 0xa217 (2 bytes, int16u[1])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  SensingMethod = 3",
+    "  |     - Tag 0xa217 (2 bytes, int16u[1])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  SensingMethod = 4",
+    "  |     - Tag 0xa217 (2 bytes, int16u[1])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  SensingMethod = 5",
+    "  |     - Tag 0xa217 (2 bytes, int16u[1])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  SensingMethod = 7",
+    "  |     - Tag 0xa217 (2 bytes, int16u[1])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  SensingMethod = 8",
+    "  |     - Tag 0xa217 (2 bytes, int16u[1])"
+  ]
+}

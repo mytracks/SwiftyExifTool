@@ -1,0 +1,70 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "ExifTool:Warning",
+      "value" : "Bad ExifIFD directory"
+    },
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "bad-exif-pointer",
+  "raw" : [
+    {
+      "key" : "ExifTool:Warning",
+      "value" : "Bad ExifIFD directory"
+    },
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 10
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 2 entries]",
+    "  | 0)  ImageWidth = 10",
+    "  |     - Tag 0x0100 (2 bytes, int16u[1])",
+    "  | 1)  ExifOffset (SubDirectory) -->",
+    "  |     - Tag 0x8769 (4 bytes, int32u[1])",
+    "  | | Warning = Bad ExifIFD directory",
+    "  |     (SubDirectory start = 0x18697)"
+  ]
+}

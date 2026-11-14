@@ -1,0 +1,124 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:UserComment",
+      "value" : "Hello"
+    },
+    {
+      "key" : "IFD1:UserComment",
+      "value" : "Hi"
+    },
+    {
+      "key" : "IFD2:UserComment",
+      "value" : "raw"
+    },
+    {
+      "key" : "IFD3:UserComment",
+      "value" : "Trailing"
+    },
+    {
+      "key" : "IFD4:UserComment",
+      "value" : "썚犼捩"
+    },
+    {
+      "key" : "IFD5:UserComment",
+      "value" : "Hi"
+    },
+    {
+      "key" : "IFD6:UserComment",
+      "value" : "矚"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-usercomment",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:UserComment",
+      "value" : "Hello"
+    },
+    {
+      "key" : "IFD1:UserComment",
+      "value" : "Hi"
+    },
+    {
+      "key" : "IFD2:UserComment",
+      "value" : "raw"
+    },
+    {
+      "key" : "IFD3:UserComment",
+      "value" : "Trailing"
+    },
+    {
+      "key" : "IFD4:UserComment",
+      "value" : "썚犼捩"
+    },
+    {
+      "key" : "IFD5:UserComment",
+      "value" : "Hi"
+    },
+    {
+      "key" : "IFD6:UserComment",
+      "value" : "矚"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  UserComment = ASCIIHello",
+    "  |     - Tag 0x9286 (13 bytes, undef[13])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  UserComment = UNICODEHi",
+    "  |     - Tag 0x9286 (12 bytes, undef[12])",
+    "  + [IFD2 directory with 1 entries]",
+    "  | 0)  UserComment = raw   ",
+    "  |     - Tag 0x9286 (14 bytes, undef[14])",
+    "  + [IFD3 directory with 1 entries]",
+    "  | 0)  UserComment = ASCIITrailing   ",
+    "  |     - Tag 0x9286 (19 bytes, undef[19])",
+    "  + [IFD4 directory with 1 entries]",
+    "  | 0)  UserComment = UNICODEZ..rich",
+    "  |     - Tag 0x9286 (15 bytes, undef[15])",
+    "  + [IFD5 directory with 1 entries]",
+    "  | 0)  UserComment = UNICODEHi",
+    "  |     - Tag 0x9286 (12 bytes, undef[12])",
+    "  + [IFD6 directory with 1 entries]",
+    "  | 0)  UserComment = JISabc",
+    "  |     - Tag 0x9286 (11 bytes, undef[11])"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:Exif_0xa40f",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:Exif_0xa40f",
+      "value" : 1
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "exif-distortioncorrection",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:Exif_0xa40f",
+      "value" : 0
+    },
+    {
+      "key" : "IFD1:Exif_0xa40f",
+      "value" : 1
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  Exif_0xa40f = 0",
+    "  |     - Tag 0xa40f (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  Exif_0xa40f = 1",
+    "  |     - Tag 0xa40f (2 bytes, int16u[1])"
+  ]
+}

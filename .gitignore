@@ -1,0 +1,20 @@
+.DS_Store
+
+# Swift Package Manager
+/.build
+/Packages
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Claude Code: personal settings
+.claude/settings.local.json
+
+# XcodeGen output (regenerate with `xcodegen generate --spec App/project.yml`)
+/App/SwiftyExif.xcodeproj
+/App/SwiftyExif/Generated/

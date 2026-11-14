@@ -1,0 +1,69 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:InkSet",
+      "value" : "CMYK"
+    },
+    {
+      "key" : "IFD1:InkSet",
+      "value" : "Not CMYK"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "tiff-inkset",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:InkSet",
+      "value" : 1
+    },
+    {
+      "key" : "IFD1:InkSet",
+      "value" : 2
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 1 entries]",
+    "  | 0)  InkSet = 1",
+    "  |     - Tag 0x014c (2 bytes, int16u[1])",
+    "  + [IFD1 directory with 1 entries]",
+    "  | 0)  InkSet = 2",
+    "  |     - Tag 0x014c (2 bytes, int16u[1])"
+  ]
+}

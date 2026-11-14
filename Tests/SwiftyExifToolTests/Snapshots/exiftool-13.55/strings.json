@@ -1,0 +1,79 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>",
+    "exiftool -v2 <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "tif"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Cam"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "M?ller"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "Ünïcødé"
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fixture" : "strings",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "TIFF"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "TIF"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/tiff"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Cam"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "M?ller"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "Ünïcødé"
+    }
+  ],
+  "verbose" : [
+    "  + [IFD0 directory with 3 entries]",
+    "  | 0)  Make = Cam  ",
+    "  |     - Tag 0x010f (8 bytes, string[8])",
+    "  | 1)  Artist = M.ller",
+    "  |     - Tag 0x013b (7 bytes, string[7])",
+    "  | Warning = Tag ID 0x0131 Software out of sequence in IFD0",
+    "  | 2)  Software = ..n..c..d..",
+    "  |     - Tag 0x0131 (12 bytes, string[12])"
+  ]
+}
