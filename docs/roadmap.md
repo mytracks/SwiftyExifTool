@@ -62,7 +62,7 @@ update this table.
 
 ## Changes
 
-### 1. `add-tiff-exif-reading` — planned
+### 1. `add-tiff-exif-reading` — done
 
 Lay the foundation: the Swift package and reading of TIFF-structured
 metadata, which DNG, CR2, NEF and ARW, and the EXIF blocks inside CR3 and
