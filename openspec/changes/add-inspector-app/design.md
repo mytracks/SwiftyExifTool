@@ -110,8 +110,12 @@ size. Bounds checking and memory limits are the library's (see the
   `com.adobe.raw-image`, and `.onOpenURL` on the window. The same
   declaration plus `LSSupportsOpeningDocumentsInPlace` makes "Open in
   SwiftyExif" available on iOS as a side effect; it is not a requirement.
-- `.handlesExternalEvents(matching: ["*"])` keeps one window on macOS
-  instead of opening a new one per file.
+- On macOS the app uses a single `Window` scene, so a file opened from
+  Finder replaces the shown file instead of opening a new window. A
+  `WindowGroup` with `.handlesExternalEvents` was tried first: it still
+  opened a second window next to the one macOS restores at launch. Closing
+  the window quits the app, as for any single-window SwiftUI app. iOS keeps
+  a `WindowGroup` with `.handlesExternalEvents(matching: ["*"])`.
 
 *Alternative:* `DocumentGroup` with a read-only `FileDocument`. Rejected: it
 loads the whole file into memory as `Data` (`FileWrapper`), which defeats
@@ -156,8 +160,8 @@ documentation.
 ## Risks / Trade-offs
 
 - [`.onOpenURL` delivery for Finder "Open With" differs between macOS
-  versions and may open a second window] → `handlesExternalEvents`, plus a
-  manual check on macOS 14 and the current macOS.
+  versions and may open a second window] → a single `Window` scene on
+  macOS, plus a manual check on macOS 14 and the current macOS.
 - [Drops on iPadOS deliver copies, so the summary shows the copy's name] →
   use the suggested file name of the item representation for display.
 - [iPadOS does not deliver drops from other apps onto lists and tables
