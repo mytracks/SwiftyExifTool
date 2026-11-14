@@ -16,15 +16,23 @@ let package = Package(
         // Development only: synthetic fixture builder and catalogue.
         .target(name: "FixtureKit"),
 
-        // Development only (macOS): generates fixtures and records exiftool snapshots.
+        // Development only: compares reading results with exiftool snapshots
+        // (synthetic fixtures and the sample corpus). Not a product.
+        .target(
+            name: "ConformanceKit",
+            dependencies: ["SwiftyExifTool"]
+        ),
+
+        // Development only (macOS): generates fixtures, records exiftool
+        // snapshots and runs the conformance tooling.
         .executableTarget(
             name: "fixtures",
-            dependencies: ["FixtureKit"]
+            dependencies: ["FixtureKit", "ConformanceKit", "SwiftyExifTool"]
         ),
 
         .testTarget(
             name: "SwiftyExifToolTests",
-            dependencies: ["SwiftyExifTool", "FixtureKit"],
+            dependencies: ["SwiftyExifTool", "FixtureKit", "ConformanceKit"],
             resources: [
                 .copy("Fixtures"),
                 .copy("Snapshots"),

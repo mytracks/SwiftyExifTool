@@ -58,6 +58,18 @@ Read `docs/clean-room.md` before working on tags or formats. In particular:
 - Re-record the exiftool snapshots (needs exiftool on `PATH`):
   `swift run fixtures snapshot`. Review the diff: it is the provenance of
   names and conversions.
+- Print a file's reading result like `exiftool -j -a -G1 -u [-n]`, for a
+  direct diff against exiftool: `swift run fixtures json <file> [-n]`.
+- Sample corpus of real CC0 files (listed in `Corpus/manifest.json`, kept
+  out of git in `Corpus/` or `$SWIFTYEXIF_CORPUS`):
+  - Download and verify it (about 70 MB): `swift run fixtures corpus fetch`
+  - Re-record its exiftool snapshots (needs exiftool; personal fields are
+    stored as hashes): `swift run fixtures corpus snapshot`
+  - Report matching, differing, missing and extra tags per file and group:
+    `swift run fixtures corpus check`
+  - Re-record the committed baseline after a change that affects corpus
+    results (the baseline test fails until then; review the diff):
+    `swift run fixtures corpus baseline`
 - SwiftyExif app (needs XcodeGen, `brew install xcodegen`):
   - Generate the project: `xcodegen generate --spec App/project.yml`
     (rerun after adding or removing files under `App/`)

@@ -66,3 +66,8 @@ ask the maintainer.
   numbers and owner names.
 - Keep committed fixtures small. Large sample RAW files stay outside git and
   are described by a manifest instead.
+- The sample corpus (`Corpus/manifest.json`) lists CC0 files only. Its
+  committed exiftool snapshots store personal fields (artist, copyright,
+  owner names, serial numbers, GPS data) only as SHA-256 hashes; the list
+  of these fields is `Sources/ConformanceKit/PersonalFields.swift`. Extend
+  it when a change starts reading new personal fields.

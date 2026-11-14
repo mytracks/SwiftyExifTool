@@ -1,3 +1,4 @@
+import ConformanceKit
 import Foundation
 import Testing
 import FixtureKit

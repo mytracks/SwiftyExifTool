@@ -18,3 +18,7 @@ DerivedData/
 # XcodeGen output (regenerate with `xcodegen generate --spec App/project.yml`)
 /App/SwiftyExif.xcodeproj
 /App/SwiftyExif/Generated/
+
+# Sample corpus: only the manifest is committed (`swift run fixtures corpus fetch`)
+/Corpus/*
+!/Corpus/manifest.json

@@ -1,0 +1,455 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "DNG"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "dng"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/x-adobe-dng"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : "Full-resolution image"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 1920
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 818
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : 14
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : "JPEG"
+    },
+    {
+      "key" : "IFD0:PhotometricInterpretation",
+      "value" : "Color Filter Array"
+    },
+    {
+      "key" : "IFD0:FillOrder",
+      "value" : "Normal"
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Canon"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "IFD0:StripOffsets",
+      "value" : 1184
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : "Horizontal (normal)"
+    },
+    {
+      "key" : "IFD0:SamplesPerPixel",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:RowsPerStrip",
+      "value" : 818
+    },
+    {
+      "key" : "IFD0:StripByteCounts",
+      "value" : 1536981
+    },
+    {
+      "key" : "IFD0:PlanarConfiguration",
+      "value" : "Chunky"
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "MLV App"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2017:12:12 09:45:40"
+    },
+    {
+      "key" : "IFD0:CFARepeatPatternDim",
+      "value" : "2 2"
+    },
+    {
+      "key" : "IFD0:CFAPattern2",
+      "value" : "0 1 1 2"
+    },
+    {
+      "key" : "IFD0:DNGVersion",
+      "value" : "1.4.0.0"
+    },
+    {
+      "key" : "IFD0:UniqueCameraModel",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "IFD0:BlackLevel",
+      "value" : 2145
+    },
+    {
+      "key" : "IFD0:WhiteLevel",
+      "value" : 16200
+    },
+    {
+      "key" : "IFD0:DefaultScale",
+      "value" : "1 1"
+    },
+    {
+      "key" : "IFD0:DefaultCropOrigin",
+      "value" : "0 0"
+    },
+    {
+      "key" : "IFD0:DefaultCropSize",
+      "value" : "1920 818"
+    },
+    {
+      "key" : "IFD0:ColorMatrix1",
+      "value" : "0.7234 -0.1413 -0.06 -0.3631 1.115 0.285 -0.0382 0.1335 0.6437"
+    },
+    {
+      "key" : "IFD0:ColorMatrix2",
+      "value" : "0.6722 -0.0635 -0.0963 -0.4287 1.246 0.2028 -0.0908 0.2162 0.5668"
+    },
+    {
+      "key" : "IFD0:AsShotNeutral",
+      "value" : "0.5712549099 1 0.5102879146"
+    },
+    {
+      "key" : "IFD0:BaselineExposure",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:CameraSerialNumber",
+      "value" : "sha256:876836f9f1324891ab2edb23f80dfaba2c6eacedbf8fcfd6a4adf29c2c8a8a6e"
+    },
+    {
+      "key" : "IFD0:CalibrationIlluminant1",
+      "value" : "Standard Light A"
+    },
+    {
+      "key" : "IFD0:CalibrationIlluminant2",
+      "value" : "D65"
+    },
+    {
+      "key" : "IFD0:ActiveArea",
+      "value" : "0 0 818 1920"
+    },
+    {
+      "key" : "IFD0:ForwardMatrix1",
+      "value" : "0.7868 0.0092 0.1683 0.2291 0.8615 -0.0906 0.0027 -0.4752 1.2976"
+    },
+    {
+      "key" : "IFD0:ForwardMatrix2",
+      "value" : "0.7637 0.0805 0.1201 0.2649 0.9179 -0.1828 0.0137 -0.2456 1.057"
+    },
+    {
+      "key" : "IFD0:TimeCodes",
+      "value" : "00:00:24.03"
+    },
+    {
+      "key" : "IFD0:FrameRate",
+      "value" : 23.975999999999999
+    },
+    {
+      "key" : "IFD0:ReelName",
+      "value" : "F:/DCIM/100EOS5D/M12-0945"
+    },
+    {
+      "key" : "IFD0:BaselineExposureOffset",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : "1/53"
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : "ISO Speed"
+    },
+    {
+      "key" : "ExifIFD:ExifVersion",
+      "value" : "0230"
+    },
+    {
+      "key" : "ExifIFD:SubjectDistance",
+      "value" : "0 m"
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : "50.0 mm"
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneXResolution",
+      "value" : 1314.1683780000001
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneYResolution",
+      "value" : 1314.1683780000001
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "ExifIFD:LensModel",
+      "value" : ""
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fileName" : "compress.dng",
+  "fixture" : "canon-5dmk3-dng",
+  "personalFields" : "hashed as sha256 (ConformanceKit/PersonalFields.swift)",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "DNG"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "DNG"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/x-adobe-dng"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:SubfileType",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 1920
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 818
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : 14
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : 7
+    },
+    {
+      "key" : "IFD0:PhotometricInterpretation",
+      "value" : 32803
+    },
+    {
+      "key" : "IFD0:FillOrder",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Canon"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "IFD0:StripOffsets",
+      "value" : 1184
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:SamplesPerPixel",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:RowsPerStrip",
+      "value" : 818
+    },
+    {
+      "key" : "IFD0:StripByteCounts",
+      "value" : 1536981
+    },
+    {
+      "key" : "IFD0:PlanarConfiguration",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:Software",
+      "value" : "MLV App"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2017:12:12 09:45:40"
+    },
+    {
+      "key" : "IFD0:CFARepeatPatternDim",
+      "value" : "2 2"
+    },
+    {
+      "key" : "IFD0:CFAPattern2",
+      "value" : "0 1 1 2"
+    },
+    {
+      "key" : "IFD0:DNGVersion",
+      "value" : "1 4 0 0"
+    },
+    {
+      "key" : "IFD0:UniqueCameraModel",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "IFD0:BlackLevel",
+      "value" : 2145
+    },
+    {
+      "key" : "IFD0:WhiteLevel",
+      "value" : 16200
+    },
+    {
+      "key" : "IFD0:DefaultScale",
+      "value" : "1 1"
+    },
+    {
+      "key" : "IFD0:DefaultCropOrigin",
+      "value" : "0 0"
+    },
+    {
+      "key" : "IFD0:DefaultCropSize",
+      "value" : "1920 818"
+    },
+    {
+      "key" : "IFD0:ColorMatrix1",
+      "value" : "0.7234 -0.1413 -0.06 -0.3631 1.115 0.285 -0.0382 0.1335 0.6437"
+    },
+    {
+      "key" : "IFD0:ColorMatrix2",
+      "value" : "0.6722 -0.0635 -0.0963 -0.4287 1.246 0.2028 -0.0908 0.2162 0.5668"
+    },
+    {
+      "key" : "IFD0:AsShotNeutral",
+      "value" : "0.5712549099 1 0.5102879146"
+    },
+    {
+      "key" : "IFD0:BaselineExposure",
+      "value" : 0
+    },
+    {
+      "key" : "IFD0:CameraSerialNumber",
+      "value" : "sha256:876836f9f1324891ab2edb23f80dfaba2c6eacedbf8fcfd6a4adf29c2c8a8a6e"
+    },
+    {
+      "key" : "IFD0:CalibrationIlluminant1",
+      "value" : 17
+    },
+    {
+      "key" : "IFD0:CalibrationIlluminant2",
+      "value" : 21
+    },
+    {
+      "key" : "IFD0:ActiveArea",
+      "value" : "0 0 818 1920"
+    },
+    {
+      "key" : "IFD0:ForwardMatrix1",
+      "value" : "0.7868 0.0092 0.1683 0.2291 0.8615 -0.0906 0.0027 -0.4752 1.2976"
+    },
+    {
+      "key" : "IFD0:ForwardMatrix2",
+      "value" : "0.7637 0.0805 0.1201 0.2649 0.9179 -0.1828 0.0137 -0.2456 1.057"
+    },
+    {
+      "key" : "IFD0:TimeCodes",
+      "value" : "03.24.00.00.00.00.00.00"
+    },
+    {
+      "key" : "IFD0:FrameRate",
+      "value" : 23.975999999999999
+    },
+    {
+      "key" : "IFD0:ReelName",
+      "value" : "F:/DCIM/100EOS5D/M12-0945"
+    },
+    {
+      "key" : "IFD0:BaselineExposureOffset",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : 0.019
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : 3
+    },
+    {
+      "key" : "ExifIFD:ExifVersion",
+      "value" : "0230"
+    },
+    {
+      "key" : "ExifIFD:SubjectDistance",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : 50
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneXResolution",
+      "value" : 1314.1683780000001
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneYResolution",
+      "value" : 1314.1683780000001
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:LensModel",
+      "value" : ""
+    }
+  ],
+  "sha256" : "1d77dcc6cdb839b10c1948f0b4471984ab48cf15e973fb77520584cee72b603e"
+}

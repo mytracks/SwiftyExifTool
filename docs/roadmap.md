@@ -44,7 +44,7 @@ update this table.
 | `exif-tags` | Standard TIFF, Exif, GPS and Interop tag definitions with raw and converted values | 1 |
 | `metadata-reading-api` | Public reading API: inputs, result model (tag, group, raw value, converted value), warnings and errors | 1 |
 | `inspector-app` | The debug GUI app | 2 |
-| `metadata-json-export` | JSON output shaped like `exiftool -j -a -G1 [-n]` | 3 |
+| `exiftool-conformance` | Development tooling: exiftool-shaped output, comparison with exiftool snapshots, the fixture gate, the sample corpus with its report and baseline | 3 |
 | `formats/dng` | DNG detection and DNG-specific tags | 4 |
 | `formats/canon-cr2` | CR2 detection and container specifics | 4 |
 | `formats/nikon-nef` | NEF detection and container specifics | 4 |
@@ -97,19 +97,27 @@ A multiplatform SwiftUI app that serves as the debug aid for all later work.
   Xcode or generated, e.g. with XcodeGen); app name and bundle identifier;
   signing team.
 
-### 3. `add-exiftool-conformance` — planned
+### 3. `add-exiftool-conformance` — done
 
-Measure parity with exiftool before adding formats.
+Measure parity with exiftool before adding formats. The output is a
+development instrument, not a library feature: the library's public API
+does not change.
 
-- JSON export of reading results shaped like `exiftool -j -a -G1 [-n]`.
+- exiftool-shaped output of reading results, like `exiftool -j -a -G1 -u
+  [-n]`, in the development target `ConformanceKit` and printed by
+  `swift run fixtures json`.
 - A fixture corpus: synthetic files in the repository; sample RAW files kept
   outside git and described by a manifest (source, licence, checksum).
-- A comparison runner that diffs our output with exiftool's for each fixture,
-  with documented, deliberate deviations.
-- Capabilities: `metadata-json-export` (the corpus and runner are tooling).
-- To settle: whether expected exiftool output is stored as snapshots so tests
-  run without exiftool installed; where the sample corpus lives locally and
-  how it is downloaded (e.g. CC0 samples from raw.pixls.us).
+- A comparison runner that diffs our output with exiftool's: synthetic
+  fixtures are a strict gate with documented, deliberate deviations; real
+  files produce a report and a committed baseline of per-tag status.
+- Capabilities: `exiftool-conformance` (development tooling). The earlier
+  idea of a library capability `metadata-json-export` was dropped.
+- Settled: expected exiftool output is stored as committed snapshots, so
+  tests run without exiftool; personal fields in corpus snapshots are
+  stored as hashes. The corpus lives in the git-ignored `Corpus/` directory
+  (or `SWIFTYEXIF_CORPUS`) and is downloaded with
+  `swift run fixtures corpus fetch` (CC0 samples from raw.pixls.us).
 
 ### 4. `add-tiff-based-raw-formats` — planned
 

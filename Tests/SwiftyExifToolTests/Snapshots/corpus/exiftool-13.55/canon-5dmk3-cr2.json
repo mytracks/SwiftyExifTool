@@ -1,0 +1,3399 @@
+{
+  "commands" : [
+    "exiftool -j -a -G1 -u -n <file>",
+    "exiftool -j -a -G1 -u <file>"
+  ],
+  "display" : [
+    {
+      "key" : "File:FileType",
+      "value" : "CR2"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "cr2"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/x-canon-cr2"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "Little-endian (Intel, II)"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : "8 8 8"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : "JPEG (old-style)"
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Canon"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "IFD0:PreviewImageStart",
+      "value" : 93772
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : "Horizontal (normal)"
+    },
+    {
+      "key" : "IFD0:PreviewImageLength",
+      "value" : 1479160
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:YResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2017:01:05 13:52:55"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "sha256:7ce1d64d6ea2be09a72c82a7e1c5fdd86f1b0dcd9b90fbdfa0046cc62e000ef6"
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "IFD0:PreviewImage",
+      "value" : "(Binary data 1479160 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "XMP-xmp:Rating",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : "1/125"
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "ExifIFD:ExposureProgram",
+      "value" : "Manual"
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : "Recommended Exposure Index"
+    },
+    {
+      "key" : "ExifIFD:RecommendedExposureIndex",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:ExifVersion",
+      "value" : "0230"
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2017:01:05 13:52:55"
+    },
+    {
+      "key" : "ExifIFD:CreateDate",
+      "value" : "2017:01:05 13:52:55"
+    },
+    {
+      "key" : "ExifIFD:ComponentsConfiguration",
+      "value" : "Y, Cb, Cr, -"
+    },
+    {
+      "key" : "ExifIFD:ShutterSpeedValue",
+      "value" : "1/128"
+    },
+    {
+      "key" : "ExifIFD:ApertureValue",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "ExifIFD:ExposureCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:MeteringMode",
+      "value" : "Multi-segment"
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : "Off, Did not fire"
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : "70.0 mm"
+    },
+    {
+      "key" : "ExifIFD:UserComment",
+      "value" : ""
+    },
+    {
+      "key" : "ExifIFD:SubSecTime",
+      "value" : 96
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeOriginal",
+      "value" : 96
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeDigitized",
+      "value" : 96
+    },
+    {
+      "key" : "ExifIFD:FlashpixVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "ExifIFD:ColorSpace",
+      "value" : "sRGB"
+    },
+    {
+      "key" : "ExifIFD:ExifImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "ExifIFD:ExifImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneXResolution",
+      "value" : 3942.5051330000001
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneYResolution",
+      "value" : 3950.6172839999999
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneResolutionUnit",
+      "value" : "inches"
+    },
+    {
+      "key" : "ExifIFD:CustomRendered",
+      "value" : "Normal"
+    },
+    {
+      "key" : "ExifIFD:ExposureMode",
+      "value" : "Manual"
+    },
+    {
+      "key" : "ExifIFD:WhiteBalance",
+      "value" : "Auto"
+    },
+    {
+      "key" : "ExifIFD:SceneCaptureType",
+      "value" : "Standard"
+    },
+    {
+      "key" : "ExifIFD:OwnerName",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "ExifIFD:SerialNumber",
+      "value" : "sha256:e95ee69b3bf3b60a704e244354a2cdb00adc3dd7b0f5dfdd430fe916a016f0e6"
+    },
+    {
+      "key" : "ExifIFD:LensInfo",
+      "value" : "70-200mm f/0"
+    },
+    {
+      "key" : "ExifIFD:LensModel",
+      "value" : "EF70-200mm f/2.8L IS II USM"
+    },
+    {
+      "key" : "ExifIFD:LensSerialNumber",
+      "value" : "sha256:04d3297e4f6caad5b6965d9ec411058cb4c1950d22bb70f94f6c32659fcf60eb"
+    },
+    {
+      "key" : "Canon:MacroMode",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Canon:SelfTimer",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:Quality",
+      "value" : "RAW"
+    },
+    {
+      "key" : "Canon:CanonFlashMode",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:ContinuousDrive",
+      "value" : "Single"
+    },
+    {
+      "key" : "Canon:FocusMode",
+      "value" : "One-shot AF"
+    },
+    {
+      "key" : "Canon:RecordMode",
+      "value" : "CR2"
+    },
+    {
+      "key" : "Canon:CanonImageSize",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:EasyMode",
+      "value" : "Manual"
+    },
+    {
+      "key" : "Canon:DigitalZoom",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:Contrast",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Canon:Saturation",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Canon:MeteringMode",
+      "value" : "Evaluative"
+    },
+    {
+      "key" : "Canon:FocusRange",
+      "value" : "Not Known"
+    },
+    {
+      "key" : "Canon:CanonExposureMode",
+      "value" : "Manual"
+    },
+    {
+      "key" : "Canon:LensType",
+      "value" : "Canon EF 70-200mm f/2.8L IS II USM"
+    },
+    {
+      "key" : "Canon:MaxFocalLength",
+      "value" : "200 mm"
+    },
+    {
+      "key" : "Canon:MinFocalLength",
+      "value" : "70 mm"
+    },
+    {
+      "key" : "Canon:FocalUnits",
+      "value" : "1/mm"
+    },
+    {
+      "key" : "Canon:MaxAperture",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "Canon:MinAperture",
+      "value" : 32
+    },
+    {
+      "key" : "Canon:FlashModel",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:FlashBits",
+      "value" : "(none)"
+    },
+    {
+      "key" : "Canon:ZoomSourceWidth",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ZoomTargetWidth",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ManualFlashOutput",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ColorTone",
+      "value" : "Normal"
+    },
+    {
+      "key" : "Canon:SRAWQuality",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:FocalLength",
+      "value" : "70 mm"
+    },
+    {
+      "key" : "Canon:FocalPlaneXUnknown",
+      "value" : 53893
+    },
+    {
+      "key" : "Canon:FocalPlaneYUnknown",
+      "value" : 12236
+    },
+    {
+      "key" : "Canon:CanonFlashInfo",
+      "value" : "0 0 0 0"
+    },
+    {
+      "key" : "Canon:AutoISO",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:BaseISO",
+      "value" : 200
+    },
+    {
+      "key" : "Canon:MeasuredEV",
+      "value" : 9.3800000000000008
+    },
+    {
+      "key" : "Canon:TargetAperture",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "Canon:TargetExposureTime",
+      "value" : "1/128"
+    },
+    {
+      "key" : "Canon:ExposureCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WhiteBalance",
+      "value" : "Auto"
+    },
+    {
+      "key" : "Canon:SlowShutter",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:SequenceNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:OpticalZoomCode",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:CameraTemperature",
+      "value" : "24 C"
+    },
+    {
+      "key" : "Canon:FlashGuideNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FlashExposureComp",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AutoExposureBracketing",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:AEBBracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ControlMode",
+      "value" : "Camera Local Control"
+    },
+    {
+      "key" : "Canon:FNumber",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "Canon:ExposureTime",
+      "value" : "1/128"
+    },
+    {
+      "key" : "Canon:MeasuredEV2",
+      "value" : 9.375
+    },
+    {
+      "key" : "Canon:BulbDuration",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CameraType",
+      "value" : "EOS High-end"
+    },
+    {
+      "key" : "Canon:NDFilter",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:CanonImageType",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "Canon:CanonFirmwareVersion",
+      "value" : "Firmware Version 1.2.3"
+    },
+    {
+      "key" : "Canon:OwnerName",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "Canon:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "Canon:CameraOrientation",
+      "value" : "Horizontal (normal)"
+    },
+    {
+      "key" : "Canon:LensSerialNumber",
+      "value" : "sha256:04d3297e4f6caad5b6965d9ec411058cb4c1950d22bb70f94f6c32659fcf60eb"
+    },
+    {
+      "key" : "Canon:FirmwareVersion",
+      "value" : "1.2.3"
+    },
+    {
+      "key" : "Canon:FileIndex",
+      "value" : 9161
+    },
+    {
+      "key" : "Canon:FileIndex2",
+      "value" : 9394
+    },
+    {
+      "key" : "Canon:DirectoryIndex",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:DirectoryIndex2",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:ContrastStandard",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessStandard",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationStandard",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneStandard",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectStandard",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ToningEffectStandard",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ContrastPortrait",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessPortrait",
+      "value" : 2
+    },
+    {
+      "key" : "Canon:SaturationPortrait",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorTonePortrait",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectPortrait",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ToningEffectPortrait",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ContrastLandscape",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessLandscape",
+      "value" : 4
+    },
+    {
+      "key" : "Canon:SaturationLandscape",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneLandscape",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectLandscape",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ToningEffectLandscape",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ContrastNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SaturationNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectNeutral",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ToningEffectNeutral",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ContrastFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SaturationFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectFaithful",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ToningEffectFaithful",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ContrastMonochrome",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessMonochrome",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationMonochrome",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ColorToneMonochrome",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:FilterEffectMonochrome",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:ToningEffectMonochrome",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:ContrastAuto",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessAuto",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationAuto",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneAuto",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectAuto",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ToningEffectAuto",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:ContrastUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessUserDef1",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectUserDef1",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:ToningEffectUserDef1",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:ContrastUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessUserDef2",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectUserDef2",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:ToningEffectUserDef2",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:ContrastUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessUserDef3",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectUserDef3",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:ToningEffectUserDef3",
+      "value" : "None"
+    },
+    {
+      "key" : "Canon:UserDef1PictureStyle",
+      "value" : "Standard"
+    },
+    {
+      "key" : "Canon:UserDef2PictureStyle",
+      "value" : "Standard"
+    },
+    {
+      "key" : "Canon:UserDef3PictureStyle",
+      "value" : "Standard"
+    },
+    {
+      "key" : "Canon:CanonModelID",
+      "value" : "EOS 5D Mark III"
+    },
+    {
+      "key" : "Canon:ThumbnailImageValidArea",
+      "value" : "0 159 7 112"
+    },
+    {
+      "key" : "Canon:Canon_0x0019",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:AFInfoSize",
+      "value" : 530
+    },
+    {
+      "key" : "Canon:AFAreaMode",
+      "value" : "Single-point AF"
+    },
+    {
+      "key" : "Canon:NumAFPoints",
+      "value" : 61
+    },
+    {
+      "key" : "Canon:ValidAFPoints",
+      "value" : 61
+    },
+    {
+      "key" : "Canon:CanonImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:CanonImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:AFImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:AFImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:AFAreaWidths",
+      "value" : "190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190"
+    },
+    {
+      "key" : "Canon:AFAreaHeights",
+      "value" : "188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188"
+    },
+    {
+      "key" : "Canon:AFAreaXPositions",
+      "value" : "288 0 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 288 0 -288"
+    },
+    {
+      "key" : "Canon:AFAreaYPositions",
+      "value" : "-648 -648 -648 -433 -433 -433 -433 -433 -433 -433 -433 -433 -433 -433 -215 -215 -215 -215 -215 -215 -215 -215 -215 -215 -215 0 0 0 0 0 0 0 0 0 0 0 215 215 215 215 215 215 215 215 215 215 215 433 433 433 433 433 433 433 433 433 433 433 648 648 648"
+    },
+    {
+      "key" : "Canon:AFPointsInFocus",
+      "value" : 30
+    },
+    {
+      "key" : "Canon:AFPointsSelected",
+      "value" : 30
+    },
+    {
+      "key" : "Canon:TimeZone",
+      "value" : "+02:00"
+    },
+    {
+      "key" : "Canon:TimeZoneCity",
+      "value" : "Paris"
+    },
+    {
+      "key" : "Canon:DaylightSavings",
+      "value" : "On"
+    },
+    {
+      "key" : "Canon:BracketMode",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:BracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BracketShotNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:RawJpgSize",
+      "value" : "Large"
+    },
+    {
+      "key" : "Canon:WBBracketMode",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:WBBracketValueAB",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBBracketValueGM",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:LiveViewShooting",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:FocusDistanceUpper",
+      "value" : "1.88 m"
+    },
+    {
+      "key" : "Canon:FocusDistanceLower",
+      "value" : "1.78 m"
+    },
+    {
+      "key" : "Canon:ShutterMode",
+      "value" : "Mechanical"
+    },
+    {
+      "key" : "Canon:FlashExposureLock",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:LensModel",
+      "value" : "EF70-200mm f/2.8L IS II USM"
+    },
+    {
+      "key" : "Canon:InternalSerialNumber2",
+      "value" : "AD0166446"
+    },
+    {
+      "key" : "Canon:DustRemovalData",
+      "value" : "(Binary data 1024 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Canon:CropLeftMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CropRightMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CropTopMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CropBottomMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AspectRatio",
+      "value" : "3:2"
+    },
+    {
+      "key" : "Canon:CroppedImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:CroppedImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:CroppedImageLeft",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CroppedImageTop",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ToneCurve",
+      "value" : "Standard"
+    },
+    {
+      "key" : "Canon:Sharpness",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SharpnessFrequency",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:SensorRedLevel",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SensorBlueLevel",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WhiteBalanceRed",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WhiteBalanceBlue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorTemperature",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:PictureStyle",
+      "value" : "Auto"
+    },
+    {
+      "key" : "Canon:DigitalGain",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBShiftAB",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBShiftGM",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:MeasuredRGGB",
+      "value" : "803 1024 1024 343"
+    },
+    {
+      "key" : "Canon:ColorSpace",
+      "value" : "sRGB"
+    },
+    {
+      "key" : "Canon:VRDOffset",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SensorWidth",
+      "value" : 5920
+    },
+    {
+      "key" : "Canon:SensorHeight",
+      "value" : 3950
+    },
+    {
+      "key" : "Canon:SensorLeftBorder",
+      "value" : 140
+    },
+    {
+      "key" : "Canon:SensorTopBorder",
+      "value" : 96
+    },
+    {
+      "key" : "Canon:SensorRightBorder",
+      "value" : 5899
+    },
+    {
+      "key" : "Canon:SensorBottomBorder",
+      "value" : 3935
+    },
+    {
+      "key" : "Canon:BlackMaskLeftBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BlackMaskTopBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BlackMaskRightBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BlackMaskBottomBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorDataVersion",
+      "value" : "10 (1DX/5DmkIII/6D/70D/100D/650D/700D/M/M2)"
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsAsShot",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempAsShot",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsAuto",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempAuto",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsMeasured",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempMeasured",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown2",
+      "value" : "1024 1024 1024 1024"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown2",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown3",
+      "value" : "1024 1024 1024 1024"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown3",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown4",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown4",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown5",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown5",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown6",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown6",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown7",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown7",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown8",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown8",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown9",
+      "value" : "1285 1028 1019 3019"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown9",
+      "value" : 2680
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown10",
+      "value" : "836 1170 1170 437"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown10",
+      "value" : 3000
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsDaylight",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempDaylight",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsShade",
+      "value" : "2351 1024 1024 1378"
+    },
+    {
+      "key" : "Canon:ColorTempShade",
+      "value" : 7000
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsCloudy",
+      "value" : "2203 1024 1024 1489"
+    },
+    {
+      "key" : "Canon:ColorTempCloudy",
+      "value" : 6000
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsTungsten",
+      "value" : "1473 1024 1024 2416"
+    },
+    {
+      "key" : "Canon:ColorTempTungsten",
+      "value" : 3200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsFluorescent",
+      "value" : "1796 1024 1024 2320"
+    },
+    {
+      "key" : "Canon:ColorTempFluorescent",
+      "value" : 3714
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsKelvin",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempKelvin",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsFlash",
+      "value" : "2280 1024 1024 1464"
+    },
+    {
+      "key" : "Canon:ColorTempFlash",
+      "value" : 6333
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown11",
+      "value" : "1241 1024 1024 3404"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown11",
+      "value" : 2512
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown12",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown12",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown13",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown13",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown14",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown14",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown15",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown15",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown16",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown16",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown17",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown17",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown18",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown18",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown19",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown19",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown20",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown20",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:CameraColorCalibration01",
+      "value" : "-315  387  901 (10900K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration02",
+      "value" : "-297  396  877 (10000K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration03",
+      "value" : "-251  418  818 (8300K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration04",
+      "value" : "-199  446  761 (7000K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration05",
+      "value" : "-145  476  704 (6000K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration06",
+      "value" : "-117  493  677 (5600K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration07",
+      "value" : " -87  512  648 (5200K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration08",
+      "value" : " -40  539  600 (4700K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration09",
+      "value" : "  17  578  551 (4200K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration10",
+      "value" : "  72  621  510 (3800K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration11",
+      "value" : " 121  661  473 (3500K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration12",
+      "value" : " 178  712  434 (3200K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration13",
+      "value" : " 226  751  398 (3000K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration14",
+      "value" : " 267  800  379 (2800K)"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration15",
+      "value" : " 374  930  327 (2400K)"
+    },
+    {
+      "key" : "Canon:AverageBlackLevel",
+      "value" : "2047 2047 2047 2047"
+    },
+    {
+      "key" : "Canon:FlashOutput",
+      "value" : "0%"
+    },
+    {
+      "key" : "Canon:FlashBatteryLevel",
+      "value" : "n/a"
+    },
+    {
+      "key" : "Canon:RawMeasuredRGGB",
+      "value" : "232288 286852 285779 97378"
+    },
+    {
+      "key" : "Canon:PerChannelBlackLevel",
+      "value" : "2047 2047 2047 2048"
+    },
+    {
+      "key" : "Canon:NormalWhiteLevel",
+      "value" : 14809
+    },
+    {
+      "key" : "Canon:SpecularWhiteLevel",
+      "value" : 15321
+    },
+    {
+      "key" : "Canon:LinearityUpperMargin",
+      "value" : 10156
+    },
+    {
+      "key" : "Canon:CRWParam",
+      "value" : "(Binary data 43572 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Canon:Flavor",
+      "value" : "(Binary data 16792 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Canon:PictureStyleUserDef",
+      "value" : "Standard; Standard; Standard"
+    },
+    {
+      "key" : "Canon:PictureStylePC",
+      "value" : "None; None; None"
+    },
+    {
+      "key" : "Canon:CustomPictureStyleFileName",
+      "value" : ""
+    },
+    {
+      "key" : "Canon:Canon_0x4011",
+      "value" : "[...]"
+    },
+    {
+      "key" : "Canon:Canon_0x4012",
+      "value" : ""
+    },
+    {
+      "key" : "Canon:AFMicroAdjMode",
+      "value" : "Disable"
+    },
+    {
+      "key" : "Canon:AFMicroAdjValue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:VignettingCorrVersion",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:PeripheralLighting",
+      "value" : "On"
+    },
+    {
+      "key" : "Canon:DistortionCorrection",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:ChromaticAberrationCorr",
+      "value" : "On"
+    },
+    {
+      "key" : "Canon:PeripheralLightingValue",
+      "value" : 66
+    },
+    {
+      "key" : "Canon:DistortionCorrectionValue",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:OriginalImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:OriginalImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:PeripheralLightingSetting",
+      "value" : "On"
+    },
+    {
+      "key" : "Canon:ChromaticAberrationSetting",
+      "value" : "On"
+    },
+    {
+      "key" : "Canon:PeripheralIlluminationCorr",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:AutoLightingOptimizer",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:HighlightTonePriority",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:LongExposureNoiseReduction",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:HighISONoiseReduction",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:MultiExposure",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:MultiExposureControl",
+      "value" : "Additive"
+    },
+    {
+      "key" : "Canon:MultiExposureShots",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:HDR",
+      "value" : "Off"
+    },
+    {
+      "key" : "Canon:HDREffect",
+      "value" : "Natural"
+    },
+    {
+      "key" : "Canon:Canon_0x4027",
+      "value" : "20 589825 2795700276 121374208 13684944"
+    },
+    {
+      "key" : "Canon:AFConfigTool",
+      "value" : "Case 1"
+    },
+    {
+      "key" : "Canon:AFTrackingSensitivity",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AFAccelDecelTracking",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AFPointSwitching",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AIServoFirstImage",
+      "value" : "Equal Priority"
+    },
+    {
+      "key" : "Canon:AIServoSecondImage",
+      "value" : "Equal Priority"
+    },
+    {
+      "key" : "Canon:USMLensElectronicMF",
+      "value" : "Enable After AF"
+    },
+    {
+      "key" : "Canon:AFAssistBeam",
+      "value" : "Enable"
+    },
+    {
+      "key" : "Canon:OneShotAFRelease",
+      "value" : "Focus Priority"
+    },
+    {
+      "key" : "Canon:LensDriveWhenAFImpossible",
+      "value" : "Continue Focus Search"
+    },
+    {
+      "key" : "Canon:SelectAFAreaSelectionMode",
+      "value" : "Single-point AF, Auto, Zone AF, AF Point Expansion (4 point), Spot AF, AF Point Expansion (8 point)"
+    },
+    {
+      "key" : "Canon:AFAreaSelectionMethod",
+      "value" : "M-Fn Button"
+    },
+    {
+      "key" : "Canon:OrientationLinkedAF",
+      "value" : "Separate Vert/Horiz Points"
+    },
+    {
+      "key" : "Canon:ManualAFPointSelPattern",
+      "value" : "Continuous"
+    },
+    {
+      "key" : "Canon:AFPointDisplayDuringFocus",
+      "value" : "Selected (constant)"
+    },
+    {
+      "key" : "Canon:VFDisplayIllumination",
+      "value" : "Auto"
+    },
+    {
+      "key" : "CanonCustom:ExposureLevelIncrements",
+      "value" : "1/3 Stop"
+    },
+    {
+      "key" : "CanonCustom:ISOSpeedIncrements",
+      "value" : "1/3 Stop"
+    },
+    {
+      "key" : "CanonCustom:AEBAutoCancel",
+      "value" : "On"
+    },
+    {
+      "key" : "CanonCustom:AEBSequence",
+      "value" : "0,-,+"
+    },
+    {
+      "key" : "CanonCustom:AEBShotCount",
+      "value" : "3 shots"
+    },
+    {
+      "key" : "CanonCustom:SafetyShift",
+      "value" : "Disable"
+    },
+    {
+      "key" : "CanonCustom:ViewfinderWarnings",
+      "value" : "Monochrome, WB corrected, One-touch image quality, ISO expansion"
+    },
+    {
+      "key" : "CanonCustom:LVShootingAreaDisplay",
+      "value" : "Masked"
+    },
+    {
+      "key" : "CanonCustom:CustomControls",
+      "value" : "0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 7 3"
+    },
+    {
+      "key" : "CanonCustom:DialDirectionTvAv",
+      "value" : "Normal"
+    },
+    {
+      "key" : "CanonCustom:MultiFunctionLock",
+      "value" : "Off; Quick control dial"
+    },
+    {
+      "key" : "CanonCustom:AddAspectRatioInfo",
+      "value" : "Off"
+    },
+    {
+      "key" : "CanonCustom:DefaultEraseOption",
+      "value" : "Cancel selected"
+    },
+    {
+      "key" : "InteropIFD:InteropIndex",
+      "value" : "R98 - DCF basic file (sRGB)"
+    },
+    {
+      "key" : "InteropIFD:InteropVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "GPS:GPSVersionID",
+      "value" : "sha256:eee50e57fbea00e0eaf78f0a26b94d21b32fdf3c59484f787ecd104a9b624b65"
+    },
+    {
+      "key" : "IFD1:ThumbnailOffset",
+      "value" : 80324
+    },
+    {
+      "key" : "IFD1:ThumbnailLength",
+      "value" : 13448
+    },
+    {
+      "key" : "IFD1:ThumbnailImage",
+      "value" : "(Binary data 13448 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD2:ImageWidth",
+      "value" : 592
+    },
+    {
+      "key" : "IFD2:ImageHeight",
+      "value" : 395
+    },
+    {
+      "key" : "IFD2:BitsPerSample",
+      "value" : "16 16 16"
+    },
+    {
+      "key" : "IFD2:Compression",
+      "value" : "Uncompressed"
+    },
+    {
+      "key" : "IFD2:PhotometricInterpretation",
+      "value" : "RGB"
+    },
+    {
+      "key" : "IFD2:StripOffsets",
+      "value" : 1572932
+    },
+    {
+      "key" : "IFD2:SamplesPerPixel",
+      "value" : 3
+    },
+    {
+      "key" : "IFD2:RowsPerStrip",
+      "value" : 395
+    },
+    {
+      "key" : "IFD2:StripByteCounts",
+      "value" : 1403040
+    },
+    {
+      "key" : "IFD2:PlanarConfiguration",
+      "value" : "Chunky"
+    },
+    {
+      "key" : "IFD2:Exif_0xc5d9",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:SRawType",
+      "value" : 3
+    },
+    {
+      "key" : "IFD2:Exif_0xc6dc",
+      "value" : "577 386 14 9"
+    },
+    {
+      "key" : "IFD3:Compression",
+      "value" : "JPEG (old-style)"
+    },
+    {
+      "key" : "IFD3:StripOffsets",
+      "value" : 3309636
+    },
+    {
+      "key" : "IFD3:StripByteCounts",
+      "value" : 22655373
+    },
+    {
+      "key" : "IFD3:Exif_0xc5d8",
+      "value" : 1
+    },
+    {
+      "key" : "IFD3:CR2CFAPattern",
+      "value" : "[Red,Green][Green,Blue]"
+    },
+    {
+      "key" : "IFD3:RawImageSegmentation",
+      "value" : "1 2960 2960"
+    },
+    {
+      "key" : "IFD3:SRawType",
+      "value" : 1
+    }
+  ],
+  "exiftoolVersion" : "13.55",
+  "fileName" : "5G4A9394.CR2",
+  "fixture" : "canon-5dmk3-cr2",
+  "personalFields" : "hashed as sha256 (ConformanceKit/PersonalFields.swift)",
+  "raw" : [
+    {
+      "key" : "File:FileType",
+      "value" : "CR2"
+    },
+    {
+      "key" : "File:FileTypeExtension",
+      "value" : "CR2"
+    },
+    {
+      "key" : "File:MIMEType",
+      "value" : "image/x-canon-cr2"
+    },
+    {
+      "key" : "File:ExifByteOrder",
+      "value" : "II"
+    },
+    {
+      "key" : "IFD0:ImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "IFD0:ImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "IFD0:BitsPerSample",
+      "value" : "8 8 8"
+    },
+    {
+      "key" : "IFD0:Compression",
+      "value" : 6
+    },
+    {
+      "key" : "IFD0:Make",
+      "value" : "Canon"
+    },
+    {
+      "key" : "IFD0:Model",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "IFD0:PreviewImageStart",
+      "value" : 93772
+    },
+    {
+      "key" : "IFD0:Orientation",
+      "value" : 1
+    },
+    {
+      "key" : "IFD0:PreviewImageLength",
+      "value" : 1479160
+    },
+    {
+      "key" : "IFD0:XResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:YResolution",
+      "value" : 72
+    },
+    {
+      "key" : "IFD0:ResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "IFD0:ModifyDate",
+      "value" : "2017:01:05 13:52:55"
+    },
+    {
+      "key" : "IFD0:Artist",
+      "value" : "sha256:7ce1d64d6ea2be09a72c82a7e1c5fdd86f1b0dcd9b90fbdfa0046cc62e000ef6"
+    },
+    {
+      "key" : "IFD0:Copyright",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "IFD0:PreviewImage",
+      "value" : "(Binary data 1479160 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "XMP-xmp:Rating",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ExposureTime",
+      "value" : 0.0080000000000000002
+    },
+    {
+      "key" : "ExifIFD:FNumber",
+      "value" : 2.7999999999999998
+    },
+    {
+      "key" : "ExifIFD:ExposureProgram",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:SensitivityType",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:RecommendedExposureIndex",
+      "value" : 200
+    },
+    {
+      "key" : "ExifIFD:ExifVersion",
+      "value" : "0230"
+    },
+    {
+      "key" : "ExifIFD:DateTimeOriginal",
+      "value" : "2017:01:05 13:52:55"
+    },
+    {
+      "key" : "ExifIFD:CreateDate",
+      "value" : "2017:01:05 13:52:55"
+    },
+    {
+      "key" : "ExifIFD:ComponentsConfiguration",
+      "value" : "1 2 3 0"
+    },
+    {
+      "key" : "ExifIFD:ShutterSpeedValue",
+      "value" : 0.0078125
+    },
+    {
+      "key" : "ExifIFD:ApertureValue",
+      "value" : 2.8284271247461898
+    },
+    {
+      "key" : "ExifIFD:ExposureCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:MeteringMode",
+      "value" : 5
+    },
+    {
+      "key" : "ExifIFD:Flash",
+      "value" : 16
+    },
+    {
+      "key" : "ExifIFD:FocalLength",
+      "value" : 70
+    },
+    {
+      "key" : "ExifIFD:UserComment",
+      "value" : ""
+    },
+    {
+      "key" : "ExifIFD:SubSecTime",
+      "value" : 96
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeOriginal",
+      "value" : 96
+    },
+    {
+      "key" : "ExifIFD:SubSecTimeDigitized",
+      "value" : 96
+    },
+    {
+      "key" : "ExifIFD:FlashpixVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "ExifIFD:ColorSpace",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:ExifImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "ExifIFD:ExifImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneXResolution",
+      "value" : 3942.5051330000001
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneYResolution",
+      "value" : 3950.6172839999999
+    },
+    {
+      "key" : "ExifIFD:FocalPlaneResolutionUnit",
+      "value" : 2
+    },
+    {
+      "key" : "ExifIFD:CustomRendered",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:ExposureMode",
+      "value" : 1
+    },
+    {
+      "key" : "ExifIFD:WhiteBalance",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:SceneCaptureType",
+      "value" : 0
+    },
+    {
+      "key" : "ExifIFD:OwnerName",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "ExifIFD:SerialNumber",
+      "value" : "sha256:e95ee69b3bf3b60a704e244354a2cdb00adc3dd7b0f5dfdd430fe916a016f0e6"
+    },
+    {
+      "key" : "ExifIFD:LensInfo",
+      "value" : "70 200 0 0"
+    },
+    {
+      "key" : "ExifIFD:LensModel",
+      "value" : "EF70-200mm f/2.8L IS II USM"
+    },
+    {
+      "key" : "ExifIFD:LensSerialNumber",
+      "value" : "sha256:04d3297e4f6caad5b6965d9ec411058cb4c1950d22bb70f94f6c32659fcf60eb"
+    },
+    {
+      "key" : "Canon:MacroMode",
+      "value" : 2
+    },
+    {
+      "key" : "Canon:SelfTimer",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:Quality",
+      "value" : 4
+    },
+    {
+      "key" : "Canon:CanonFlashMode",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ContinuousDrive",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FocusMode",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:RecordMode",
+      "value" : 6
+    },
+    {
+      "key" : "Canon:CanonImageSize",
+      "value" : -1
+    },
+    {
+      "key" : "Canon:EasyMode",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:DigitalZoom",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:Contrast",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:Saturation",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:MeteringMode",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:FocusRange",
+      "value" : 2
+    },
+    {
+      "key" : "Canon:CanonExposureMode",
+      "value" : 4
+    },
+    {
+      "key" : "Canon:LensType",
+      "value" : 251
+    },
+    {
+      "key" : "Canon:MaxFocalLength",
+      "value" : 200
+    },
+    {
+      "key" : "Canon:MinFocalLength",
+      "value" : 70
+    },
+    {
+      "key" : "Canon:FocalUnits",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:MaxAperture",
+      "value" : 2.8284271247461898
+    },
+    {
+      "key" : "Canon:MinAperture",
+      "value" : 32
+    },
+    {
+      "key" : "Canon:FlashModel",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FlashBits",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ZoomSourceWidth",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ZoomTargetWidth",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ManualFlashOutput",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorTone",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SRAWQuality",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FocalLength",
+      "value" : 70
+    },
+    {
+      "key" : "Canon:FocalPlaneXUnknown",
+      "value" : 53893
+    },
+    {
+      "key" : "Canon:FocalPlaneYUnknown",
+      "value" : 12236
+    },
+    {
+      "key" : "Canon:CanonFlashInfo",
+      "value" : "0 0 0 0"
+    },
+    {
+      "key" : "Canon:AutoISO",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:BaseISO",
+      "value" : 200
+    },
+    {
+      "key" : "Canon:MeasuredEV",
+      "value" : 9.375
+    },
+    {
+      "key" : "Canon:TargetAperture",
+      "value" : 2.8284271247461898
+    },
+    {
+      "key" : "Canon:TargetExposureTime",
+      "value" : 0.0078125
+    },
+    {
+      "key" : "Canon:ExposureCompensation",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WhiteBalance",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SlowShutter",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SequenceNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:OpticalZoomCode",
+      "value" : 8
+    },
+    {
+      "key" : "Canon:CameraTemperature",
+      "value" : 24
+    },
+    {
+      "key" : "Canon:FlashGuideNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FlashExposureComp",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AutoExposureBracketing",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AEBBracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ControlMode",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:FNumber",
+      "value" : 2.8284271247461898
+    },
+    {
+      "key" : "Canon:ExposureTime",
+      "value" : 0.0078125
+    },
+    {
+      "key" : "Canon:MeasuredEV2",
+      "value" : 9.375
+    },
+    {
+      "key" : "Canon:BulbDuration",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CameraType",
+      "value" : 248
+    },
+    {
+      "key" : "Canon:NDFilter",
+      "value" : -1
+    },
+    {
+      "key" : "Canon:CanonImageType",
+      "value" : "Canon EOS 5D Mark III"
+    },
+    {
+      "key" : "Canon:CanonFirmwareVersion",
+      "value" : "Firmware Version 1.2.3"
+    },
+    {
+      "key" : "Canon:OwnerName",
+      "value" : "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key" : "Canon:ISO",
+      "value" : 200
+    },
+    {
+      "key" : "Canon:CameraOrientation",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:LensSerialNumber",
+      "value" : "sha256:04d3297e4f6caad5b6965d9ec411058cb4c1950d22bb70f94f6c32659fcf60eb"
+    },
+    {
+      "key" : "Canon:FirmwareVersion",
+      "value" : "1.2.3"
+    },
+    {
+      "key" : "Canon:FileIndex",
+      "value" : 9161
+    },
+    {
+      "key" : "Canon:FileIndex2",
+      "value" : 9394
+    },
+    {
+      "key" : "Canon:DirectoryIndex",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:DirectoryIndex2",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:ContrastStandard",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessStandard",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationStandard",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneStandard",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectStandard",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ToningEffectStandard",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ContrastPortrait",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessPortrait",
+      "value" : 2
+    },
+    {
+      "key" : "Canon:SaturationPortrait",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorTonePortrait",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectPortrait",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ToningEffectPortrait",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ContrastLandscape",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessLandscape",
+      "value" : 4
+    },
+    {
+      "key" : "Canon:SaturationLandscape",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneLandscape",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectLandscape",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ToningEffectLandscape",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ContrastNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SaturationNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneNeutral",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectNeutral",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ToningEffectNeutral",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ContrastFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SaturationFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneFaithful",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectFaithful",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ToningEffectFaithful",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ContrastMonochrome",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessMonochrome",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationMonochrome",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ColorToneMonochrome",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:FilterEffectMonochrome",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ToningEffectMonochrome",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ContrastAuto",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessAuto",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationAuto",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneAuto",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectAuto",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ToningEffectAuto",
+      "value" : -559038737
+    },
+    {
+      "key" : "Canon:ContrastUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessUserDef1",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ToningEffectUserDef1",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ContrastUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessUserDef2",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ToningEffectUserDef2",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ContrastUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SharpnessUserDef3",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SaturationUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorToneUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FilterEffectUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ToningEffectUserDef3",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:UserDef1PictureStyle",
+      "value" : 129
+    },
+    {
+      "key" : "Canon:UserDef2PictureStyle",
+      "value" : 129
+    },
+    {
+      "key" : "Canon:UserDef3PictureStyle",
+      "value" : 129
+    },
+    {
+      "key" : "Canon:CanonModelID",
+      "value" : 2147484293
+    },
+    {
+      "key" : "Canon:ThumbnailImageValidArea",
+      "value" : "0 159 7 112"
+    },
+    {
+      "key" : "Canon:Canon_0x0019",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:AFInfoSize",
+      "value" : 530
+    },
+    {
+      "key" : "Canon:AFAreaMode",
+      "value" : 2
+    },
+    {
+      "key" : "Canon:NumAFPoints",
+      "value" : 61
+    },
+    {
+      "key" : "Canon:ValidAFPoints",
+      "value" : 61
+    },
+    {
+      "key" : "Canon:CanonImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:CanonImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:AFImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:AFImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:AFAreaWidths",
+      "value" : "190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190 190"
+    },
+    {
+      "key" : "Canon:AFAreaHeights",
+      "value" : "188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188 188"
+    },
+    {
+      "key" : "Canon:AFAreaXPositions",
+      "value" : "288 0 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 1520 1232 944 639 288 0 -1520 -1232 -944 -639 -288 288 0 -288"
+    },
+    {
+      "key" : "Canon:AFAreaYPositions",
+      "value" : "-648 -648 -648 -433 -433 -433 -433 -433 -433 -433 -433 -433 -433 -433 -215 -215 -215 -215 -215 -215 -215 -215 -215 -215 -215 0 0 0 0 0 0 0 0 0 0 0 215 215 215 215 215 215 215 215 215 215 215 433 433 433 433 433 433 433 433 433 433 433 648 648 648"
+    },
+    {
+      "key" : "Canon:AFPointsInFocus",
+      "value" : "0 16384 0 0"
+    },
+    {
+      "key" : "Canon:AFPointsSelected",
+      "value" : "0 16384 0 0"
+    },
+    {
+      "key" : "Canon:TimeZone",
+      "value" : 120
+    },
+    {
+      "key" : "Canon:TimeZoneCity",
+      "value" : 19
+    },
+    {
+      "key" : "Canon:DaylightSavings",
+      "value" : 60
+    },
+    {
+      "key" : "Canon:BracketMode",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BracketValue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BracketShotNumber",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:RawJpgSize",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBBracketMode",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBBracketValueAB",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBBracketValueGM",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:LiveViewShooting",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FocusDistanceUpper",
+      "value" : 1.8799999999999999
+    },
+    {
+      "key" : "Canon:FocusDistanceLower",
+      "value" : 1.78
+    },
+    {
+      "key" : "Canon:ShutterMode",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:FlashExposureLock",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:LensModel",
+      "value" : "EF70-200mm f/2.8L IS II USM"
+    },
+    {
+      "key" : "Canon:InternalSerialNumber2",
+      "value" : "AD0166446"
+    },
+    {
+      "key" : "Canon:DustRemovalData",
+      "value" : "(Binary data 1024 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Canon:CropLeftMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CropRightMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CropTopMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CropBottomMargin",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AspectRatio",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CroppedImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:CroppedImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:CroppedImageLeft",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:CroppedImageTop",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ToneCurve",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:Sharpness",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:SharpnessFrequency",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SensorRedLevel",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SensorBlueLevel",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WhiteBalanceRed",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WhiteBalanceBlue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorTemperature",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:PictureStyle",
+      "value" : 135
+    },
+    {
+      "key" : "Canon:DigitalGain",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBShiftAB",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:WBShiftGM",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:MeasuredRGGB",
+      "value" : "803 1024 1024 343"
+    },
+    {
+      "key" : "Canon:ColorSpace",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:VRDOffset",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SensorWidth",
+      "value" : 5920
+    },
+    {
+      "key" : "Canon:SensorHeight",
+      "value" : 3950
+    },
+    {
+      "key" : "Canon:SensorLeftBorder",
+      "value" : 140
+    },
+    {
+      "key" : "Canon:SensorTopBorder",
+      "value" : 96
+    },
+    {
+      "key" : "Canon:SensorRightBorder",
+      "value" : 5899
+    },
+    {
+      "key" : "Canon:SensorBottomBorder",
+      "value" : 3935
+    },
+    {
+      "key" : "Canon:BlackMaskLeftBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BlackMaskTopBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BlackMaskRightBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:BlackMaskBottomBorder",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ColorDataVersion",
+      "value" : 10
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsAsShot",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempAsShot",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsAuto",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempAuto",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsMeasured",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempMeasured",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown2",
+      "value" : "1024 1024 1024 1024"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown2",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown3",
+      "value" : "1024 1024 1024 1024"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown3",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown4",
+      "value" : "1689 1024 1024 2217"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown4",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown5",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown5",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown6",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown6",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown7",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown7",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown8",
+      "value" : "1689 1024 1024 2212"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown8",
+      "value" : 3653
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown9",
+      "value" : "1285 1028 1019 3019"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown9",
+      "value" : 2680
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown10",
+      "value" : "836 1170 1170 437"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown10",
+      "value" : 3000
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsDaylight",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempDaylight",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsShade",
+      "value" : "2351 1024 1024 1378"
+    },
+    {
+      "key" : "Canon:ColorTempShade",
+      "value" : 7000
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsCloudy",
+      "value" : "2203 1024 1024 1489"
+    },
+    {
+      "key" : "Canon:ColorTempCloudy",
+      "value" : 6000
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsTungsten",
+      "value" : "1473 1024 1024 2416"
+    },
+    {
+      "key" : "Canon:ColorTempTungsten",
+      "value" : 3200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsFluorescent",
+      "value" : "1796 1024 1024 2320"
+    },
+    {
+      "key" : "Canon:ColorTempFluorescent",
+      "value" : 3714
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsKelvin",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempKelvin",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsFlash",
+      "value" : "2280 1024 1024 1464"
+    },
+    {
+      "key" : "Canon:ColorTempFlash",
+      "value" : 6333
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown11",
+      "value" : "1241 1024 1024 3404"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown11",
+      "value" : 2512
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown12",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown12",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown13",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown13",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown14",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown14",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown15",
+      "value" : "2048 1024 1024 1618"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown15",
+      "value" : 5200
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown16",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown16",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown17",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown17",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown18",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown18",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown19",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown19",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:WB_RGGBLevelsUnknown20",
+      "value" : "1008 1024 1024 1008"
+    },
+    {
+      "key" : "Canon:ColorTempUnknown20",
+      "value" : 4349
+    },
+    {
+      "key" : "Canon:CameraColorCalibration01",
+      "value" : "-315 387 901 10900"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration02",
+      "value" : "-297 396 877 10000"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration03",
+      "value" : "-251 418 818 8300"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration04",
+      "value" : "-199 446 761 7000"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration05",
+      "value" : "-145 476 704 6000"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration06",
+      "value" : "-117 493 677 5600"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration07",
+      "value" : "-87 512 648 5200"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration08",
+      "value" : "-40 539 600 4700"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration09",
+      "value" : "17 578 551 4200"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration10",
+      "value" : "72 621 510 3800"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration11",
+      "value" : "121 661 473 3500"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration12",
+      "value" : "178 712 434 3200"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration13",
+      "value" : "226 751 398 3000"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration14",
+      "value" : "267 800 379 2800"
+    },
+    {
+      "key" : "Canon:CameraColorCalibration15",
+      "value" : "374 930 327 2400"
+    },
+    {
+      "key" : "Canon:AverageBlackLevel",
+      "value" : "2047 2047 2047 2047"
+    },
+    {
+      "key" : "Canon:FlashOutput",
+      "value" : "0.000172633491500622"
+    },
+    {
+      "key" : "Canon:FlashBatteryLevel",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:RawMeasuredRGGB",
+      "value" : "232288 286852 285779 97378"
+    },
+    {
+      "key" : "Canon:PerChannelBlackLevel",
+      "value" : "2047 2047 2047 2048"
+    },
+    {
+      "key" : "Canon:NormalWhiteLevel",
+      "value" : 14809
+    },
+    {
+      "key" : "Canon:SpecularWhiteLevel",
+      "value" : 15321
+    },
+    {
+      "key" : "Canon:LinearityUpperMargin",
+      "value" : 10156
+    },
+    {
+      "key" : "Canon:CRWParam",
+      "value" : "(Binary data 43572 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Canon:Flavor",
+      "value" : "(Binary data 16792 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "Canon:PictureStyleUserDef",
+      "value" : "129 129 129"
+    },
+    {
+      "key" : "Canon:PictureStylePC",
+      "value" : "0 0 0"
+    },
+    {
+      "key" : "Canon:CustomPictureStyleFileName",
+      "value" : ""
+    },
+    {
+      "key" : "Canon:Canon_0x4011",
+      "value" : ""
+    },
+    {
+      "key" : "Canon:Canon_0x4012",
+      "value" : ""
+    },
+    {
+      "key" : "Canon:AFMicroAdjMode",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AFMicroAdjValue",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:VignettingCorrVersion",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:PeripheralLighting",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:DistortionCorrection",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:ChromaticAberrationCorr",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:PeripheralLightingValue",
+      "value" : 66
+    },
+    {
+      "key" : "Canon:DistortionCorrectionValue",
+      "value" : 100
+    },
+    {
+      "key" : "Canon:OriginalImageWidth",
+      "value" : 5760
+    },
+    {
+      "key" : "Canon:OriginalImageHeight",
+      "value" : 3840
+    },
+    {
+      "key" : "Canon:PeripheralLightingSetting",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:ChromaticAberrationSetting",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:PeripheralIlluminationCorr",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AutoLightingOptimizer",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:HighlightTonePriority",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:LongExposureNoiseReduction",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:HighISONoiseReduction",
+      "value" : 3
+    },
+    {
+      "key" : "Canon:MultiExposure",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:MultiExposureControl",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:MultiExposureShots",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:HDR",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:HDREffect",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:Canon_0x4027",
+      "value" : "20 589825 2795700276 121374208 13684944"
+    },
+    {
+      "key" : "Canon:AFConfigTool",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:AFTrackingSensitivity",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AFAccelDecelTracking",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AFPointSwitching",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AIServoFirstImage",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AIServoSecondImage",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:USMLensElectronicMF",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:AFAssistBeam",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:OneShotAFRelease",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:LensDriveWhenAFImpossible",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:SelectAFAreaSelectionMode",
+      "value" : 63
+    },
+    {
+      "key" : "Canon:AFAreaSelectionMethod",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:OrientationLinkedAF",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:ManualAFPointSelPattern",
+      "value" : 1
+    },
+    {
+      "key" : "Canon:AFPointDisplayDuringFocus",
+      "value" : 0
+    },
+    {
+      "key" : "Canon:VFDisplayIllumination",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:ExposureLevelIncrements",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:ISOSpeedIncrements",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:AEBAutoCancel",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:AEBSequence",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:AEBShotCount",
+      "value" : "3 0"
+    },
+    {
+      "key" : "CanonCustom:SafetyShift",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:ViewfinderWarnings",
+      "value" : 15
+    },
+    {
+      "key" : "CanonCustom:LVShootingAreaDisplay",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:CustomControls",
+      "value" : "0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 7 3"
+    },
+    {
+      "key" : "CanonCustom:DialDirectionTvAv",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:MultiFunctionLock",
+      "value" : "0 2"
+    },
+    {
+      "key" : "CanonCustom:AddAspectRatioInfo",
+      "value" : 0
+    },
+    {
+      "key" : "CanonCustom:DefaultEraseOption",
+      "value" : 0
+    },
+    {
+      "key" : "InteropIFD:InteropIndex",
+      "value" : "R98"
+    },
+    {
+      "key" : "InteropIFD:InteropVersion",
+      "value" : "0100"
+    },
+    {
+      "key" : "GPS:GPSVersionID",
+      "value" : "sha256:b5e9d99e17d81dd5566096377e672fe41bd86a442aaca263d5a69671b63d0dbd"
+    },
+    {
+      "key" : "IFD1:ThumbnailOffset",
+      "value" : 80324
+    },
+    {
+      "key" : "IFD1:ThumbnailLength",
+      "value" : 13448
+    },
+    {
+      "key" : "IFD1:ThumbnailImage",
+      "value" : "(Binary data 13448 bytes, use -b option to extract)"
+    },
+    {
+      "key" : "IFD2:ImageWidth",
+      "value" : 592
+    },
+    {
+      "key" : "IFD2:ImageHeight",
+      "value" : 395
+    },
+    {
+      "key" : "IFD2:BitsPerSample",
+      "value" : "16 16 16"
+    },
+    {
+      "key" : "IFD2:Compression",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:PhotometricInterpretation",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:StripOffsets",
+      "value" : 1572932
+    },
+    {
+      "key" : "IFD2:SamplesPerPixel",
+      "value" : 3
+    },
+    {
+      "key" : "IFD2:RowsPerStrip",
+      "value" : 395
+    },
+    {
+      "key" : "IFD2:StripByteCounts",
+      "value" : 1403040
+    },
+    {
+      "key" : "IFD2:PlanarConfiguration",
+      "value" : 1
+    },
+    {
+      "key" : "IFD2:Exif_0xc5d9",
+      "value" : 2
+    },
+    {
+      "key" : "IFD2:SRawType",
+      "value" : 3
+    },
+    {
+      "key" : "IFD2:Exif_0xc6dc",
+      "value" : "577 386 14 9"
+    },
+    {
+      "key" : "IFD3:Compression",
+      "value" : 6
+    },
+    {
+      "key" : "IFD3:StripOffsets",
+      "value" : 3309636
+    },
+    {
+      "key" : "IFD3:StripByteCounts",
+      "value" : 22655373
+    },
+    {
+      "key" : "IFD3:Exif_0xc5d8",
+      "value" : 1
+    },
+    {
+      "key" : "IFD3:CR2CFAPattern",
+      "value" : "0 1 1 2"
+    },
+    {
+      "key" : "IFD3:RawImageSegmentation",
+      "value" : "1 2960 2960"
+    },
+    {
+      "key" : "IFD3:SRawType",
+      "value" : 1
+    }
+  ],
+  "sha256" : "ec069b178b9383d80c72f8cdc1b79bd54ca451e7c20793b109d8ad73bef6bdf6"
+}

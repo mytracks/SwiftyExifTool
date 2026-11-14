@@ -1,0 +1,45 @@
+{
+  "description": "Sample corpus for the exiftool conformance report (openspec/specs/exiftool-conformance). The files are not committed: fetch them with `swift run fixtures corpus fetch`.",
+  "files": [
+    {
+      "id": "nikon-d750-nef",
+      "fileName": "compressed_14_bit.NEF",
+      "url": "https://raw.pixls.us/data/Nikon/D750/compressed_14_bit.NEF",
+      "licence": "CC0-1.0",
+      "sha256": "3389da2bd0997be2f8e1408d8d0fba09f5062de05c4017a0bbf2849d8f0cd2a1",
+      "camera": "Nikon D750",
+      "format": "NEF",
+      "source": "https://raw.pixls.us/data/Nikon/D750/"
+    },
+    {
+      "id": "sony-ilce7m3-arw",
+      "fileName": "_DSC0009.ARW",
+      "url": "https://raw.pixls.us/data/Sony/ILCE-7M3/_DSC0009.ARW",
+      "licence": "CC0-1.0",
+      "sha256": "250784580ea527442c09004417bb0eead484f2bf3ee8f9121a776ac65bb50d0f",
+      "camera": "Sony ILCE-7M3",
+      "format": "ARW",
+      "source": "https://raw.pixls.us/data/Sony/ILCE-7M3/"
+    },
+    {
+      "id": "canon-5dmk3-cr2",
+      "fileName": "5G4A9394.CR2",
+      "url": "https://raw.pixls.us/data/Canon/EOS%205D%20Mark%20III/5G4A9394.CR2",
+      "licence": "CC0-1.0",
+      "sha256": "ec069b178b9383d80c72f8cdc1b79bd54ca451e7c20793b109d8ad73bef6bdf6",
+      "camera": "Canon EOS 5D Mark III",
+      "format": "CR2",
+      "source": "https://raw.pixls.us/data/Canon/EOS%205D%20Mark%20III/"
+    },
+    {
+      "id": "canon-5dmk3-dng",
+      "fileName": "compress.dng",
+      "url": "https://raw.pixls.us/data/Canon/EOS%205D%20Mark%20III/compress.dng",
+      "licence": "CC0-1.0",
+      "sha256": "1d77dcc6cdb839b10c1948f0b4471984ab48cf15e973fb77520584cee72b603e",
+      "camera": "Canon EOS 5D Mark III",
+      "format": "DNG",
+      "source": "https://raw.pixls.us/data/Canon/EOS%205D%20Mark%20III/"
+    }
+  ]
+}
