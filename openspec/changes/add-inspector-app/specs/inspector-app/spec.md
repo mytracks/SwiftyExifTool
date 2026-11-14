@@ -30,11 +30,19 @@ The app SHALL let the user choose one file with the system file picker on every 
 
 ### Requirement: Open by drag and drop
 
-On macOS and iPadOS the app SHALL accept a file dropped onto its window and show its metadata, replacing the file shown before.
+On macOS and iPadOS the app SHALL accept a file dropped onto its window and show its metadata, replacing the file shown before. On iPadOS, where drops from other apps onto lists and tables never reach the app (iPadOS defect FB15618535), the app SHALL accept such drops at least on the empty window, the error views and the title area.
 
 #### Scenario: Drop a file
 - **WHEN** a file is dropped onto the window
 - **THEN** the app shows the metadata of the dropped file
+
+#### Scenario: Drop onto the tag table on macOS
+- **WHEN** a file is open and another file is dropped onto the tag table on macOS
+- **THEN** the app shows the metadata of the dropped file
+
+#### Scenario: Drop on iPadOS while a file is shown
+- **WHEN** a file is open on iPadOS and another file from the Files app is dropped onto the title area
+- **THEN** the app shows the metadata of the dropped file under its original name
 
 ### Requirement: Open With on macOS
 

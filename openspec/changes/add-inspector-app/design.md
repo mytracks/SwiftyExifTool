@@ -98,7 +98,13 @@ size. Bounds checking and memory limits are the library's (see the
 - **Drag and drop:** `.dropDestination(for: URL.self)` on macOS; on iPadOS
   drops from Files arrive as file representations, so a `Transferable`
   `FileRepresentation` imports them as a temporary copy that the system
-  provides inside the sandbox. The user's file is not modified.
+  provides inside the sandbox. The user's file is not modified. One drop
+  handler sits on the window. On iPadOS 18 and later, drops from other apps
+  onto a `List`, `Form` or `Table` never reach any SwiftUI drop handler,
+  neither one on the list nor one on its rows nor one further out (iPadOS
+  defect FB15618535; observed on an iPad, while drops from inside the app
+  do arrive). There a drop works on the empty window, the error views and
+  the title area; the drop highlight may still appear over the list.
 - **Open With (macOS):** `CFBundleDocumentTypes` with `LSHandlerRank =
   Alternate` for `public.tiff`, `public.camera-raw-image` and
   `com.adobe.raw-image`, and `.onOpenURL` on the window. The same
@@ -118,7 +124,9 @@ versions) that a viewer does not need.
   counts), Directories and Warnings; the detail column shows the selection.
 - Tag groups: a `Table` with the columns of the spec on macOS and in regular
   width on iPadOS; a `List` with two-line rows (name and display text, then
-  ID, type and value) in compact width on iPhone.
+  ID, type and value) in compact width on iPhone and on iPadOS whenever the
+  tag view is narrower than the table needs (e.g. portrait with the sidebar
+  and the details open).
 - Tag details: `.inspector(isPresented:)` (macOS 14 / iOS 17).
 - Search: `.searchable` on the detail column; filters in a toolbar menu.
 - Copy: context menu on rows (value, display text, row) and Cmd-C for the
@@ -152,6 +160,14 @@ documentation.
   manual check on macOS 14 and the current macOS.
 - [Drops on iPadOS deliver copies, so the summary shows the copy's name] →
   use the suggested file name of the item representation for display.
+- [iPadOS does not deliver drops from other apps onto lists and tables
+  (FB15618535)] → drops work outside the tag list (empty window, error
+  views, title area) and the Open button is always available; a custom
+  `ScrollView`-based tag view was rejected as too much work for a debug
+  tool. Revisit when Apple fixes the defect.
+- [The iPad simulators of Xcode 27 crash (`backboardd`, Metal assertion)
+  as soon as two app windows are visible] → drops between apps on iPadOS
+  are checked on a device.
 - [A synchronous library read cannot be cancelled] → superseded reads finish
   in the background and are discarded; reads are bounded, so the cost is
   small.

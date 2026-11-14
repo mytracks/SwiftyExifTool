@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftyExifTool
 import UniformTypeIdentifiers
+import os
 
 /// What the sidebar selects.
 enum SidebarItem: Hashable {
@@ -22,25 +23,27 @@ struct ContentView: View {
             Sidebar(model: model, selection: $sidebarSelection)
                 .navigationSplitViewColumnWidth(min: 180, ideal: 220)
         } detail: {
+            // On iOS, toolbar items and the title only appear when they are
+            // attached to a column, not to the split view itself.
             detail
-        }
-        .toolbar {
-            ToolbarItem {
-                Button("Open", systemImage: "folder") { isImporting = true }
-            }
+                .toolbar {
+                    ToolbarItem(placement: .primaryAction) {
+                        Button("Open", systemImage: "folder") { isImporting = true }
+                    }
+                }
+                .navigationTitle(title)
         }
         .fileImporter(isPresented: $isImporting, allowedContentTypes: [.item]) { result in
             // Cancelling keeps the current file.
             if case .success(let url) = result { model.open(url) }
         }
-        .modifier(FileDrop(model: model, isTargeted: $isDropTargeted))
+        .fileDrop(model: model, isTargeted: $isDropTargeted)
         .overlay {
             if isDropTargeted {
                 RoundedRectangle(cornerRadius: 12).stroke(.tint, lineWidth: 3).padding(4).allowsHitTesting(false)
             }
         }
         .onChange(of: model.file?.url) { sidebarSelection = .allTags }
-        .navigationTitle(title)
     }
 
     private var title: String {
@@ -83,6 +86,22 @@ struct ContentView: View {
     }
 }
 
+extension View {
+    /// Opens a file dropped onto this view.
+    ///
+    /// On iPadOS, drops from other apps onto a `List`, `Form` or `Table` never
+    /// reach a drop handler (iPadOS defect FB15618535, seen on iPadOS 18 and
+    /// later), so there the window accepts drops only outside the tag list,
+    /// e.g. on the empty state, the error views and the title area.
+    func fileDrop(model: InspectorModel, isTargeted: Binding<Bool>) -> some View {
+        modifier(FileDrop(model: model, isTargeted: isTargeted))
+    }
+}
+
+/// Drop diagnostics; shown in the Xcode console and in Console.app
+/// (subsystem `info.stichling.SwiftyExif`, category `drop`).
+let dropLog = Logger(subsystem: "info.stichling.SwiftyExif", category: "drop")
+
 /// Drag and drop: file URLs on macOS, imported file copies on iPadOS.
 private struct FileDrop: ViewModifier {
     let model: InspectorModel
@@ -91,17 +110,35 @@ private struct FileDrop: ViewModifier {
     func body(content: Content) -> some View {
         #if os(macOS)
         content.dropDestination(for: URL.self) { urls, _ in
+            dropLog.debug("drop of \(urls.count) URLs")
             guard let url = urls.first(where: \.isFileURL) else { return false }
             model.open(url)
             return true
-        } isTargeted: { isTargeted = $0 }
+        } isTargeted: { targeted in
+            dropLog.debug("targeted \(targeted)")
+            isTargeted = targeted
+        }
         #else
         content.dropDestination(for: DroppedFile.self) { files, _ in
-            guard let file = files.first else { return false }
-            model.open(file.url, displayName: file.name)
-            return true
-        } isTargeted: { isTargeted = $0 }
+            dropLog.debug("drop of \(files.count) files")
+            return model.open(dropped: files)
+        } isTargeted: { targeted in
+            dropLog.debug("targeted \(targeted)")
+            isTargeted = targeted
+        }
         #endif
+    }
+}
+
+extension InspectorModel {
+    /// Opens the first dropped file under its original name; returns whether
+    /// there was one.
+    @discardableResult
+    func open(dropped files: [DroppedFile]) -> Bool {
+        guard let file = files.first else { return false }
+        dropLog.debug("opening dropped \(file.name, privacy: .public)")
+        open(file.url, displayName: file.name)
+        return true
     }
 }
 
@@ -114,11 +151,17 @@ struct DroppedFile: Transferable {
     static var transferRepresentation: some TransferRepresentation {
         FileRepresentation(importedContentType: .item) { received in
             let name = received.file.lastPathComponent
-            let directory = FileManager.default.temporaryDirectory.appendingPathComponent("Dropped-\(UUID().uuidString)")
-            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
-            let copy = directory.appendingPathComponent(name)
-            try FileManager.default.copyItem(at: received.file, to: copy)
-            return DroppedFile(url: copy, name: name)
+            dropLog.debug("importing \(name, privacy: .public)")
+            do {
+                let directory = FileManager.default.temporaryDirectory.appendingPathComponent("Dropped-\(UUID().uuidString)")
+                try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+                let copy = directory.appendingPathComponent(name)
+                try FileManager.default.copyItem(at: received.file, to: copy)
+                return DroppedFile(url: copy, name: name)
+            } catch {
+                dropLog.error("import of \(name, privacy: .public) failed: \(error, privacy: .public)")
+                throw error
+            }
         }
     }
 }

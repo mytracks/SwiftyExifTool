@@ -21,8 +21,8 @@
 
 ## 4. Opening files
 
-- [ ] 4.1 Add the file picker (`.fileImporter`, any content type) with cancel keeping the current file; verify on macOS and the iOS simulator by picking a fixture and cancelling a second picker (app check).
-- [ ] 4.2 Add drag and drop for macOS (`URL`) and iPadOS (`Transferable` file representation, display of the suggested name); verify by dropping a fixture on the macOS window and in the iPad simulator (app check).
+- [x] 4.1 Add the file picker (`.fileImporter`, any content type) with cancel keeping the current file; verify on macOS and the iOS simulator by picking a fixture and cancelling a second picker (app check).
+- [x] 4.2 Add drag and drop for macOS (`URL`) and iPadOS (`Transferable` file representation, display of the suggested name); verify by dropping a fixture on the macOS window (empty and onto the tag table of a shown file) and on an iPad (empty window, and onto the title area while a file is shown; drops onto the tag list are not delivered by iPadOS, see design D4) (app check).
 - [ ] 4.3 Add the document types (`LSHandlerRank = Alternate` for `public.tiff`, `public.camera-raw-image`, `com.adobe.raw-image`), `LSSupportsOpeningDocumentsInPlace`, `.onOpenURL` and `.handlesExternalEvents`; verify with `open -a SwiftyExif <NEF file>` and Finder's "Open With" on macOS that one window shows the file and that SwiftyExif is not made the default app (app check).
 
 ## 5. Integration
