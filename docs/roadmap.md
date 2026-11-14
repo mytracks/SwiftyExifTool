@@ -84,7 +84,7 @@ RAF, all reuse.
   ExifTool-style strings); the format for provenance records; how warnings
   are surfaced.
 
-### 2. `add-inspector-app` — planned
+### 2. `add-inspector-app` — done
 
 A multiplatform SwiftUI app that serves as the debug aid for all later work.
 
